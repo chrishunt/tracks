@@ -1,3 +1,7 @@
+function filesFromURL () {
+  return window.location.search.replace("?","").split("&");
+}
+
 function loadGPX(map, filename) {
   $.ajax({url: filename,
     dataType: "xml",
@@ -14,12 +18,17 @@ function loadGPX(map, filename) {
 }
 
 $(document).ready(function() {
+  var files = filesFromURL();
+
   var mapOptions = {
     zoom: 8,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   };
+
   var map = new google.maps.Map(document.getElementById("map"),
       mapOptions);
-  loadGPX(map, "gpx/2015-10-02.GPX");
-  loadGPX(map, "gpx/2015-10-03.GPX");
+
+  for (var i = 0; i < files.length; i++) {
+    loadGPX(map, "gpx/" + files[i] + ".GPX");
+  }
 });
