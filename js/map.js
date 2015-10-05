@@ -22,7 +22,7 @@
       moment.range(range).by("days", function(date) {
         tracks.push({
           file: "gpx/" + date.format("YYYY-MM-DD") + ".gpx",
-          color: "#" + (color || "ff0000"),
+          color: "#" + (color || randomColor({luminosity: "dark"})),
         });
       });
     }
@@ -49,7 +49,7 @@
         return {
           color: color,
           weight: 5,
-          opacity: 0.8
+          opacity: 0.9
         };
       }
     });
