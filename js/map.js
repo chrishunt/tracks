@@ -31,7 +31,7 @@
 
   for (var i = 0; i < tracks.length; i++) {
     var track = tracks[i].split(","),
-      file  = "/gpx/" + track[0] + ".gpx",
+      file  = "gpx/" + track[0] + ".gpx",
       color = "#" + (track[1] || "ff0000");
 
     var runLayer = omnivore.gpx(file, null, customLayer(color))
