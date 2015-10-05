@@ -39,7 +39,7 @@
           file  = track[0],
           color = (track[1] || "ff0000");
 
-      loadGPX(map, "gpx/" + file + ".GPX", "#" + color);
+      loadGPX(map, "gpx/" + file + ".gpx", "#" + color);
     }
   });
 }());
