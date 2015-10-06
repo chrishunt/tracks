@@ -7,8 +7,8 @@ if [ -z "$1" ] ; then
   exit 0
 fi
 
-printf "Reducing $1 ... "
+printf "Reducing $1 ($(du -h $1 | cut -f 1)) ... "
 
 /Applications/GPSBabelFE.app/Contents/MacOS/gpsbabel -w -r -t -i gpx -f $1 -x simplify,count=1000 -o gpx -F $1
 
-printf "done.\n"
+printf "done. ($(du -h $1 | cut -f 1))\n"
