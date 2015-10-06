@@ -1,6 +1,9 @@
 (function () {
   'use strict';
 
+  L.mapbox.accessToken = 'pk.eyJ1IjoiY2hyaXNodW50IiwiYSI6ImNpZmU1ZWZwNjZoMWhzeWx4cXE4NzNnNncifQ.dUBxoDUgW3vUAM6Fw8p84Q';
+  var map = L.mapbox.map("map", "mapbox.streets");
+
   // Returns track files and colors from the URL.
   //
   // Tracks can be shown for specific dates and colors:
@@ -21,6 +24,7 @@
 
       moment.range(range).by("days", function(date) {
         tracks.push({
+          date: date.format("YYYY-MM-DD"),
           file: "gpx/" + date.format("YYYY-MM-DD") + ".gpx",
           color: "#" + (color || randomColor({luminosity: "dark"})),
         });
@@ -55,18 +59,21 @@
     });
   }
 
-  L.mapbox.accessToken = 'pk.eyJ1IjoiY2hyaXNodW50IiwiYSI6ImNpZmU1ZWZwNjZoMWhzeWx4cXE4NzNnNncifQ.dUBxoDUgW3vUAM6Fw8p84Q';
-  var map = L.mapbox.map("map", "mapbox.streets");
-  var tracks = tracksFromURL();
-
-  for (var i = 0; i < tracks.length; i++) {
-    var file  = tracks[i].file,
+  // Recursively load all tracks provided into map
+  function loadTracks(i, tracks){
+    var date  = tracks[i].date,
+        file  = tracks[i].file,
         color = tracks[i].color;
 
     var runLayer = omnivore.gpx(file, null, customLayer(color))
       .on("ready", function() {
         map.fitBounds(runLayer.getBounds());
+        runLayer.eachLayer(function(layer) { layer.bindPopup(date); });
       })
     .addTo(map);
+
+    if(i < tracks.length-1) { loadTracks(i+1, tracks); }
   }
+
+  loadTracks(0, tracksFromURL());
 })();
