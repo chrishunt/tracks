@@ -67,8 +67,8 @@
 
     var runLayer = omnivore.gpx(file, null, customLayer(color))
       .on("ready", function() {
+        runLayer.bindPopup(date);
         map.fitBounds(runLayer.getBounds());
-        runLayer.eachLayer(function(layer) { layer.bindPopup(date); });
       })
     .addTo(map);
 
