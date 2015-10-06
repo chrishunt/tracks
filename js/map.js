@@ -24,7 +24,7 @@
 
       moment.range(range).by("days", function(date) {
         tracks.push({
-          date: date.format("YYYY-MM-DD"),
+          date: date.format("MMMM Do YYYY"),
           file: "gpx/" + date.format("YYYY-MM-DD") + ".gpx",
           color: "#" + (color || randomColor({luminosity: "dark"})),
         });
