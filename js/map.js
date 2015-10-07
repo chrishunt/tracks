@@ -3,7 +3,9 @@
 
   L.mapbox.accessToken = 'pk.eyJ1IjoiY2hyaXNodW50IiwiYSI6ImNpZmU1ZWZwNjZoMWhzeWx4cXE4NzNnNncifQ.dUBxoDUgW3vUAM6Fw8p84Q';
 
-  var map = L.mapbox.map("map", "mapbox.streets"),
+  var map = L.mapbox.map("map", "mapbox.streets", {
+        attributionControl: false
+      }),
       trackLayerGroup = L.layerGroup().addTo(map),
       tracks = [];
 
