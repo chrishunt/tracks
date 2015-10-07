@@ -4,14 +4,15 @@
   L.mapbox.accessToken = 'pk.eyJ1IjoiY2hyaXNodW50IiwiYSI6ImNpZmU1ZWZwNjZoMWhzeWx4cXE4NzNnNncifQ.dUBxoDUgW3vUAM6Fw8p84Q';
 
   var map = L.mapbox.map("map", "mapbox.streets"),
-      trackLayerGroup = L.layerGroup().addTo(map);
+      trackLayerGroup = L.layerGroup().addTo(map),
+      tracks = [];
 
   L.control.layers({
     "Street": map.tileLayer,
     "Satellite": L.mapbox.tileLayer("mapbox.satellite")
   }, null).addTo(map);
 
-  // Returns track files and colors from the URL.
+  // Loads track dates and colors from the URL.
   //
   // Tracks can be shown for specific dates and colors:
   //
@@ -20,9 +21,9 @@
   // Or for a date range:
   //
   //   map.html?2015-09-18..2015-09-20
-  function tracksFromURL () {
+  function loadTracksFromURL () {
     var params = window.location.search.replace("?","").split("&");
-    var tracks = [];
+    tracks = [];
 
     for (var i = 0; i < params.length; i++) {
       var track = params[i].split(","),
@@ -37,8 +38,6 @@
         });
       });
     }
-
-    return tracks;
   }
 
   // Returns a date range in the form [start, end] given a String:
@@ -67,19 +66,25 @@
     });
   }
 
-  // Fit map bounds to all track layers than have been loaded.
+  // Fit map bounds to all track layers.
+  //
+  // This will do nothing if all the tracks have not been loaded.
   function fitMapBounds() {
-    var mapBounds = L.latLngBounds([]);
+    if (trackLayerGroup.getLayers().length == tracks.length) {
+      var mapBounds = L.latLngBounds([]);
 
-    trackLayerGroup.eachLayer(function (layer) {
-      mapBounds.extend(layer.getBounds());
-    });
+      trackLayerGroup.eachLayer(function (layer) {
+        mapBounds.extend(layer.getBounds());
+      });
 
-    map.fitBounds(mapBounds);
+      map.fitBounds(mapBounds);
+    }
   }
 
-  // Recursively load all tracks provided into map
-  function loadTracks(i, tracks){
+  // Recursively draw all tracks onto the map.
+  function drawTracksOnMap(i){
+    i = i || 0;
+
     var date  = tracks[i].date,
         file  = tracks[i].file,
         color = tracks[i].color;
@@ -93,14 +98,16 @@
           map.fitBounds(runLayer.getBounds());
         });
 
-        if (i == tracks.length-1) { fitMapBounds(); }
+        fitMapBounds();
       })
       .on("error", function() {
-        if (i == tracks.length-1) { fitMapBounds(); }
+        runLayer.addTo(trackLayerGroup);
+        fitMapBounds();
       });
 
-    if (i < tracks.length-1) { loadTracks(i+1, tracks); }
+    if (i < tracks.length-1) { drawTracksOnMap(i+1); }
   }
 
-  loadTracks(0, tracksFromURL());
+  loadTracksFromURL();
+  drawTracksOnMap();
 })();
