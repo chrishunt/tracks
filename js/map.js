@@ -5,7 +5,7 @@
 
   var map = L.mapbox.map("map", "mapbox.streets", {
         attributionControl: false
-      }),
+      }).setView([45.54, -122.65], 5),
       trackLayerGroup = L.layerGroup().addTo(map),
       tracks = [];
 
