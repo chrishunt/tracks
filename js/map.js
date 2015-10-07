@@ -4,6 +4,11 @@
   L.mapbox.accessToken = 'pk.eyJ1IjoiY2hyaXNodW50IiwiYSI6ImNpZmU1ZWZwNjZoMWhzeWx4cXE4NzNnNncifQ.dUBxoDUgW3vUAM6Fw8p84Q';
   var map = L.mapbox.map("map", "mapbox.streets");
 
+  L.control.layers({
+      "Street": map.tileLayer,
+      "Satellite": L.mapbox.tileLayer("mapbox.satellite")
+  }, null).addTo(map);
+
   // Returns track files and colors from the URL.
   //
   // Tracks can be shown for specific dates and colors:
