@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# Start web server on port 8000.
+#
+# Usage:
+#  $ server
+
+ruby -run -ehttpd . -p8000
