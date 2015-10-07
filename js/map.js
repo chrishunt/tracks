@@ -2,7 +2,9 @@
   'use strict';
 
   L.mapbox.accessToken = 'pk.eyJ1IjoiY2hyaXNodW50IiwiYSI6ImNpZmU1ZWZwNjZoMWhzeWx4cXE4NzNnNncifQ.dUBxoDUgW3vUAM6Fw8p84Q';
-  var map = L.mapbox.map("map", "mapbox.streets");
+
+  var map = L.mapbox.map("map", "mapbox.streets"),
+      trackLayerGroup = L.layerGroup().addTo(map);
 
   L.control.layers({
     "Street": map.tileLayer,
@@ -44,6 +46,7 @@
   // "2015-10-03" or "2015-10-01..2015-10-05"
   function parseDateRange(input) {
     var dateRange = input.split("..");
+
     if(dateRange.length != 2) { dateRange = [dateRange[0], dateRange[0]]; }
 
     return dateRange;
@@ -64,6 +67,17 @@
     });
   }
 
+  // Fit map bounds to all track layers than have been loaded.
+  function fitMapBounds() {
+    var mapBounds = L.latLngBounds([]);
+
+    trackLayerGroup.eachLayer(function (layer) {
+      mapBounds.extend(layer.getBounds());
+    });
+
+    map.fitBounds(mapBounds);
+  }
+
   // Recursively load all tracks provided into map
   function loadTracks(i, tracks){
     var date  = tracks[i].date,
@@ -72,12 +86,20 @@
 
     var runLayer = omnivore.gpx(file, null, customLayer(color))
       .on("ready", function() {
+        runLayer.addTo(trackLayerGroup);
         runLayer.bindPopup(date);
-        map.fitBounds(runLayer.getBounds());
-      })
-    .addTo(map);
 
-    if(i < tracks.length-1) { loadTracks(i+1, tracks); }
+        runLayer.on("click", function() {
+          map.fitBounds(runLayer.getBounds());
+        });
+
+        if (i == tracks.length-1) { fitMapBounds(); }
+      })
+      .on("error", function() {
+        if (i == tracks.length-1) { fitMapBounds(); }
+      });
+
+    if (i < tracks.length-1) { loadTracks(i+1, tracks); }
   }
 
   loadTracks(0, tracksFromURL());
