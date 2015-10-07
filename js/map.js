@@ -87,6 +87,8 @@
   function drawTracksOnMap(i){
     i = i || 0;
 
+    if (!tracks[i]) { return; }
+
     var date  = tracks[i].date,
         file  = tracks[i].file,
         color = tracks[i].color;
@@ -102,7 +104,7 @@
         fitMapBounds();
       });
 
-    if (i < tracks.length-1) { drawTracksOnMap(i+1); }
+    drawTracksOnMap(i+1);
   }
 
   loadTracksFromURL();
