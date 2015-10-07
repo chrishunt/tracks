@@ -5,8 +5,8 @@
   var map = L.mapbox.map("map", "mapbox.streets");
 
   L.control.layers({
-      "Street": map.tileLayer,
-      "Satellite": L.mapbox.tileLayer("mapbox.satellite")
+    "Street": map.tileLayer,
+    "Satellite": L.mapbox.tileLayer("mapbox.satellite")
   }, null).addTo(map);
 
   // Returns track files and colors from the URL.
