@@ -93,11 +93,6 @@
       .on("ready", function() {
         runLayer.addTo(trackLayerGroup);
         runLayer.bindPopup(date);
-
-        runLayer.on("click", function() {
-          map.fitBounds(runLayer.getBounds());
-        });
-
         fitMapBounds();
       })
       .on("error", function() {
