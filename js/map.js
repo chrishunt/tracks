@@ -89,14 +89,20 @@
 
     if (!tracks[i]) { return; }
 
-    var date  = tracks[i].date,
-        file  = tracks[i].file,
+    var file  = tracks[i].file,
         color = tracks[i].color;
 
     var runLayer = omnivore.gpx(file, null, customLayer(color))
       .on("ready", function() {
         runLayer.addTo(trackLayerGroup);
-        runLayer.bindPopup(date);
+
+        runLayer.eachLayer(function (layer) {
+          layer.bindPopup(
+            "<b>" + layer.feature.properties.name + "</b><br/>" +
+            (layer.feature.properties.desc || "")
+          );
+        });
+
         fitMapBounds();
       })
       .on("error", function() {
