@@ -7,7 +7,7 @@
         attributionControl: false
       }).setView([45.54, -122.65], 5),
       trackLayerGroup = L.layerGroup().addTo(map),
-      showPhotos = false,
+      showPhotos = true,
       tracks = [];
 
   L.control.layers({
@@ -29,7 +29,7 @@
     tracks = [];
 
     for (var i = 0; i < params.length; i++) {
-      if(params[i] == "photos") { showPhotos = true; continue; }
+      if(params[i] == "nophotos") { showPhotos = false; continue; }
 
       var track = params[i].split(","),
           range = parseDateRange(track[0]),
