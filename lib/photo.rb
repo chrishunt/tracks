@@ -1,14 +1,15 @@
+require 'pathname'
 require 'exifr'
 
 class Photo
-  attr_reader :filename
+  attr_reader :path
 
-  def initialize(filename)
-    @filename = filename
+  def initialize(path)
+    @path = path
   end
 
-  def date
-    filename[-16..-7]
+  def filename
+    Pathname.new(path).basename.to_s
   end
 
   def latitude
@@ -22,6 +23,6 @@ class Photo
   private
 
   def gps
-    EXIFR::JPEG.new(filename).gps
+    EXIFR::JPEG.new(path).gps
   end
 end
