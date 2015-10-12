@@ -8,7 +8,7 @@
       }).setView([45.54, -122.65], 5),
       trackLayerGroup = L.layerGroup().addTo(map),
       showPhotos = true,
-      tracks = [];
+      tracks = {};
 
   L.control.layers({
     "Street": map.tileLayer,
@@ -34,7 +34,7 @@
   //   map.html?2015-09-18..2015-09-20&nophotos
   function loadTracksFromURL () {
     var params = window.location.search.replace("?","").split("&");
-    tracks = [];
+    tracks = {};
 
     for (var i = 0; i < params.length; i++) {
       if(params[i] == "nophotos") { showPhotos = false; continue; }
@@ -50,11 +50,10 @@
       }
 
       moment.range(range).by("days", function(date) {
-        tracks.push({
-          date: date,
+        tracks[date.format("YYYY-MM-DD")] = {
           file: "gpx/" + date.format("YYYY-MM-DD") + ".gpx",
           color: "#" + (color || randomColor({luminosity: "dark"})),
-        });
+        };
       });
     }
   }
@@ -89,7 +88,7 @@
   //
   // This will do nothing if all the tracks have not been loaded.
   function fitMapBounds() {
-    if (trackLayerGroup.getLayers().length == tracks.length) {
+    if (trackLayerGroup.getLayers().length == Object.keys(tracks).length) {
       var mapBounds = L.latLngBounds([]);
 
       trackLayerGroup.eachLayer(function (layer) {
@@ -101,13 +100,16 @@
   }
 
   // Recursively draw all tracks onto the map.
-  function drawTracksOnMap(i){
+  function drawTracksOnMap(i, dates){
     i = i || 0;
+    dates = dates || Object.keys(tracks);
 
-    if (!tracks[i]) { return; }
+    var date = dates[i];
 
-    var file  = tracks[i].file,
-        color = tracks[i].color;
+    if (!date) { return; }
+
+    var file  = tracks[date].file,
+        color = tracks[date].color;
 
     var runLayer = omnivore.gpx(file, null, customLayer(color))
       .on("ready", function() {
@@ -127,30 +129,29 @@
         fitMapBounds();
       });
 
-    drawTracksOnMap(i+1);
+    drawTracksOnMap(i+1, dates);
   }
 
   // Load all photos onto the map as markers
   function loadPhotos(){
     var photoLayer = L.mapbox.featureLayer().addTo(map),
-        dateRange = moment.range(tracks[0].date, tracks[tracks.length - 1].date),
         geoJson = [];
 
     for (var i = 0; i < photoList.length; i++) {
-      var date = moment(photoList[i].filename.slice(0,10));
+      var date = photoList[i].filename.slice(0,10);
 
-      if(!dateRange.contains(date)) { continue; }
-
-      geoJson.push({
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": photoList[i].coordinates
-        },
-        "properties": {
-          "filename": photoList[i].filename
-        }
-      });
+      if (tracks[date]) {
+        geoJson.push({
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": photoList[i].coordinates
+          },
+          "properties": {
+            "filename": photoList[i].filename
+          }
+        });
+      }
     }
 
     photoLayer.on('layeradd', function(e) {
