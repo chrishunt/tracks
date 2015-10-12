@@ -141,7 +141,7 @@
 
     photoLayer.on('layeradd', function(e) {
       var marker = e.layer,
-      feature = marker.feature;
+          feature = marker.feature;
 
       var content = '<img width="200px" src="photos/' +
         feature.properties.filename + '"/>' +
