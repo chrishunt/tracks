@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+
+require './lib/photo'
+require 'pry'
+
+photo_list = './js/photos.js'
+
+ARGV.each do |path|
+  photo = Photo.new(path)
+
+  lines = IO.readlines(photo_list)
+
+  File.open(photo_list, 'w') do |file|
+    file.puts lines[0..-2] + [
+      "},{",
+      "  filename: \"#{photo.filename}\",",
+      "  coordinates: [#{photo.longitude}, #{photo.latitude}]"
+    ] + lines[-1..-1]
+  end
+
+  puts "Imported #{photo.filename}"
+end
