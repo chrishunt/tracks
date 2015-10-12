@@ -146,7 +146,7 @@
       var content = '<img width="200px" src="photos/' +
         feature.properties.filename + '"/>' +
         '<p>' +
-          '<a href="https://instagram.com/huntca" target="_blank">📷instagram/huntca</a>' +
+          '<a href="https://instagram.com/huntca" target="_blank">📷 instagram/huntca</a>' +
         '</p>';
 
       marker.bindPopup(content ,{
