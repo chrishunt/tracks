@@ -24,6 +24,14 @@
   // Or for a date range:
   //
   //   map.html?2015-09-18..2015-09-20
+  //
+  // Or just show me everything:
+  //
+  //   map.html?all
+  //
+  // And if you don't want photos:
+  //
+  //   map.html?2015-09-18..2015-09-20&nophotos
   function loadTracksFromURL () {
     var params = window.location.search.replace("?","").split("&");
     tracks = [];
@@ -32,8 +40,14 @@
       if(params[i] == "nophotos") { showPhotos = false; continue; }
 
       var track = params[i].split(","),
-          range = parseDateRange(track[0]),
-          color = track[1];
+          color = track[1],
+          range;
+
+      if (track[0] == "all") {
+        range = ["2015-03-25", moment().format("YYYY-MM-DD")];
+      } else {
+        range = parseDateRange(track[0]);
+      }
 
       moment.range(range).by("days", function(date) {
         tracks.push({
