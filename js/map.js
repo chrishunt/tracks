@@ -118,7 +118,7 @@
         runLayer.eachLayer(function (layer) {
           layer.bindPopup(
             "<b>" + layer.feature.properties.name + "</b><br/>" +
-            (layer.feature.properties.desc || "")
+            "<a href='" + file + "'>💾 Download GPX</a>"
           );
         });
 
@@ -159,10 +159,8 @@
           feature = marker.feature;
 
       var content = '<img width="200px" src="photos/' +
-        feature.properties.filename + '"/>' +
-        '<p>' +
-          '<a href="https://instagram.com/huntca" target="_blank">📷 instagram/huntca</a>' +
-        '</p>';
+        feature.properties.filename + '"/><br/>' +
+        '<a href="https://instagram.com/huntca" target="_blank">📷 instagram/huntca</a>';
 
       marker.bindPopup(content ,{
         closeButton: false,
