@@ -1,0 +1,30 @@
+#!/usr/bin/env ruby
+#
+# Update photo list using all photos saved in photos/
+#
+require './lib/photo'
+
+photos_path = './photos'
+photo_list_path = './js/photos.js'
+
+lines = ["var photoList = [{"]
+
+Dir.foreach(photos_path) do |path|
+  next unless path.match(".jpg")
+
+  photo = Photo.new("#{photos_path}/#{path}")
+
+  lines = lines + [
+    "  filename: \"#{photo.filename}\",",
+    "  coordinates: [#{photo.longitude}, #{photo.latitude}]",
+    "},{"
+  ]
+
+  puts "Imported #{photo.filename}"
+end
+
+lines = lines[0..-2] + ["}];"]
+
+File.open(photo_list_path, 'w') { |file| file.puts lines }
+
+puts "#{lines.count} lines written to #{photo_list_path}"
