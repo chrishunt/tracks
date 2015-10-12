@@ -7,6 +7,7 @@
         attributionControl: false
       }).setView([45.54, -122.65], 5),
       trackLayerGroup = L.layerGroup().addTo(map),
+      showPhotos = false,
       tracks = [];
 
   L.control.layers({
@@ -28,13 +29,15 @@
     tracks = [];
 
     for (var i = 0; i < params.length; i++) {
+      if(params[i] == "photos") { showPhotos = true; continue; }
+
       var track = params[i].split(","),
           range = parseDateRange(track[0]),
           color = track[1];
 
       moment.range(range).by("days", function(date) {
         tracks.push({
-          date: date.format("MMMM Do YYYY"),
+          date: date,
           file: "gpx/" + date.format("YYYY-MM-DD") + ".gpx",
           color: "#" + (color || randomColor({luminosity: "dark"})),
         });
@@ -113,6 +116,55 @@
     drawTracksOnMap(i+1);
   }
 
+  // Load all photos onto the map as markers
+  function loadPhotos(){
+    var photoLayer = L.mapbox.featureLayer().addTo(map),
+        dateRange = moment.range(tracks[0].date, tracks[tracks.length - 1].date),
+        geoJson = [];
+
+    for (var i = 0; i < photoList.length; i++) {
+      var date = moment(photoList[i].filename.slice(0,10));
+
+      if(!dateRange.contains(date)) { continue; }
+
+      geoJson.push({
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": photoList[i].coordinates
+        },
+        "properties": {
+          "filename": photoList[i].filename
+        }
+      });
+    }
+
+    photoLayer.on('layeradd', function(e) {
+      var marker = e.layer,
+      feature = marker.feature;
+
+      var content = '<img width="200px" src="photos/' +
+        feature.properties.filename + '"/>';
+
+      marker.bindPopup(content ,{
+        closeButton: false,
+        minWidth: 220
+      });
+
+      marker.setIcon(L.icon({
+        "iconUrl": "photos/" + feature.properties.filename,
+        "iconSize": [50, 50],
+        "iconAnchor": [25, 25],
+        "popupAnchor": [0, -25],
+        "className": "dot"
+      }));
+    });
+
+    photoLayer.setGeoJSON(geoJson);
+  }
+
   loadTracksFromURL();
   drawTracksOnMap();
+
+  if(showPhotos) { loadPhotos(); }
 })();
