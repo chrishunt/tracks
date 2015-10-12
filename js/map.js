@@ -133,24 +133,27 @@
   // Load all photos onto the map as markers
   function loadPhotos(){
     var photoLayer = L.mapbox.featureLayer().addTo(map),
-        dateRange = moment.range(tracks[0].date, tracks[tracks.length - 1].date),
         geoJson = [];
 
     for (var i = 0; i < photoList.length; i++) {
       var date = moment(photoList[i].filename.slice(0,10));
 
-      if(!dateRange.contains(date)) { continue; }
+      for (var j = 0; j < tracks.length; j++) {
+        if (date.isSame(tracks[j].date)) {
+          geoJson.push({
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": photoList[i].coordinates
+            },
+            "properties": {
+              "filename": photoList[i].filename
+            }
+          });
 
-      geoJson.push({
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": photoList[i].coordinates
-        },
-        "properties": {
-          "filename": photoList[i].filename
+          break;
         }
-      });
+      }
     }
 
     photoLayer.on('layeradd', function(e) {
