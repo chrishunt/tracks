@@ -118,7 +118,8 @@
         runLayer.eachLayer(function (layer) {
           layer.bindPopup(
             "<b>" + layer.feature.properties.name + "</b><br/>" +
-            "<a href='" + file + "'>💾 Download GPX</a>"
+            "<a href='map.html?" + date + "' target='_blank'>🔎 View</a><br/>" +
+            "<a href='" + file + "' target='_blank'>💾 Download</a>"
           );
         });
 
