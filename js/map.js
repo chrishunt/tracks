@@ -12,7 +12,8 @@
 
   L.control.layers({
     "Street": map.tileLayer,
-    "Satellite": L.mapbox.tileLayer("mapbox.satellite")
+    "Satellite": L.mapbox.tileLayer("mapbox.satellite"),
+    "Hybrid": L.mapbox.tileLayer("mapbox.streets-satellite")
   }, null).addTo(map);
 
   // Loads track dates and colors from the URL.
