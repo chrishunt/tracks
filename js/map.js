@@ -16,6 +16,11 @@
     "Hybrid": L.mapbox.tileLayer("mapbox.streets-satellite")
   }, null).addTo(map);
 
+  // Hide the loading image
+  function hideLoader() {
+    document.getElementById('loader').className = 'hide';
+  }
+
   // Loads track dates and colors from the URL.
   //
   // Tracks can be shown for specific dates and colors:
@@ -105,6 +110,7 @@
   // Adjust the bounds of the map to fit all the loaded tracks and show photos
   function presentMap() {
     if (tracksDoneLoading()) {
+      hideLoader();
       fitMapBounds();
       loadPhotos();
     }
