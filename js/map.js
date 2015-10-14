@@ -7,7 +7,7 @@
         attributionControl: false
       }).setView([45.54, -122.65], 5),
       trackLayerGroup = L.layerGroup().addTo(map),
-      showPhotos = true,
+      noPhotos = false,
       tracks = {};
 
   L.control.layers({
@@ -38,7 +38,7 @@
     tracks = {};
 
     for (var i = 0; i < params.length; i++) {
-      if(params[i] == "nophotos") { showPhotos = false; continue; }
+      if(params[i] == "nophotos") { noPhotos = true; continue; }
 
       var track = params[i].split(","),
           color = track[1],
@@ -86,17 +86,27 @@
   }
 
   // Fit map bounds to all track layers.
-  //
-  // This will do nothing if all the tracks have not been loaded.
   function fitMapBounds() {
-    if (trackLayerGroup.getLayers().length == Object.keys(tracks).length) {
-      var mapBounds = L.latLngBounds([]);
+    var mapBounds = L.latLngBounds([]);
 
-      trackLayerGroup.eachLayer(function (layer) {
-        mapBounds.extend(layer.getBounds());
-      });
+    trackLayerGroup.eachLayer(function (layer) {
+      mapBounds.extend(layer.getBounds());
+    });
 
-      map.fitBounds(mapBounds);
+    map.fitBounds(mapBounds);
+  }
+
+
+  // Returns true if all the tracks have been loaded into the map
+  function tracksDoneLoading(){
+    return trackLayerGroup.getLayers().length == Object.keys(tracks).length;
+  }
+
+  // Adjust the bounds of the map to fit all the loaded tracks and show photos
+  function presentMap() {
+    if (tracksDoneLoading()) {
+      fitMapBounds();
+      loadPhotos();
     }
   }
 
@@ -124,11 +134,11 @@
           );
         });
 
-        fitMapBounds();
+        presentMap();
       })
       .on("error", function() {
         runLayer.addTo(trackLayerGroup);
-        fitMapBounds();
+        presentMap();
       });
 
     drawTracksOnMap(i+1, dates);
@@ -136,6 +146,8 @@
 
   // Load all photos onto the map as markers
   function loadPhotos(){
+    if(noPhotos) { return; }
+
     var photoLayer = L.mapbox.featureLayer().addTo(map),
         geoJson = [];
 
@@ -183,6 +195,4 @@
 
   loadTracksFromURL();
   drawTracksOnMap();
-
-  if(showPhotos) { loadPhotos(); }
 })();
