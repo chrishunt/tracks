@@ -30,4 +30,4 @@ echo "Saved to $outpath ($(filesize $outpath))."
 echo "Appending new track $date to index."
 
 sed -i "" "s/.*ENTRIES.*/      $entry\\
-&/" index.html
+&/" tracks.html
