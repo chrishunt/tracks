@@ -3,7 +3,34 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
+  background: #e8e2d1;
   font-family: 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', arial, sans-serif;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+a {
+  color: #497492;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #629bc4;
+}
+
+#index-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#map-img {
+  width: 98%;
+  border: 2px solid #fff;
 }
 
 #avatar {
@@ -23,7 +50,7 @@ html, body {
   bottom:0;
   height: 100%;
   width: 100%;
-  background: #ffffff;
+  background: #e8e2d1;
 }
 
 #loader p {
