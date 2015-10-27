@@ -7,14 +7,16 @@
         attributionControl: false
       }).setView([45.54, -122.65], 5),
       trackLayerGroup = L.layerGroup().addTo(map),
-      noPhotos = false,
+      photoLayer = L.mapbox.featureLayer().addTo(map),
       tracks = {};
 
   L.control.layers({
     "Street": map.tileLayer,
     "Satellite": L.mapbox.tileLayer("mapbox.satellite"),
     "Hybrid": L.mapbox.tileLayer("mapbox.streets-satellite")
-  }, null).addTo(map);
+  }, {
+    "Photos": photoLayer
+  }).addTo(map);
 
   // Hide the loading image
   function hideLoader() {
@@ -34,17 +36,11 @@
   // Or just show me everything:
   //
   //   map.html?all
-  //
-  // And if you don't want photos:
-  //
-  //   map.html?2015-09-18..2015-09-20&nophotos
   function loadTracksFromURL () {
     var params = window.location.search.replace("?","").split("&");
     tracks = {};
 
     for (var i = 0; i < params.length; i++) {
-      if(params[i] == "nophotos") { noPhotos = true; continue; }
-
       var track = params[i].split(","),
           color = track[1],
           range;
@@ -152,10 +148,7 @@
 
   // Load all photos onto the map as markers
   function loadPhotos(){
-    if(noPhotos) { return; }
-
-    var photoLayer = L.mapbox.featureLayer().addTo(map),
-        geoJson = [];
+    var geoJson = [];
 
     for (var i = 0; i < photoList.length; i++) {
       var date = photoList[i].filename.slice(0,10);
