@@ -119,7 +119,7 @@
 
     var date = dates[i];
 
-    if (!date) { return; }
+    if (!date) { presentMap(); return; }
 
     var file  = tracks[date].file,
         color = tracks[date].color;
