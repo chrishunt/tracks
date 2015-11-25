@@ -161,7 +161,8 @@
             "coordinates": photoList[i].coordinates
           },
           "properties": {
-            "filename": photoList[i].filename
+            "filename": photoList[i].filename,
+            "caption": photoList[i].caption
           }
         });
       }
@@ -169,19 +170,29 @@
 
     photoLayer.on('layeradd', function(e) {
       var marker = e.layer,
-          feature = marker.feature;
+          feature = marker.feature,
+          filename = feature.properties.filename,
+          caption = feature.properties.caption;
 
       var content = '<img width="200px" src="photos/' +
-        feature.properties.filename + '"/><br/>' +
-        '<a href="https://instagram.com/huntca" target="_blank">📷 instagram/huntca</a>';
+        filename +
+      '"/><br/>';
+
+      if (caption) { content = content + caption + '<br/>'; }
+
+      content = content +
+      '<a href="https://instagram.com/huntca" target="_blank">' +
+        '📷 instagram/huntca' +
+      '</a>';
 
       marker.bindPopup(content ,{
         closeButton: false,
-        minWidth: 220
+        minWidth: 220,
+        maxWidth: 220
       });
 
       marker.setIcon(L.icon({
-        "iconUrl": "photos/" + feature.properties.filename,
+        "iconUrl": "photos/" + filename,
         "iconSize": [50, 50],
         "iconAnchor": [25, 25],
         "popupAnchor": [0, -25],
