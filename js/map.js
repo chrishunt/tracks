@@ -45,7 +45,7 @@
           color = track[1],
           range;
 
-      if (track[0] == "all") {
+      if (!track[0] || track[0] == "all") {
         range = ["2015-03-25", moment().format("YYYY-MM-DD")];
       } else {
         range = parseDateRange(track[0]);
