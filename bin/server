@@ -5,4 +5,4 @@
 # Usage:
 #  $ server
 
-ruby -run -ehttpd . -p8000
+jekyll server
