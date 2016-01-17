@@ -652,4 +652,7 @@ var photoList = [{
 },{
   filename: "2016-01-15-1.jpg",
   coordinates: [-122.799195, 45.79144666666667]
+},{
+  filename: "2016-01-15-2.jpg",
+  coordinates: [-122.79957, 45.789655]
 }];
