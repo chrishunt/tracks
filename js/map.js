@@ -7,7 +7,8 @@
         attributionControl: false
       }).setView([45.54, -122.65], 5),
       trackLayerGroup = L.layerGroup().addTo(map),
-      photoLayer = L.mapbox.featureLayer().addTo(map),
+      photoLayer = L.mapbox.featureLayer(),
+      photoCluster = (new L.MarkerClusterGroup()).addTo(map),
       tracks = {};
 
   L.control.layers({
@@ -201,6 +202,7 @@
     });
 
     photoLayer.setGeoJSON(geoJson);
+    photoCluster.addLayer(photoLayer);
   }
 
   loadTracksFromURL();
