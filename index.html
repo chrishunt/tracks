@@ -3,52 +3,54 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Adventure Motorcycle GPS Tracks - Chris Hunt</title>
+    <title>Adventure and Dualsport Motorcycle GPS Tracks - Chris Hunt</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    <link rel="shortcut icon" href="../favicon.ico">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
+    <header>
+      <a href="https://instagram.com/huntca"
+         target="_blank"
+         title="Follow me on Instagram">
+        <img class="logo" src="../img/avatar.jpg" />
+      </a>
+
+      <ul class="navigation">
+        <li class="selected">📍 <a href="/">tracks</a></li>
+        <li>📡 <a href="/now/">tracker</a></li>
+      </ul>
+    </header>
+
+    <div id="instafeed"></div>
+
     <div id="index-container">
-      <h1>
-        Hi, these are my tracks.
-      </h1>
       <p>
-        My name is Chris Hunt and I like to explore dirt roads on my
-        <a href="https://www.instagram.com/p/-1gpK9ntPf/"
-           target="_blank"
-           title"See my Tiger 800">
-        Tiger 800</a> and
-        <a href="https://www.instagram.com/p/BAxf1aEntHm/"
+        Hi! My name is Chris and I like to explore dirt roads on my
+        <a href="https://www.instagram.com/p/BCvKexQntIp/"
            target="_blank"
            title"See my WR250R">
-        WR250R</a> motorcycles.
-        It looks like you have discovered my super secret collection of
-        GPS tracks. These tracks can be viewed, downloaded, and shared for
-        free.
+        dualsport motorcycle</a>. Each time I return from an adventure, I
+        share my tracks so others (you) can be inspired to start your
+        own adventure. Deep down inside I'm hoping that you go somewhere
+        I haven't gone, you tell me about it, then I can go too. 👊
       </p>
+
       <p>
-        If you have any questions about a trip I've taken or want to share
-        your favorite dirt road with me, please send me a message on
+        My tracks can be viewed, downloaded, and shared for free. Click
+        the map below to get started and be sure to say hi
         <a href="https://instagram.com/huntca"
            target="_blank"
            title="Message me on Instagram">
-          Instagram
-        </a>
-        or
-        <a href="mailto:huntca@gmail.com"
-           title="Send me an email">
-          email</a>.
-        If you'd like to see where I'm at now, check out my
-        <a href="now/"
-           title="Where am I?">
-          tracker</a>.
+          on Instagram
+        </a> and tell me where you're going. 🌲🚲🌲
       </p>
+
       <p>
         <a href="map.html"
            title="View my tracks">
@@ -57,6 +59,22 @@
       </p>
     </div>
 
-    <script src="js/analytics.js"></script>
+    <footer>
+      📬 I'm <strong>@huntca</strong> on
+      <a href="https://instagram.com/huntca"
+         target="_blank"
+         title="Message me on Instagram">
+        Instagram
+      </a>
+      and
+      <a href="mailto:huntca@gmail.com"
+         target="_blank"
+         title="Send me an email">
+      email</a>.
+    </footer>
+
+    <script src="../js/instafeed.min.js"></script>
+    <script src="../js/instagram.js"></script>
+    <script src="../js/analytics.js"></script>
   </body>
 </html>

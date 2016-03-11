@@ -3,12 +3,21 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
-  background: #e8e2d1;
-  font-family: 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', arial, sans-serif;
+  background: #fafafa;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
 }
 
 a {
@@ -21,15 +30,62 @@ a:hover {
   color: #629bc4;
 }
 
+ul.navigation {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  list-style-type: none;
+}
+
+ul.navigation li {
+  font-size: 1.5em;
+  margin: 0 10px;
+  opacity: 0.3;
+  display: inline;
+}
+
+ul.navigation li:hover {
+  opacity: 1.0;
+}
+
+ul.navigation li.selected {
+  opacity: 1.0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 26px auto;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid #cccfd0;
+}
+
+#instafeed {
+  width: 100%;
+}
+
+#instafeed img {
+  width: 25%;
+}
+
+#instafeed img:hover {
+  opacity: 0.8;
+}
+
 #index-container {
   width: 90%;
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   padding-top: 10px;
 }
 
 #map-img {
   width: 100%;
+  border-radius: 1%;
+}
+
+#map-img:hover {
+  opacity: 0.8;
 }
 
 #avatar {
@@ -49,7 +105,7 @@ a:hover {
   bottom:0;
   height: 100%;
   width: 100%;
-  background: #e8e2d1;
+  background: #fafafa;
 }
 
 #loader p {
@@ -69,4 +125,18 @@ a:hover {
 
 .dot {
   border: 2px solid #fff;
+}
+
+header, footer {
+  text-align: center;
+}
+
+header {
+  background: #fff;
+  padding: 26px 0;
+  border-bottom: 1px solid #edeeee;
+}
+
+footer {
+  padding-bottom: 26px;
 }

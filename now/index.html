@@ -3,49 +3,63 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Adventure Motorcycle GPS Tracks - Chris Hunt</title>
+    <title>Adventure and Dualsport Motorcycle GPS Tracks - Chris Hunt</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    <link rel="shortcut icon" href="../favicon.ico">
 
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
+    <header>
+      <a href="https://instagram.com/huntca"
+         target="_blank"
+         title="Follow me on Instagram">
+        <img class="logo" src="../img/avatar.jpg" />
+      </a>
+
+      <ul class="navigation">
+        <li>📍 <a href="/">tracks</a></li>
+        <li class="selected">📡 <a href="/now/">tracker</a></li>
+      </ul>
+    </header>
+
+    <div id="instafeed"></div>
+
     <div id="index-container">
-      <h1>
-        Where am I?
-      </h1>
       <p>
-        When I'm out riding my motorcycle, my location will be updated on the
-        map below every 10 minutes by a
+        When I'm out adventuring on
+        <a href="https://www.instagram.com/p/BCvKexQntIp/"
+           target="_blank"
+           title"See my WR250R">
+        my motorcycle</a>, the map below will be updated every few minutes
+        with my location by my
         <a href="http://findmespot.com/en/"
            target="_blank"
            title="What is a Spot?">
-          Spot tracker</a>. If it looks like I'm stranded or broken down,
-        please feel free to save my life.
+          Spot tracker</a>.
+        If it looks like I'm stranded or broken down, please feel free
+        to save my life. 🚑
       </p>
+
       <p>
-        Send me a message on
+        If if looks like I might be headed your way, message me
         <a href="https://instagram.com/huntca"
            target="_blank"
            title="Message me on Instagram">
-          Instagram
+          on Instagram
         </a>
         or
         <a href="mailto:huntca@gmail.com"
            title="Send me an email">
           email
         </a>
-        if I'm passing by and you'd like to join in on the fun.
-
-        To see some previous adventures, check out
-        <a href="/"
-           title="Check out my tracks!">
-          my tracks</a>.
+        so we can meetup! 👊
       </p>
+
       <p>
         <iframe
          src='https://spotwalla.com/tripViewer.php?id=d971557c8d6b527bf&showAll=yes&showHome=no&showInfo=no&hoursPast=144'
@@ -58,6 +72,22 @@
       </p>
     </div>
 
+    <footer>
+      📬 I'm <strong>@huntca</strong> on
+      <a href="https://instagram.com/huntca"
+         target="_blank"
+         title="Message me on Instagram">
+        Instagram
+      </a>
+      and
+      <a href="mailto:huntca@gmail.com"
+         target="_blank"
+         title="Send me an email">
+      email</a>.
+    </footer>
+
+    <script src="../js/instafeed.min.js"></script>
+    <script src="../js/instagram.js"></script>
     <script src="../js/analytics.js"></script>
   </body>
 </html>
