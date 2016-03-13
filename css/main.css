@@ -84,6 +84,14 @@ ul.navigation li.selected {
   padding-top: 10px;
 }
 
+#background-container {
+  background: url(/img/header-background.jpg);
+  -webkit-background-size: 150%;
+  -moz-background-size: 150%;
+  -o-background-size: 150%;
+  background-size: 150%;
+}
+
 #map-img {
   width: 100%;
   border-radius: 1%;
@@ -137,14 +145,8 @@ header, footer {
 }
 
 header {
-  background: #fff;
   padding: 26px 0;
   border-bottom: 1px solid #edeeee;
-  background: url(/img/header-background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 footer {
