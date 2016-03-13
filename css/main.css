@@ -7,12 +7,17 @@ html, body {
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
 }
 
+span.emoji {
+  font-weight: normal;
+}
+
 p {
   font-size: 1em;
   line-height: 1.5em;
 }
 
 h1 {
+  text-align: center;
   font-size: 2em;
 }
 
@@ -30,7 +35,7 @@ a:hover {
   color: #629bc4;
 }
 
-ul.navigation {
+ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -144,4 +149,52 @@ header {
 
 footer {
   padding-bottom: 26px;
+}
+
+section.brand {
+  padding: 40px 0 30px 0;
+  border-top: 10px dotted #eee;
+}
+
+section.brand aside {
+  float: left;
+  width: 28%;
+}
+
+section.brand article {
+  float: right;
+  width: 70%;
+}
+
+section.brand article h3 {
+  margin: 0;
+}
+
+section.brand:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+section.brand img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul.brand-details {
+  font-family: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+  line-height: 1.5em;
+  margin-top: 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+  section.brand aside,
+  section.brand article {
+    float: none;
+    width: auto;
+  }
+
+  section.brand img {
+    padding-bottom: 10px;
+  }
 }
