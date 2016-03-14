@@ -24,7 +24,7 @@ date="${filename%.*}"
 entry="<li><a href=\"map.html?$date\">$date<\/a><\/li>"
 
 echo "Reducing $inpath ($(filesize $inpath))..."
-/Applications/GPSBabelFE.app/Contents/MacOS/gpsbabel -w -r -t -i gpx -f $inpath -x simplify,count=1000 -o gpx -F $outpath
+/Applications/GPSBabelFE.app/Contents/MacOS/gpsbabel -w -r -t -i gpx -f $inpath -x simplify,count=250 -o gpx -F $outpath
 
 echo "Saved to $outpath ($(filesize $outpath))."
 echo "Appending new track $date to index."
