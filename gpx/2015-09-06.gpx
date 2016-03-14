@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="GPSBabel - http://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/1" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
   <metadata>
-    <time>2015-10-05T19:34:37.447Z</time>
-    <bounds minlat="43.127868399" minlon="-121.109576030" maxlat="44.303724105" maxlon="-120.699590826"/>
+    <time>2016-03-14T02:43:18.849Z</time>
+    <bounds minlat="43.127945764" minlon="-121.109576030" maxlat="44.303682949" maxlon="-120.699687051"/>
   </metadata>
   <trk>
     <name>2015-09-06 - High Desert Adventures</name>
@@ -16,18 +16,6 @@
         <ele>1298.880000</ele>
         <time>2015-09-06T15:59:56Z</time>
       </trkpt>
-      <trkpt lat="43.127989266" lon="-121.043666191">
-        <ele>1298.400000</ele>
-        <time>2015-09-06T16:00:25Z</time>
-      </trkpt>
-      <trkpt lat="43.127868399" lon="-121.043853527">
-        <ele>1318.100000</ele>
-        <time>2015-09-06T16:01:00Z</time>
-      </trkpt>
-      <trkpt lat="43.128037378" lon="-121.063523004">
-        <ele>1336.370000</ele>
-        <time>2015-09-06T16:02:35Z</time>
-      </trkpt>
       <trkpt lat="43.128206106" lon="-121.065650079">
         <ele>1339.730000</ele>
         <time>2015-09-06T16:02:42Z</time>
@@ -36,65 +24,17 @@
         <ele>1339.250000</ele>
         <time>2015-09-06T16:02:48Z</time>
       </trkpt>
-      <trkpt lat="43.130043084" lon="-121.068974761">
-        <ele>1338.770000</ele>
-        <time>2015-09-06T16:02:55Z</time>
-      </trkpt>
-      <trkpt lat="43.155923970" lon="-121.100498512">
-        <ele>1332.040000</ele>
-        <time>2015-09-06T16:05:10Z</time>
-      </trkpt>
       <trkpt lat="43.157977033" lon="-121.102658277">
         <ele>1332.520000</ele>
         <time>2015-09-06T16:05:20Z</time>
-      </trkpt>
-      <trkpt lat="43.163079517" lon="-121.106657702">
-        <ele>1329.640000</ele>
-        <time>2015-09-06T16:05:42Z</time>
-      </trkpt>
-      <trkpt lat="43.166550966" lon="-121.109138327">
-        <ele>1328.200000</ele>
-        <time>2015-09-06T16:05:57Z</time>
       </trkpt>
       <trkpt lat="43.167486303" lon="-121.109576030">
         <ele>1317.620000</ele>
         <time>2015-09-06T16:06:04Z</time>
       </trkpt>
-      <trkpt lat="43.167857369" lon="-121.109332368">
-        <ele>1316.660000</ele>
-        <time>2015-09-06T16:06:12Z</time>
-      </trkpt>
-      <trkpt lat="43.168828078" lon="-121.108234841">
-        <ele>1317.140000</ele>
-        <time>2015-09-06T16:06:25Z</time>
-      </trkpt>
-      <trkpt lat="43.169281622" lon="-121.107906606">
-        <ele>1317.140000</ele>
-        <time>2015-09-06T16:06:30Z</time>
-      </trkpt>
-      <trkpt lat="43.170143450" lon="-121.106928857">
-        <ele>1317.620000</ele>
-        <time>2015-09-06T16:06:41Z</time>
-      </trkpt>
-      <trkpt lat="43.170515019" lon="-121.105969129">
-        <ele>1317.140000</ele>
-        <time>2015-09-06T16:06:49Z</time>
-      </trkpt>
       <trkpt lat="43.174236333" lon="-121.103199916">
         <ele>1316.660000</ele>
         <time>2015-09-06T16:07:33Z</time>
-      </trkpt>
-      <trkpt lat="43.175567295" lon="-121.099583628">
-        <ele>1317.620000</ele>
-        <time>2015-09-06T16:08:39Z</time>
-      </trkpt>
-      <trkpt lat="43.175609708" lon="-121.098393397">
-        <ele>1316.180000</ele>
-        <time>2015-09-06T16:08:48Z</time>
-      </trkpt>
-      <trkpt lat="43.175962586" lon="-121.097747320">
-        <ele>1317.620000</ele>
-        <time>2015-09-06T16:08:54Z</time>
       </trkpt>
       <trkpt lat="43.176106419" lon="-121.097625112">
         <ele>1317.140000</ele>
@@ -104,117 +44,25 @@
         <ele>1317.140000</ele>
         <time>2015-09-06T16:09:15Z</time>
       </trkpt>
-      <trkpt lat="43.179408889" lon="-121.096678544">
-        <ele>1317.620000</ele>
-        <time>2015-09-06T16:09:24Z</time>
-      </trkpt>
-      <trkpt lat="43.180790227" lon="-121.095370464">
-        <ele>1317.620000</ele>
-        <time>2015-09-06T16:09:38Z</time>
-      </trkpt>
       <trkpt lat="43.180997847" lon="-121.094817761">
         <ele>1317.140000</ele>
         <time>2015-09-06T16:09:43Z</time>
-      </trkpt>
-      <trkpt lat="43.180954009" lon="-121.094373688">
-        <ele>1316.660000</ele>
-        <time>2015-09-06T16:09:47Z</time>
-      </trkpt>
-      <trkpt lat="43.180505913" lon="-121.093123527">
-        <ele>1316.660000</ele>
-        <time>2015-09-06T16:09:58Z</time>
-      </trkpt>
-      <trkpt lat="43.180289073" lon="-121.092860922">
-        <ele>1317.140000</ele>
-        <time>2015-09-06T16:10:01Z</time>
-      </trkpt>
-      <trkpt lat="43.179782303" lon="-121.092476277">
-        <ele>1317.140000</ele>
-        <time>2015-09-06T16:10:06Z</time>
-      </trkpt>
-      <trkpt lat="43.179466976" lon="-121.091963220">
-        <ele>1317.140000</ele>
-        <time>2015-09-06T16:10:11Z</time>
-      </trkpt>
-      <trkpt lat="43.179385001" lon="-121.091405824">
-        <ele>1317.620000</ele>
-        <time>2015-09-06T16:10:15Z</time>
-      </trkpt>
-      <trkpt lat="43.179140836" lon="-121.090733595">
-        <ele>1318.100000</ele>
-        <time>2015-09-06T16:10:20Z</time>
-      </trkpt>
-      <trkpt lat="43.179106889" lon="-121.089966400">
-        <ele>1321.950000</ele>
-        <time>2015-09-06T16:10:27Z</time>
       </trkpt>
       <trkpt lat="43.177973656" lon="-121.088785976">
         <ele>1316.180000</ele>
         <time>2015-09-06T16:10:46Z</time>
       </trkpt>
-      <trkpt lat="43.177925879" lon="-121.088488419">
-        <ele>1315.700000</ele>
-        <time>2015-09-06T16:10:50Z</time>
-      </trkpt>
-      <trkpt lat="43.178034090" lon="-121.086673904">
-        <ele>1317.620000</ele>
-        <time>2015-09-06T16:11:23Z</time>
-      </trkpt>
-      <trkpt lat="43.178236764" lon="-121.085553663">
-        <ele>1318.590000</ele>
-        <time>2015-09-06T16:11:30Z</time>
-      </trkpt>
       <trkpt lat="43.178622331" lon="-121.084510535">
         <ele>1318.100000</ele>
         <time>2015-09-06T16:11:41Z</time>
-      </trkpt>
-      <trkpt lat="43.179379385" lon="-121.083721211">
-        <ele>1317.620000</ele>
-        <time>2015-09-06T16:11:55Z</time>
-      </trkpt>
-      <trkpt lat="43.180862647" lon="-121.083251238">
-        <ele>1319.550000</ele>
-        <time>2015-09-06T16:12:13Z</time>
-      </trkpt>
-      <trkpt lat="43.183125760" lon="-121.081458265">
-        <ele>1315.700000</ele>
-        <time>2015-09-06T16:12:41Z</time>
       </trkpt>
       <trkpt lat="43.183326088" lon="-121.081210831">
         <ele>1316.180000</ele>
         <time>2015-09-06T16:12:44Z</time>
       </trkpt>
-      <trkpt lat="43.183838809" lon="-121.079449710">
-        <ele>1316.660000</ele>
-        <time>2015-09-06T16:12:58Z</time>
-      </trkpt>
-      <trkpt lat="43.184023546" lon="-121.079034889">
-        <ele>1316.180000</ele>
-        <time>2015-09-06T16:13:02Z</time>
-      </trkpt>
-      <trkpt lat="43.184742881" lon="-121.078004586">
-        <ele>1316.180000</ele>
-        <time>2015-09-06T16:13:13Z</time>
-      </trkpt>
       <trkpt lat="43.184881015" lon="-121.077458840">
         <ele>1315.220000</ele>
         <time>2015-09-06T16:13:23Z</time>
-      </trkpt>
-      <trkpt lat="43.185110511" lon="-121.077470742">
-        <ele>1314.740000</ele>
-        <time>2015-09-06T16:13:34Z</time>
-      </trkpt>
-      <trkpt lat="43.185235905" lon="-121.077388180">
-        <ele>1315.220000</ele>
-        <time>2015-09-06T16:13:37Z</time>
-      </trkpt>
-      <trkpt lat="43.185472023" lon="-121.076904126">
-        <ele>1316.180000</ele>
-        <time>2015-09-06T16:13:43Z</time>
-      </trkpt>
-      <trkpt lat="43.186136456" lon="-121.076178001">
-        <ele>1315.220000</ele>
-        <time>2015-09-06T16:13:52Z</time>
       </trkpt>
       <trkpt lat="43.186920080" lon="-121.075689755">
         <ele>1316.180000</ele>
@@ -224,381 +72,89 @@
         <ele>1315.220000</ele>
         <time>2015-09-06T16:16:01Z</time>
       </trkpt>
-      <trkpt lat="43.186532166" lon="-121.075667543">
-        <ele>1316.180000</ele>
-        <time>2015-09-06T16:16:11Z</time>
-      </trkpt>
-      <trkpt lat="43.187107332" lon="-121.075139903">
-        <ele>1315.700000</ele>
-        <time>2015-09-06T16:16:21Z</time>
-      </trkpt>
-      <trkpt lat="43.188152472" lon="-121.074913340">
-        <ele>1318.100000</ele>
-        <time>2015-09-06T16:16:41Z</time>
-      </trkpt>
-      <trkpt lat="43.188514905" lon="-121.074217139">
-        <ele>1319.070000</ele>
-        <time>2015-09-06T16:24:01Z</time>
-      </trkpt>
-      <trkpt lat="43.189170035" lon="-121.073528063">
-        <ele>1318.590000</ele>
-        <time>2015-09-06T16:24:12Z</time>
-      </trkpt>
-      <trkpt lat="43.189485362" lon="-121.073307618">
-        <ele>1319.550000</ele>
-        <time>2015-09-06T16:24:17Z</time>
-      </trkpt>
-      <trkpt lat="43.190472331" lon="-121.072997404">
-        <ele>1318.100000</ele>
-        <time>2015-09-06T16:24:29Z</time>
-      </trkpt>
-      <trkpt lat="43.190697385" lon="-121.072840914">
-        <ele>1318.100000</ele>
-        <time>2015-09-06T16:24:32Z</time>
-      </trkpt>
-      <trkpt lat="43.190977173" lon="-121.072412347">
-        <ele>1318.100000</ele>
-        <time>2015-09-06T16:24:37Z</time>
-      </trkpt>
       <trkpt lat="43.191015646" lon="-121.072016889">
         <ele>1318.590000</ele>
         <time>2015-09-06T16:24:41Z</time>
-      </trkpt>
-      <trkpt lat="43.190463195" lon="-121.071070824">
-        <ele>1323.390000</ele>
-        <time>2015-09-06T16:24:52Z</time>
-      </trkpt>
-      <trkpt lat="43.190007387" lon="-121.070639826">
-        <ele>1326.760000</ele>
-        <time>2015-09-06T16:25:20Z</time>
       </trkpt>
       <trkpt lat="43.190048626" lon="-121.070406809">
         <ele>1328.680000</ele>
         <time>2015-09-06T16:25:26Z</time>
       </trkpt>
-      <trkpt lat="43.190877093" lon="-121.070265742">
-        <ele>1330.120000</ele>
-        <time>2015-09-06T16:26:20Z</time>
-      </trkpt>
       <trkpt lat="43.195515554" lon="-121.070138086">
         <ele>1332.040000</ele>
         <time>2015-09-06T16:27:12Z</time>
-      </trkpt>
-      <trkpt lat="43.195533659" lon="-121.065966412">
-        <ele>1322.910000</ele>
-        <time>2015-09-06T16:27:45Z</time>
       </trkpt>
       <trkpt lat="43.195635583" lon="-121.064988161">
         <ele>1321.470000</ele>
         <time>2015-09-06T16:27:52Z</time>
       </trkpt>
-      <trkpt lat="43.196472852" lon="-121.062574675">
-        <ele>1323.390000</ele>
-        <time>2015-09-06T16:28:14Z</time>
-      </trkpt>
-      <trkpt lat="43.197140889" lon="-121.061109770">
-        <ele>1321.950000</ele>
-        <time>2015-09-06T16:28:26Z</time>
-      </trkpt>
       <trkpt lat="43.197466945" lon="-121.060542148">
         <ele>1320.990000</ele>
         <time>2015-09-06T16:28:32Z</time>
-      </trkpt>
-      <trkpt lat="43.198037837" lon="-121.060209805">
-        <ele>1320.510000</ele>
-        <time>2015-09-06T16:28:39Z</time>
-      </trkpt>
-      <trkpt lat="43.199134776" lon="-121.060253978">
-        <ele>1320.990000</ele>
-        <time>2015-09-06T16:28:50Z</time>
       </trkpt>
       <trkpt lat="43.206150932" lon="-121.062206542">
         <ele>1334.450000</ele>
         <time>2015-09-06T16:30:03Z</time>
       </trkpt>
-      <trkpt lat="43.206313374" lon="-121.062161364">
-        <ele>1335.410000</ele>
-        <time>2015-09-06T16:30:05Z</time>
-      </trkpt>
       <trkpt lat="43.209218038" lon="-121.059749303">
         <ele>1337.330000</ele>
         <time>2015-09-06T16:30:36Z</time>
-      </trkpt>
-      <trkpt lat="43.214827040" lon="-121.053057862">
-        <ele>1330.120000</ele>
-        <time>2015-09-06T16:31:43Z</time>
-      </trkpt>
-      <trkpt lat="43.214907255" lon="-121.052870192">
-        <ele>1331.560000</ele>
-        <time>2015-09-06T16:31:46Z</time>
-      </trkpt>
-      <trkpt lat="43.215077827" lon="-121.052749408">
-        <ele>1333.010000</ele>
-        <time>2015-09-06T16:31:50Z</time>
       </trkpt>
       <trkpt lat="43.216346009" lon="-121.051202863">
         <ele>1331.080000</ele>
         <time>2015-09-06T16:32:20Z</time>
       </trkpt>
-      <trkpt lat="43.216994349" lon="-121.049793195">
-        <ele>1317.620000</ele>
-        <time>2015-09-06T16:32:38Z</time>
-      </trkpt>
       <trkpt lat="43.217176488" lon="-121.048601540">
         <ele>1314.740000</ele>
         <time>2015-09-06T16:32:54Z</time>
-      </trkpt>
-      <trkpt lat="43.216761164" lon="-121.047756476">
-        <ele>1314.260000</ele>
-        <time>2015-09-06T16:41:08Z</time>
-      </trkpt>
-      <trkpt lat="43.216096479" lon="-121.047004201">
-        <ele>1314.740000</ele>
-        <time>2015-09-06T16:42:48Z</time>
-      </trkpt>
-      <trkpt lat="43.215181343" lon="-121.046376061">
-        <ele>1315.220000</ele>
-        <time>2015-09-06T16:43:12Z</time>
-      </trkpt>
-      <trkpt lat="43.214307195" lon="-121.045388337">
-        <ele>1313.780000</ele>
-        <time>2015-09-06T16:43:28Z</time>
       </trkpt>
       <trkpt lat="43.214076860" lon="-121.045358330">
         <ele>1313.300000</ele>
         <time>2015-09-06T16:43:39Z</time>
       </trkpt>
-      <trkpt lat="43.214114998" lon="-121.045201672">
-        <ele>1313.780000</ele>
-        <time>2015-09-06T16:43:44Z</time>
-      </trkpt>
-      <trkpt lat="43.241170188" lon="-121.044888105">
-        <ele>1325.310000</ele>
-        <time>2015-09-06T16:50:14Z</time>
-      </trkpt>
       <trkpt lat="43.242430408" lon="-121.045062449">
         <ele>1326.760000</ele>
         <time>2015-09-06T16:50:21Z</time>
-      </trkpt>
-      <trkpt lat="43.242743975" lon="-121.045304937">
-        <ele>1328.680000</ele>
-        <time>2015-09-06T16:50:23Z</time>
-      </trkpt>
-      <trkpt lat="43.249390824" lon="-121.054098392">
-        <ele>1351.270000</ele>
-        <time>2015-09-06T16:51:04Z</time>
       </trkpt>
       <trkpt lat="43.250031117" lon="-121.054472812">
         <ele>1349.830000</ele>
         <time>2015-09-06T16:51:08Z</time>
       </trkpt>
-      <trkpt lat="43.343646498" lon="-121.054738434">
-        <ele>1327.720000</ele>
-        <time>2015-09-06T16:56:58Z</time>
-      </trkpt>
-      <trkpt lat="43.355615186" lon="-121.054885704">
-        <ele>1316.660000</ele>
-        <time>2015-09-06T16:58:02Z</time>
-      </trkpt>
       <trkpt lat="43.355989102" lon="-121.054832730">
         <ele>1317.140000</ele>
         <time>2015-09-06T16:58:12Z</time>
-      </trkpt>
-      <trkpt lat="43.356132098" lon="-121.055329945">
-        <ele>1318.100000</ele>
-        <time>2015-09-06T16:58:59Z</time>
-      </trkpt>
-      <trkpt lat="43.356119189" lon="-121.058035959">
-        <ele>1318.590000</ele>
-        <time>2015-09-06T16:59:20Z</time>
       </trkpt>
       <trkpt lat="43.355913833" lon="-121.058052639">
         <ele>1317.620000</ele>
         <time>2015-09-06T16:59:27Z</time>
       </trkpt>
-      <trkpt lat="43.356090104" lon="-121.057357695">
-        <ele>1318.100000</ele>
-        <time>2015-09-06T17:32:04Z</time>
-      </trkpt>
       <trkpt lat="43.356116423" lon="-121.053913822">
         <ele>1318.100000</ele>
         <time>2015-09-06T17:32:27Z</time>
-      </trkpt>
-      <trkpt lat="43.356251288" lon="-121.053796643">
-        <ele>1318.100000</ele>
-        <time>2015-09-06T17:32:29Z</time>
-      </trkpt>
-      <trkpt lat="43.371033361" lon="-121.053945338">
-        <ele>1322.430000</ele>
-        <time>2015-09-06T17:33:38Z</time>
-      </trkpt>
-      <trkpt lat="43.386379620" lon="-121.053697569">
-        <ele>1324.350000</ele>
-        <time>2015-09-06T17:35:03Z</time>
-      </trkpt>
-      <trkpt lat="43.399310382" lon="-121.053777784">
-        <ele>1323.870000</ele>
-        <time>2015-09-06T17:36:06Z</time>
-      </trkpt>
-      <trkpt lat="43.424072452" lon="-121.053768061">
-        <ele>1333.010000</ele>
-        <time>2015-09-06T17:44:12Z</time>
-      </trkpt>
-      <trkpt lat="43.424753482" lon="-121.053847270">
-        <ele>1336.370000</ele>
-        <time>2015-09-06T17:44:18Z</time>
-      </trkpt>
-      <trkpt lat="43.431752957" lon="-121.053911475">
-        <ele>1343.100000</ele>
-        <time>2015-09-06T17:45:27Z</time>
-      </trkpt>
-      <trkpt lat="43.432027549" lon="-121.053828159">
-        <ele>1342.620000</ele>
-        <time>2015-09-06T17:45:37Z</time>
-      </trkpt>
-      <trkpt lat="43.432157384" lon="-121.053892784">
-        <ele>1342.140000</ele>
-        <time>2015-09-06T17:45:44Z</time>
       </trkpt>
       <trkpt lat="43.433467979" lon="-121.053885827">
         <ele>1342.620000</ele>
         <time>2015-09-06T17:46:00Z</time>
       </trkpt>
-      <trkpt lat="43.433640813" lon="-121.053785328">
-        <ele>1343.580000</ele>
-        <time>2015-09-06T17:46:02Z</time>
-      </trkpt>
-      <trkpt lat="43.433886571" lon="-121.053428259">
-        <ele>1345.020000</ele>
-        <time>2015-09-06T17:46:06Z</time>
-      </trkpt>
       <trkpt lat="43.434014479" lon="-121.052849991">
         <ele>1346.460000</ele>
         <time>2015-09-06T17:46:12Z</time>
-      </trkpt>
-      <trkpt lat="43.434337098" lon="-121.052718479">
-        <ele>1346.940000</ele>
-        <time>2015-09-06T17:46:16Z</time>
-      </trkpt>
-      <trkpt lat="43.435229855" lon="-121.052886955">
-        <ele>1346.460000</ele>
-        <time>2015-09-06T17:46:24Z</time>
-      </trkpt>
-      <trkpt lat="43.435753472" lon="-121.053346200">
-        <ele>1346.460000</ele>
-        <time>2015-09-06T17:46:30Z</time>
       </trkpt>
       <trkpt lat="43.436177596" lon="-121.053904854">
         <ele>1346.940000</ele>
         <time>2015-09-06T17:46:37Z</time>
       </trkpt>
-      <trkpt lat="43.436476160" lon="-121.053976268">
-        <ele>1347.430000</ele>
-        <time>2015-09-06T17:46:41Z</time>
-      </trkpt>
-      <trkpt lat="43.437142102" lon="-121.053899992">
-        <ele>1348.390000</ele>
-        <time>2015-09-06T17:46:48Z</time>
-      </trkpt>
-      <trkpt lat="43.437517276" lon="-121.053996300">
-        <ele>1348.870000</ele>
-        <time>2015-09-06T17:46:52Z</time>
-      </trkpt>
-      <trkpt lat="43.439125847" lon="-121.053936202">
-        <ele>1343.100000</ele>
-        <time>2015-09-06T17:47:11Z</time>
-      </trkpt>
-      <trkpt lat="43.439352578" lon="-121.054021362">
-        <ele>1343.580000</ele>
-        <time>2015-09-06T17:47:14Z</time>
-      </trkpt>
-      <trkpt lat="43.440618077" lon="-121.053984817">
-        <ele>1345.020000</ele>
-        <time>2015-09-06T17:47:28Z</time>
-      </trkpt>
-      <trkpt lat="43.441978376" lon="-121.054067714">
-        <ele>1347.430000</ele>
-        <time>2015-09-06T17:47:41Z</time>
-      </trkpt>
-      <trkpt lat="43.442208041" lon="-121.053969227">
-        <ele>1348.390000</ele>
-        <time>2015-09-06T17:47:44Z</time>
-      </trkpt>
-      <trkpt lat="43.444605097" lon="-121.053956654">
-        <ele>1347.910000</ele>
-        <time>2015-09-06T17:48:08Z</time>
-      </trkpt>
-      <trkpt lat="43.444982115" lon="-121.054037791">
-        <ele>1345.980000</ele>
-        <time>2015-09-06T17:48:12Z</time>
-      </trkpt>
-      <trkpt lat="43.454493396" lon="-121.054058997">
-        <ele>1351.270000</ele>
-        <time>2015-09-06T17:49:32Z</time>
-      </trkpt>
-      <trkpt lat="43.455637945" lon="-121.054126471">
-        <ele>1355.600000</ele>
-        <time>2015-09-06T17:49:44Z</time>
-      </trkpt>
-      <trkpt lat="43.461726643" lon="-121.054033516">
-        <ele>1357.520000</ele>
-        <time>2015-09-06T17:50:41Z</time>
-      </trkpt>
-      <trkpt lat="43.471870590" lon="-121.054134266">
-        <ele>1358.960000</ele>
-        <time>2015-09-06T17:52:11Z</time>
-      </trkpt>
-      <trkpt lat="43.472595373" lon="-121.054020356">
-        <ele>1359.920000</ele>
-        <time>2015-09-06T17:52:18Z</time>
-      </trkpt>
-      <trkpt lat="43.476753552" lon="-121.054112054">
-        <ele>1362.330000</ele>
-        <time>2015-09-06T17:52:57Z</time>
-      </trkpt>
-      <trkpt lat="43.477024455" lon="-121.054054974">
-        <ele>1361.840000</ele>
-        <time>2015-09-06T17:53:00Z</time>
-      </trkpt>
-      <trkpt lat="43.482566150" lon="-121.054086071">
-        <ele>1363.770000</ele>
-        <time>2015-09-06T17:53:48Z</time>
-      </trkpt>
       <trkpt lat="43.487998210" lon="-121.054245159">
         <ele>1366.650000</ele>
         <time>2015-09-06T17:54:30Z</time>
-      </trkpt>
-      <trkpt lat="43.489310062" lon="-121.054523941">
-        <ele>1367.610000</ele>
-        <time>2015-09-06T17:54:39Z</time>
-      </trkpt>
-      <trkpt lat="43.492998770" lon="-121.054774309">
-        <ele>1378.190000</ele>
-        <time>2015-09-06T17:55:57Z</time>
-      </trkpt>
-      <trkpt lat="43.499189811" lon="-121.055905698">
-        <ele>1388.280000</ele>
-        <time>2015-09-06T17:56:34Z</time>
       </trkpt>
       <trkpt lat="43.501874031" lon="-121.056295289">
         <ele>1390.680000</ele>
         <time>2015-09-06T17:56:48Z</time>
       </trkpt>
-      <trkpt lat="43.515063459" lon="-121.052600127">
-        <ele>1405.580000</ele>
-        <time>2015-09-06T17:57:51Z</time>
-      </trkpt>
       <trkpt lat="43.517075870" lon="-121.052178685">
         <ele>1409.430000</ele>
         <time>2015-09-06T17:58:01Z</time>
-      </trkpt>
-      <trkpt lat="43.527400279" lon="-121.052831719">
-        <ele>1415.680000</ele>
-        <time>2015-09-06T17:58:50Z</time>
-      </trkpt>
-      <trkpt lat="43.529872606" lon="-121.052903719">
-        <ele>1424.330000</ele>
-        <time>2015-09-06T17:59:02Z</time>
       </trkpt>
       <trkpt lat="43.530684141" lon="-121.053032549">
         <ele>1427.700000</ele>
@@ -608,149 +164,49 @@
         <ele>1436.350000</ele>
         <time>2015-09-06T17:59:35Z</time>
       </trkpt>
-      <trkpt lat="43.571851104" lon="-121.054319255">
-        <ele>1476.720000</ele>
-        <time>2015-09-06T18:02:38Z</time>
-      </trkpt>
-      <trkpt lat="43.580220938" lon="-121.054943707">
-        <ele>1493.550000</ele>
-        <time>2015-09-06T18:03:23Z</time>
-      </trkpt>
-      <trkpt lat="43.587409761" lon="-121.054858631">
-        <ele>1494.990000</ele>
-        <time>2015-09-06T18:04:01Z</time>
-      </trkpt>
       <trkpt lat="43.588564703" lon="-121.054774392">
         <ele>1495.470000</ele>
         <time>2015-09-06T18:04:07Z</time>
-      </trkpt>
-      <trkpt lat="43.594768737" lon="-121.052323272">
-        <ele>1496.910000</ele>
-        <time>2015-09-06T18:04:40Z</time>
       </trkpt>
       <trkpt lat="43.595305681" lon="-121.052045412">
         <ele>1498.830000</ele>
         <time>2015-09-06T18:04:43Z</time>
       </trkpt>
-      <trkpt lat="43.595619332" lon="-121.051763529">
-        <ele>1500.760000</ele>
-        <time>2015-09-06T18:04:45Z</time>
-      </trkpt>
-      <trkpt lat="43.596171029" lon="-121.051037405">
-        <ele>1503.640000</ele>
-        <time>2015-09-06T18:04:49Z</time>
-      </trkpt>
-      <trkpt lat="43.599769548" lon="-121.044911407">
-        <ele>1510.370000</ele>
-        <time>2015-09-06T18:05:18Z</time>
-      </trkpt>
       <trkpt lat="43.601184664" lon="-121.042979714">
         <ele>1510.850000</ele>
         <time>2015-09-06T18:05:28Z</time>
-      </trkpt>
-      <trkpt lat="43.607169511" lon="-121.036680629">
-        <ele>1508.450000</ele>
-        <time>2015-09-06T18:06:04Z</time>
       </trkpt>
       <trkpt lat="43.608248262" lon="-121.035969006">
         <ele>1509.890000</ele>
         <time>2015-09-06T18:06:10Z</time>
       </trkpt>
-      <trkpt lat="43.610573569" lon="-121.035530968">
-        <ele>1516.140000</ele>
-        <time>2015-09-06T18:06:22Z</time>
-      </trkpt>
-      <trkpt lat="43.612825535" lon="-121.034971727">
-        <ele>1518.060000</ele>
-        <time>2015-09-06T18:06:34Z</time>
-      </trkpt>
       <trkpt lat="43.615810666" lon="-121.033480922">
         <ele>1516.620000</ele>
         <time>2015-09-06T18:06:51Z</time>
-      </trkpt>
-      <trkpt lat="43.617954506" lon="-121.031417632">
-        <ele>1518.540000</ele>
-        <time>2015-09-06T18:07:06Z</time>
       </trkpt>
       <trkpt lat="43.619215982" lon="-121.030431166">
         <ele>1519.020000</ele>
         <time>2015-09-06T18:07:14Z</time>
       </trkpt>
-      <trkpt lat="43.619762482" lon="-121.030356232">
-        <ele>1520.940000</ele>
-        <time>2015-09-06T18:07:17Z</time>
-      </trkpt>
       <trkpt lat="43.622477967" lon="-121.030390095">
         <ele>1525.750000</ele>
         <time>2015-09-06T18:07:32Z</time>
-      </trkpt>
-      <trkpt lat="43.623379944" lon="-121.030004108">
-        <ele>1521.420000</ele>
-        <time>2015-09-06T18:07:38Z</time>
       </trkpt>
       <trkpt lat="43.627076950" lon="-121.026840191">
         <ele>1523.350000</ele>
         <time>2015-09-06T18:08:01Z</time>
       </trkpt>
-      <trkpt lat="43.628594577" lon="-121.026160335">
-        <ele>1521.900000</ele>
-        <time>2015-09-06T18:08:09Z</time>
-      </trkpt>
-      <trkpt lat="43.633461446" lon="-121.024906989">
-        <ele>1529.590000</ele>
-        <time>2015-09-06T18:08:33Z</time>
-      </trkpt>
       <trkpt lat="43.635660438" lon="-121.024482278">
         <ele>1532.960000</ele>
         <time>2015-09-06T18:08:44Z</time>
-      </trkpt>
-      <trkpt lat="43.637324329" lon="-121.024728538">
-        <ele>1529.590000</ele>
-        <time>2015-09-06T18:08:52Z</time>
-      </trkpt>
-      <trkpt lat="43.640220864" lon="-121.024905983">
-        <ele>1530.560000</ele>
-        <time>2015-09-06T18:09:06Z</time>
-      </trkpt>
-      <trkpt lat="43.644724125" lon="-121.024126383">
-        <ele>1534.400000</ele>
-        <time>2015-09-06T18:09:28Z</time>
       </trkpt>
       <trkpt lat="43.646710552" lon="-121.023930078">
         <ele>1535.840000</ele>
         <time>2015-09-06T18:09:38Z</time>
       </trkpt>
-      <trkpt lat="43.647274487" lon="-121.024208274">
-        <ele>1534.880000</ele>
-        <time>2015-09-06T18:09:41Z</time>
-      </trkpt>
-      <trkpt lat="43.647769941" lon="-121.024662154">
-        <ele>1535.840000</ele>
-        <time>2015-09-06T18:09:44Z</time>
-      </trkpt>
-      <trkpt lat="43.648018632" lon="-121.025076723">
-        <ele>1535.840000</ele>
-        <time>2015-09-06T18:09:46Z</time>
-      </trkpt>
-      <trkpt lat="43.649049690" lon="-121.027495740">
-        <ele>1537.290000</ele>
-        <time>2015-09-06T18:09:56Z</time>
-      </trkpt>
       <trkpt lat="43.650022326" lon="-121.028814046">
         <ele>1539.210000</ele>
         <time>2015-09-06T18:10:03Z</time>
-      </trkpt>
-      <trkpt lat="43.651340967" lon="-121.029487532">
-        <ele>1539.690000</ele>
-        <time>2015-09-06T18:10:10Z</time>
-      </trkpt>
-      <trkpt lat="43.653298477" lon="-121.029489292">
-        <ele>1542.570000</ele>
-        <time>2015-09-06T18:10:20Z</time>
-      </trkpt>
-      <trkpt lat="43.653643057" lon="-121.029616613">
-        <ele>1542.570000</ele>
-        <time>2015-09-06T18:10:22Z</time>
       </trkpt>
       <trkpt lat="43.654264240" lon="-121.030186582">
         <ele>1543.050000</ele>
@@ -760,18 +216,6 @@
         <ele>1548.340000</ele>
         <time>2015-09-06T18:10:58Z</time>
       </trkpt>
-      <trkpt lat="43.658961626" lon="-121.036699237">
-        <ele>1546.900000</ele>
-        <time>2015-09-06T18:11:00Z</time>
-      </trkpt>
-      <trkpt lat="43.660223354" lon="-121.037430223">
-        <ele>1549.780000</ele>
-        <time>2015-09-06T18:11:07Z</time>
-      </trkpt>
-      <trkpt lat="43.663970064" lon="-121.038629590">
-        <ele>1551.710000</ele>
-        <time>2015-09-06T18:11:26Z</time>
-      </trkpt>
       <trkpt lat="43.667775700" lon="-121.040652394">
         <ele>1553.150000</ele>
         <time>2015-09-06T18:11:46Z</time>
@@ -780,205 +224,37 @@
         <ele>1561.320000</ele>
         <time>2015-09-06T18:12:22Z</time>
       </trkpt>
-      <trkpt lat="43.671403304" lon="-121.043798877">
-        <ele>1561.800000</ele>
-        <time>2015-09-06T18:12:33Z</time>
-      </trkpt>
-      <trkpt lat="43.671398778" lon="-121.043566531">
-        <ele>1563.720000</ele>
-        <time>2015-09-06T18:12:36Z</time>
-      </trkpt>
-      <trkpt lat="43.670787904" lon="-121.042195670">
-        <ele>1573.330000</ele>
-        <time>2015-09-06T18:12:47Z</time>
-      </trkpt>
-      <trkpt lat="43.670416335" lon="-121.040126849">
-        <ele>1582.470000</ele>
-        <time>2015-09-06T18:12:58Z</time>
-      </trkpt>
-      <trkpt lat="43.669669759" lon="-121.038515680">
-        <ele>1581.990000</ele>
-        <time>2015-09-06T18:13:07Z</time>
-      </trkpt>
-      <trkpt lat="43.668571142" lon="-121.036514081">
-        <ele>1580.540000</ele>
-        <time>2015-09-06T18:13:18Z</time>
-      </trkpt>
-      <trkpt lat="43.668090105" lon="-121.034801658">
-        <ele>1580.540000</ele>
-        <time>2015-09-06T18:13:26Z</time>
-      </trkpt>
       <trkpt lat="43.667982649" lon="-121.032925956">
         <ele>1578.620000</ele>
         <time>2015-09-06T18:13:34Z</time>
-      </trkpt>
-      <trkpt lat="43.668280626" lon="-121.030599140">
-        <ele>1577.180000</ele>
-        <time>2015-09-06T18:13:44Z</time>
-      </trkpt>
-      <trkpt lat="43.668541554" lon="-121.029382842">
-        <ele>1576.220000</ele>
-        <time>2015-09-06T18:13:49Z</time>
       </trkpt>
       <trkpt lat="43.668658985" lon="-121.027484005">
         <ele>1574.300000</ele>
         <time>2015-09-06T18:13:57Z</time>
       </trkpt>
-      <trkpt lat="43.667696239" lon="-121.022238191">
-        <ele>1570.930000</ele>
-        <time>2015-09-06T18:14:18Z</time>
-      </trkpt>
-      <trkpt lat="43.667624574" lon="-121.021541571">
-        <ele>1570.930000</ele>
-        <time>2015-09-06T18:14:21Z</time>
-      </trkpt>
-      <trkpt lat="43.667648127" lon="-121.021087943">
-        <ele>1571.890000</ele>
-        <time>2015-09-06T18:14:23Z</time>
-      </trkpt>
       <trkpt lat="43.667799002" lon="-121.020435160">
         <ele>1569.970000</ele>
         <time>2015-09-06T18:14:26Z</time>
-      </trkpt>
-      <trkpt lat="43.668830730" lon="-121.018445715">
-        <ele>1569.970000</ele>
-        <time>2015-09-06T18:14:36Z</time>
-      </trkpt>
-      <trkpt lat="43.669017646" lon="-121.017447766">
-        <ele>1568.530000</ele>
-        <time>2015-09-06T18:14:41Z</time>
-      </trkpt>
-      <trkpt lat="43.669050252" lon="-121.015970707">
-        <ele>1568.050000</ele>
-        <time>2015-09-06T18:14:48Z</time>
-      </trkpt>
-      <trkpt lat="43.669116804" lon="-121.015626211">
-        <ele>1568.050000</ele>
-        <time>2015-09-06T18:14:50Z</time>
-      </trkpt>
-      <trkpt lat="43.669348732" lon="-121.015089350">
-        <ele>1565.160000</ele>
-        <time>2015-09-06T18:15:04Z</time>
-      </trkpt>
-      <trkpt lat="43.669290142" lon="-121.015074179">
-        <ele>1565.640000</ele>
-        <time>2015-09-06T18:16:44Z</time>
-      </trkpt>
-      <trkpt lat="43.669334147" lon="-121.015119357">
-        <ele>1567.090000</ele>
-        <time>2015-09-06T18:19:06Z</time>
       </trkpt>
       <trkpt lat="43.669281676" lon="-121.015029671">
         <ele>1566.610000</ele>
         <time>2015-09-06T18:19:38Z</time>
       </trkpt>
-      <trkpt lat="43.669425007" lon="-121.015182640">
-        <ele>1568.530000</ele>
-        <time>2015-09-06T18:23:27Z</time>
-      </trkpt>
-      <trkpt lat="43.669334901" lon="-121.015095133">
-        <ele>1569.010000</ele>
-        <time>2015-09-06T18:24:29Z</time>
-      </trkpt>
-      <trkpt lat="43.669382930" lon="-121.015149364">
-        <ele>1569.970000</ele>
-        <time>2015-09-06T18:25:22Z</time>
-      </trkpt>
-      <trkpt lat="43.669773359" lon="-121.014855495">
-        <ele>1571.410000</ele>
-        <time>2015-09-06T18:26:15Z</time>
-      </trkpt>
-      <trkpt lat="43.671606146" lon="-121.014058460">
-        <ele>1582.950000</ele>
-        <time>2015-09-06T18:26:30Z</time>
-      </trkpt>
-      <trkpt lat="43.671996156" lon="-121.013991153">
-        <ele>1585.350000</ele>
-        <time>2015-09-06T18:26:33Z</time>
-      </trkpt>
-      <trkpt lat="43.672732841" lon="-121.014221488">
-        <ele>1589.680000</ele>
-        <time>2015-09-06T18:26:39Z</time>
-      </trkpt>
-      <trkpt lat="43.673415128" lon="-121.014097184">
-        <ele>1592.560000</ele>
-        <time>2015-09-06T18:26:45Z</time>
-      </trkpt>
-      <trkpt lat="43.673819471" lon="-121.013912112">
-        <ele>1595.450000</ele>
-        <time>2015-09-06T18:26:49Z</time>
-      </trkpt>
       <trkpt lat="43.674975000" lon="-121.012967220">
         <ele>1606.020000</ele>
         <time>2015-09-06T18:27:01Z</time>
-      </trkpt>
-      <trkpt lat="43.675206425" lon="-121.012938134">
-        <ele>1608.420000</ele>
-        <time>2015-09-06T18:27:03Z</time>
-      </trkpt>
-      <trkpt lat="43.677817220" lon="-121.013744138">
-        <ele>1625.730000</ele>
-        <time>2015-09-06T18:27:24Z</time>
-      </trkpt>
-      <trkpt lat="43.678318039" lon="-121.013624193">
-        <ele>1628.610000</ele>
-        <time>2015-09-06T18:27:28Z</time>
-      </trkpt>
-      <trkpt lat="43.679029075" lon="-121.013221024">
-        <ele>1635.340000</ele>
-        <time>2015-09-06T18:27:34Z</time>
-      </trkpt>
-      <trkpt lat="43.679424701" lon="-121.013211301">
-        <ele>1638.220000</ele>
-        <time>2015-09-06T18:27:37Z</time>
-      </trkpt>
-      <trkpt lat="43.680303963" lon="-121.013483293">
-        <ele>1642.550000</ele>
-        <time>2015-09-06T18:27:43Z</time>
-      </trkpt>
-      <trkpt lat="43.681632662" lon="-121.014158623">
-        <ele>1651.200000</ele>
-        <time>2015-09-06T18:27:53Z</time>
       </trkpt>
       <trkpt lat="43.682177989" lon="-121.014283346">
         <ele>1656.970000</ele>
         <time>2015-09-06T18:27:57Z</time>
       </trkpt>
-      <trkpt lat="43.683887562" lon="-121.015946148">
-        <ele>1666.100000</ele>
-        <time>2015-09-06T18:28:11Z</time>
-      </trkpt>
       <trkpt lat="43.684171038" lon="-121.016130717">
         <ele>1666.100000</ele>
         <time>2015-09-06T18:28:13Z</time>
       </trkpt>
-      <trkpt lat="43.687694119" lon="-121.017119698">
-        <ele>1682.930000</ele>
-        <time>2015-09-06T18:28:36Z</time>
-      </trkpt>
-      <trkpt lat="43.688990548" lon="-121.017379789">
-        <ele>1680.520000</ele>
-        <time>2015-09-06T18:28:46Z</time>
-      </trkpt>
       <trkpt lat="43.689585496" lon="-121.017402755">
         <ele>1677.160000</ele>
         <time>2015-09-06T18:28:52Z</time>
-      </trkpt>
-      <trkpt lat="43.690520916" lon="-121.017226232">
-        <ele>1670.910000</ele>
-        <time>2015-09-06T18:28:59Z</time>
-      </trkpt>
-      <trkpt lat="43.691541329" lon="-121.017160853">
-        <ele>1664.660000</ele>
-        <time>2015-09-06T18:29:06Z</time>
-      </trkpt>
-      <trkpt lat="43.692527208" lon="-121.016902272">
-        <ele>1659.370000</ele>
-        <time>2015-09-06T18:29:13Z</time>
-      </trkpt>
-      <trkpt lat="43.693304798" lon="-121.016548472">
-        <ele>1652.640000</ele>
-        <time>2015-09-06T18:29:19Z</time>
       </trkpt>
       <trkpt lat="43.693695394" lon="-121.016519973">
         <ele>1650.240000</ele>
@@ -988,437 +264,81 @@
         <ele>1616.590000</ele>
         <time>2015-09-06T18:30:02Z</time>
       </trkpt>
-      <trkpt lat="43.698461847" lon="-121.019471325">
-        <ele>1616.110000</ele>
-        <time>2015-09-06T18:30:16Z</time>
-      </trkpt>
-      <trkpt lat="43.699162742" lon="-121.017345088">
-        <ele>1619.960000</ele>
-        <time>2015-09-06T18:30:29Z</time>
-      </trkpt>
       <trkpt lat="43.699298026" lon="-121.016607899">
         <ele>1616.590000</ele>
         <time>2015-09-06T18:30:40Z</time>
-      </trkpt>
-      <trkpt lat="43.700378956" lon="-121.015251204">
-        <ele>1611.310000</ele>
-        <time>2015-09-06T18:31:01Z</time>
-      </trkpt>
-      <trkpt lat="43.701987527" lon="-121.012913072">
-        <ele>1598.330000</ele>
-        <time>2015-09-06T18:31:19Z</time>
-      </trkpt>
-      <trkpt lat="43.702991260" lon="-121.011630557">
-        <ele>1592.080000</ele>
-        <time>2015-09-06T18:31:28Z</time>
-      </trkpt>
-      <trkpt lat="43.703828529" lon="-121.010125419">
-        <ele>1585.830000</ele>
-        <time>2015-09-06T18:31:38Z</time>
       </trkpt>
       <trkpt lat="43.704115944" lon="-121.009822413">
         <ele>1586.310000</ele>
         <time>2015-09-06T18:31:41Z</time>
       </trkpt>
-      <trkpt lat="43.704306716" lon="-121.009335089">
-        <ele>1585.350000</ele>
-        <time>2015-09-06T18:31:44Z</time>
-      </trkpt>
-      <trkpt lat="43.704561274" lon="-121.008193726">
-        <ele>1582.950000</ele>
-        <time>2015-09-06T18:31:51Z</time>
-      </trkpt>
-      <trkpt lat="43.704444515" lon="-121.007109359">
-        <ele>1577.660000</ele>
-        <time>2015-09-06T18:31:57Z</time>
-      </trkpt>
-      <trkpt lat="43.704471420" lon="-121.006758157">
-        <ele>1576.700000</ele>
-        <time>2015-09-06T18:31:59Z</time>
-      </trkpt>
       <trkpt lat="43.704648446" lon="-121.006107470">
         <ele>1572.850000</ele>
         <time>2015-09-06T18:32:03Z</time>
-      </trkpt>
-      <trkpt lat="43.704930497" lon="-121.005715197">
-        <ele>1569.970000</ele>
-        <time>2015-09-06T18:32:06Z</time>
-      </trkpt>
-      <trkpt lat="43.705889639" lon="-121.005191328">
-        <ele>1564.200000</ele>
-        <time>2015-09-06T18:32:13Z</time>
-      </trkpt>
-      <trkpt lat="43.706505038" lon="-121.005235584">
-        <ele>1561.800000</ele>
-        <time>2015-09-06T18:32:18Z</time>
-      </trkpt>
-      <trkpt lat="43.707035445" lon="-121.005091583">
-        <ele>1560.360000</ele>
-        <time>2015-09-06T18:32:22Z</time>
       </trkpt>
       <trkpt lat="43.707968350" lon="-121.005130559">
         <ele>1556.510000</ele>
         <time>2015-09-06T18:32:29Z</time>
       </trkpt>
-      <trkpt lat="43.708831100" lon="-121.005745539">
-        <ele>1552.670000</ele>
-        <time>2015-09-06T18:32:38Z</time>
-      </trkpt>
-      <trkpt lat="43.709486816" lon="-121.005908316">
-        <ele>1549.300000</ele>
-        <time>2015-09-06T18:32:43Z</time>
-      </trkpt>
-      <trkpt lat="43.710730271" lon="-121.007063510">
-        <ele>1542.570000</ele>
-        <time>2015-09-06T18:32:54Z</time>
-      </trkpt>
-      <trkpt lat="43.711357154" lon="-121.007384872">
-        <ele>1537.290000</ele>
-        <time>2015-09-06T18:32:59Z</time>
-      </trkpt>
       <trkpt lat="43.711718498" lon="-121.007451760">
         <ele>1534.400000</ele>
         <time>2015-09-06T18:33:02Z</time>
-      </trkpt>
-      <trkpt lat="43.712181179" lon="-121.007209523">
-        <ele>1532.000000</ele>
-        <time>2015-09-06T18:33:06Z</time>
-      </trkpt>
-      <trkpt lat="43.712740000" lon="-121.006564116">
-        <ele>1526.710000</ele>
-        <time>2015-09-06T18:33:11Z</time>
       </trkpt>
       <trkpt lat="43.713483391" lon="-121.005211696">
         <ele>1519.500000</ele>
         <time>2015-09-06T18:33:26Z</time>
       </trkpt>
-      <trkpt lat="43.713441063" lon="-121.005252684">
-        <ele>1519.500000</ele>
-        <time>2015-09-06T18:33:42Z</time>
-      </trkpt>
-      <trkpt lat="43.712906549" lon="-121.004788242">
-        <ele>1521.900000</ele>
-        <time>2015-09-06T18:34:06Z</time>
-      </trkpt>
-      <trkpt lat="43.712543193" lon="-121.004127413">
-        <ele>1519.500000</ele>
-        <time>2015-09-06T18:34:11Z</time>
-      </trkpt>
       <trkpt lat="43.711632667" lon="-121.001316626">
         <ele>1519.020000</ele>
         <time>2015-09-06T18:34:27Z</time>
-      </trkpt>
-      <trkpt lat="43.711533342" lon="-121.000058418">
-        <ele>1515.660000</ele>
-        <time>2015-09-06T18:34:34Z</time>
-      </trkpt>
-      <trkpt lat="43.711156324" lon="-120.997927068">
-        <ele>1516.140000</ele>
-        <time>2015-09-06T18:34:45Z</time>
       </trkpt>
       <trkpt lat="43.711163281" lon="-120.997353997">
         <ele>1514.690000</ele>
         <time>2015-09-06T18:34:48Z</time>
       </trkpt>
-      <trkpt lat="43.711387329" lon="-120.996395024">
-        <ele>1512.290000</ele>
-        <time>2015-09-06T18:34:53Z</time>
-      </trkpt>
-      <trkpt lat="43.711689496" lon="-120.995654734">
-        <ele>1510.850000</ele>
-        <time>2015-09-06T18:34:57Z</time>
-      </trkpt>
-      <trkpt lat="43.712353511" lon="-120.994372638">
-        <ele>1502.680000</ele>
-        <time>2015-09-06T18:35:09Z</time>
-      </trkpt>
-      <trkpt lat="43.712243624" lon="-120.993688256">
-        <ele>1497.870000</ele>
-        <time>2015-09-06T18:35:14Z</time>
-      </trkpt>
       <trkpt lat="43.712159218" lon="-120.993523467">
         <ele>1496.910000</ele>
         <time>2015-09-06T18:35:16Z</time>
-      </trkpt>
-      <trkpt lat="43.712023431" lon="-120.993468147">
-        <ele>1496.430000</ele>
-        <time>2015-09-06T18:35:18Z</time>
-      </trkpt>
-      <trkpt lat="43.711408451" lon="-120.993817169">
-        <ele>1497.390000</ele>
-        <time>2015-09-06T18:35:26Z</time>
-      </trkpt>
-      <trkpt lat="43.711116426" lon="-120.994217657">
-        <ele>1498.350000</ele>
-        <time>2015-09-06T18:35:30Z</time>
       </trkpt>
       <trkpt lat="43.710605297" lon="-120.994462911">
         <ele>1498.830000</ele>
         <time>2015-09-06T18:35:36Z</time>
       </trkpt>
-      <trkpt lat="43.710146220" lon="-120.994176250">
-        <ele>1501.240000</ele>
-        <time>2015-09-06T18:35:42Z</time>
-      </trkpt>
       <trkpt lat="43.709929297" lon="-120.993814990">
         <ele>1502.680000</ele>
         <time>2015-09-06T18:35:45Z</time>
-      </trkpt>
-      <trkpt lat="43.709765095" lon="-120.992006846">
-        <ele>1501.240000</ele>
-        <time>2015-09-06T18:35:56Z</time>
-      </trkpt>
-      <trkpt lat="43.709666440" lon="-120.991554139">
-        <ele>1499.790000</ele>
-        <time>2015-09-06T18:35:59Z</time>
-      </trkpt>
-      <trkpt lat="43.709425544" lon="-120.989030180">
-        <ele>1496.910000</ele>
-        <time>2015-09-06T18:36:13Z</time>
-      </trkpt>
-      <trkpt lat="43.708902430" lon="-120.985969780">
-        <ele>1492.100000</ele>
-        <time>2015-09-06T18:36:32Z</time>
-      </trkpt>
-      <trkpt lat="43.709033607" lon="-120.984793296">
-        <ele>1492.580000</ele>
-        <time>2015-09-06T18:36:39Z</time>
-      </trkpt>
-      <trkpt lat="43.709001420" lon="-120.984261800">
-        <ele>1493.550000</ele>
-        <time>2015-09-06T18:36:43Z</time>
       </trkpt>
       <trkpt lat="43.708488448" lon="-120.983051201">
         <ele>1494.990000</ele>
         <time>2015-09-06T18:36:53Z</time>
       </trkpt>
-      <trkpt lat="43.708433965" lon="-120.982600674">
-        <ele>1495.470000</ele>
-        <time>2015-09-06T18:36:56Z</time>
-      </trkpt>
-      <trkpt lat="43.708539745" lon="-120.981130572">
-        <ele>1496.430000</ele>
-        <time>2015-09-06T18:37:05Z</time>
-      </trkpt>
-      <trkpt lat="43.708668156" lon="-120.980692953">
-        <ele>1497.390000</ele>
-        <time>2015-09-06T18:37:08Z</time>
-      </trkpt>
-      <trkpt lat="43.709120946" lon="-120.979786953">
-        <ele>1500.270000</ele>
-        <time>2015-09-06T18:37:15Z</time>
-      </trkpt>
-      <trkpt lat="43.709168639" lon="-120.978125995">
-        <ele>1499.790000</ele>
-        <time>2015-09-06T18:37:25Z</time>
-      </trkpt>
-      <trkpt lat="43.709263857" lon="-120.977466004">
-        <ele>1501.240000</ele>
-        <time>2015-09-06T18:37:29Z</time>
-      </trkpt>
-      <trkpt lat="43.709854614" lon="-120.975877047">
-        <ele>1502.680000</ele>
-        <time>2015-09-06T18:37:40Z</time>
-      </trkpt>
       <trkpt lat="43.710112860" lon="-120.972878672">
         <ele>1502.680000</ele>
         <time>2015-09-06T18:37:57Z</time>
-      </trkpt>
-      <trkpt lat="43.710057708" lon="-120.972424122">
-        <ele>1502.680000</ele>
-        <time>2015-09-06T18:38:00Z</time>
-      </trkpt>
-      <trkpt lat="43.709566528" lon="-120.970876403">
-        <ele>1500.270000</ele>
-        <time>2015-09-06T18:38:11Z</time>
-      </trkpt>
-      <trkpt lat="43.709583124" lon="-120.969864121">
-        <ele>1499.790000</ele>
-        <time>2015-09-06T18:38:18Z</time>
-      </trkpt>
-      <trkpt lat="43.709348515" lon="-120.965566887">
-        <ele>1499.790000</ele>
-        <time>2015-09-06T18:38:45Z</time>
-      </trkpt>
-      <trkpt lat="43.709447924" lon="-120.964365676">
-        <ele>1502.200000</ele>
-        <time>2015-09-06T18:38:54Z</time>
-      </trkpt>
-      <trkpt lat="43.709620005" lon="-120.963724293">
-        <ele>1496.430000</ele>
-        <time>2015-09-06T18:38:59Z</time>
-      </trkpt>
-      <trkpt lat="43.709603576" lon="-120.963283991">
-        <ele>1494.990000</ele>
-        <time>2015-09-06T18:39:03Z</time>
-      </trkpt>
-      <trkpt lat="43.709389167" lon="-120.962668089">
-        <ele>1496.910000</ele>
-        <time>2015-09-06T18:39:08Z</time>
       </trkpt>
       <trkpt lat="43.709420599" lon="-120.962415794">
         <ele>1496.430000</ele>
         <time>2015-09-06T18:39:10Z</time>
       </trkpt>
-      <trkpt lat="43.710003644" lon="-120.961675001">
-        <ele>1499.310000</ele>
-        <time>2015-09-06T18:39:18Z</time>
-      </trkpt>
-      <trkpt lat="43.710225010" lon="-120.961185833">
-        <ele>1500.270000</ele>
-        <time>2015-09-06T18:39:23Z</time>
-      </trkpt>
       <trkpt lat="43.710285947" lon="-120.960883079">
         <ele>1500.760000</ele>
         <time>2015-09-06T18:39:26Z</time>
-      </trkpt>
-      <trkpt lat="43.710147813" lon="-120.960507570">
-        <ele>1501.240000</ele>
-        <time>2015-09-06T18:39:29Z</time>
-      </trkpt>
-      <trkpt lat="43.709699884" lon="-120.959887477">
-        <ele>1502.680000</ele>
-        <time>2015-09-06T18:39:35Z</time>
-      </trkpt>
-      <trkpt lat="43.709692592" lon="-120.959623614">
-        <ele>1504.120000</ele>
-        <time>2015-09-06T18:39:37Z</time>
-      </trkpt>
-      <trkpt lat="43.709815973" lon="-120.959131848">
-        <ele>1505.080000</ele>
-        <time>2015-09-06T18:39:41Z</time>
-      </trkpt>
-      <trkpt lat="43.709912701" lon="-120.957759060">
-        <ele>1507.480000</ele>
-        <time>2015-09-06T18:39:50Z</time>
-      </trkpt>
-      <trkpt lat="43.709886130" lon="-120.957053052">
-        <ele>1507.970000</ele>
-        <time>2015-09-06T18:39:55Z</time>
-      </trkpt>
-      <trkpt lat="43.709729891" lon="-120.955958460">
-        <ele>1509.890000</ele>
-        <time>2015-09-06T18:40:03Z</time>
-      </trkpt>
-      <trkpt lat="43.709782781" lon="-120.955526205">
-        <ele>1507.970000</ele>
-        <time>2015-09-06T18:40:08Z</time>
-      </trkpt>
-      <trkpt lat="43.709607348" lon="-120.955251781">
-        <ele>1507.970000</ele>
-        <time>2015-09-06T18:40:13Z</time>
-      </trkpt>
-      <trkpt lat="43.709588153" lon="-120.954364305">
-        <ele>1508.930000</ele>
-        <time>2015-09-06T18:40:20Z</time>
-      </trkpt>
-      <trkpt lat="43.709358573" lon="-120.953740943">
-        <ele>1509.890000</ele>
-        <time>2015-09-06T18:40:26Z</time>
-      </trkpt>
-      <trkpt lat="43.709392687" lon="-120.953004928">
-        <ele>1508.930000</ele>
-        <time>2015-09-06T18:40:32Z</time>
-      </trkpt>
-      <trkpt lat="43.709330074" lon="-120.952493716">
-        <ele>1509.410000</ele>
-        <time>2015-09-06T18:40:36Z</time>
-      </trkpt>
-      <trkpt lat="43.708800254" lon="-120.951492749">
-        <ele>1510.370000</ele>
-        <time>2015-09-06T18:40:44Z</time>
       </trkpt>
       <trkpt lat="43.708547205" lon="-120.950589683">
         <ele>1508.450000</ele>
         <time>2015-09-06T18:40:52Z</time>
       </trkpt>
-      <trkpt lat="43.708828920" lon="-120.950080566">
-        <ele>1507.000000</ele>
-        <time>2015-09-06T18:40:58Z</time>
-      </trkpt>
-      <trkpt lat="43.708945429" lon="-120.949608414">
-        <ele>1505.080000</ele>
-        <time>2015-09-06T18:41:02Z</time>
-      </trkpt>
-      <trkpt lat="43.708858928" lon="-120.948854797">
-        <ele>1504.120000</ele>
-        <time>2015-09-06T18:41:10Z</time>
-      </trkpt>
-      <trkpt lat="43.709340133" lon="-120.947980983">
-        <ele>1506.040000</ele>
-        <time>2015-09-06T18:41:18Z</time>
-      </trkpt>
-      <trkpt lat="43.709827960" lon="-120.945961950">
-        <ele>1507.480000</ele>
-        <time>2015-09-06T18:41:33Z</time>
-      </trkpt>
-      <trkpt lat="43.710133480" lon="-120.945501952">
-        <ele>1507.000000</ele>
-        <time>2015-09-06T18:41:38Z</time>
-      </trkpt>
       <trkpt lat="43.710379824" lon="-120.944343740">
         <ele>1507.000000</ele>
         <time>2015-09-06T18:42:20Z</time>
-      </trkpt>
-      <trkpt lat="43.710722057" lon="-120.944327144">
-        <ele>1507.970000</ele>
-        <time>2015-09-06T18:42:36Z</time>
-      </trkpt>
-      <trkpt lat="43.711106954" lon="-120.944075938">
-        <ele>1507.970000</ele>
-        <time>2015-09-06T18:42:40Z</time>
-      </trkpt>
-      <trkpt lat="43.711270234" lon="-120.943857674">
-        <ele>1507.480000</ele>
-        <time>2015-09-06T18:42:42Z</time>
-      </trkpt>
-      <trkpt lat="43.711804580" lon="-120.942704491">
-        <ele>1505.560000</ele>
-        <time>2015-09-06T18:42:49Z</time>
-      </trkpt>
-      <trkpt lat="43.713885807" lon="-120.940459063">
-        <ele>1506.040000</ele>
-        <time>2015-09-06T18:43:05Z</time>
-      </trkpt>
-      <trkpt lat="43.714712514" lon="-120.939267827">
-        <ele>1504.600000</ele>
-        <time>2015-09-06T18:43:13Z</time>
-      </trkpt>
-      <trkpt lat="43.715238562" lon="-120.938073490">
-        <ele>1505.080000</ele>
-        <time>2015-09-06T18:43:20Z</time>
-      </trkpt>
-      <trkpt lat="43.715441907" lon="-120.937821195">
-        <ele>1503.160000</ele>
-        <time>2015-09-06T18:43:22Z</time>
       </trkpt>
       <trkpt lat="43.716025874" lon="-120.937358094">
         <ele>1503.160000</ele>
         <time>2015-09-06T18:43:27Z</time>
       </trkpt>
-      <trkpt lat="43.716231734" lon="-120.937363794">
-        <ele>1502.680000</ele>
-        <time>2015-09-06T18:43:29Z</time>
-      </trkpt>
-      <trkpt lat="43.716614284" lon="-120.937712900">
-        <ele>1503.160000</ele>
-        <time>2015-09-06T18:43:33Z</time>
-      </trkpt>
-      <trkpt lat="43.716838080" lon="-120.937773082">
-        <ele>1502.680000</ele>
-        <time>2015-09-06T18:43:35Z</time>
-      </trkpt>
-      <trkpt lat="43.717228677" lon="-120.937629919">
-        <ele>1502.680000</ele>
-        <time>2015-09-06T18:43:39Z</time>
-      </trkpt>
       <trkpt lat="43.717628242" lon="-120.936932294">
         <ele>1503.640000</ele>
         <time>2015-09-06T18:43:44Z</time>
-      </trkpt>
-      <trkpt lat="43.717510980" lon="-120.934697008">
-        <ele>1503.160000</ele>
-        <time>2015-09-06T18:43:55Z</time>
       </trkpt>
       <trkpt lat="43.717611311" lon="-120.934138354">
         <ele>1503.640000</ele>
@@ -1428,49 +348,13 @@
         <ele>1499.790000</ele>
         <time>2015-09-06T18:44:11Z</time>
       </trkpt>
-      <trkpt lat="43.719694214" lon="-120.930966642">
-        <ele>1500.760000</ele>
-        <time>2015-09-06T18:44:20Z</time>
-      </trkpt>
       <trkpt lat="43.721878119" lon="-120.929113487">
         <ele>1496.910000</ele>
         <time>2015-09-06T18:44:40Z</time>
       </trkpt>
-      <trkpt lat="43.722250862" lon="-120.928990524">
-        <ele>1495.470000</ele>
-        <time>2015-09-06T18:44:43Z</time>
-      </trkpt>
-      <trkpt lat="43.723016884" lon="-120.929043917">
-        <ele>1493.060000</ele>
-        <time>2015-09-06T18:44:48Z</time>
-      </trkpt>
       <trkpt lat="43.723739488" lon="-120.928971665">
         <ele>1492.100000</ele>
         <time>2015-09-06T18:44:53Z</time>
-      </trkpt>
-      <trkpt lat="43.723984910" lon="-120.928834369">
-        <ele>1491.620000</ele>
-        <time>2015-09-06T18:44:55Z</time>
-      </trkpt>
-      <trkpt lat="43.727528276" lon="-120.925379349">
-        <ele>1493.060000</ele>
-        <time>2015-09-06T18:45:23Z</time>
-      </trkpt>
-      <trkpt lat="43.729735315" lon="-120.923418067">
-        <ele>1492.100000</ele>
-        <time>2015-09-06T18:45:40Z</time>
-      </trkpt>
-      <trkpt lat="43.730729660" lon="-120.921471287">
-        <ele>1489.700000</ele>
-        <time>2015-09-06T18:45:51Z</time>
-      </trkpt>
-      <trkpt lat="43.731324775" lon="-120.920638209">
-        <ele>1490.660000</ele>
-        <time>2015-09-06T18:45:57Z</time>
-      </trkpt>
-      <trkpt lat="43.732409310" lon="-120.919960281">
-        <ele>1492.100000</ele>
-        <time>2015-09-06T18:46:05Z</time>
       </trkpt>
       <trkpt lat="43.733253954" lon="-120.919056544">
         <ele>1491.620000</ele>
@@ -1480,69 +364,13 @@
         <ele>1491.140000</ele>
         <time>2015-09-06T18:46:21Z</time>
       </trkpt>
-      <trkpt lat="43.733893326" lon="-120.917240269">
-        <ele>1490.660000</ele>
-        <time>2015-09-06T18:46:23Z</time>
-      </trkpt>
-      <trkpt lat="43.734329687" lon="-120.916796029">
-        <ele>1486.340000</ele>
-        <time>2015-09-06T18:46:27Z</time>
-      </trkpt>
-      <trkpt lat="43.735019518" lon="-120.916338796">
-        <ele>1486.820000</ele>
-        <time>2015-09-06T18:46:33Z</time>
-      </trkpt>
-      <trkpt lat="43.735997519" lon="-120.916282805">
-        <ele>1486.820000</ele>
-        <time>2015-09-06T18:46:40Z</time>
-      </trkpt>
-      <trkpt lat="43.736238498" lon="-120.916119106">
-        <ele>1486.340000</ele>
-        <time>2015-09-06T18:46:42Z</time>
-      </trkpt>
-      <trkpt lat="43.737478768" lon="-120.914746737">
-        <ele>1483.450000</ele>
-        <time>2015-09-06T18:46:53Z</time>
-      </trkpt>
       <trkpt lat="43.737706756" lon="-120.914628552">
         <ele>1482.970000</ele>
         <time>2015-09-06T18:46:55Z</time>
       </trkpt>
-      <trkpt lat="43.740797415" lon="-120.914974893">
-        <ele>1479.130000</ele>
-        <time>2015-09-06T18:47:16Z</time>
-      </trkpt>
-      <trkpt lat="43.741137218" lon="-120.914805075">
-        <ele>1476.720000</ele>
-        <time>2015-09-06T18:47:19Z</time>
-      </trkpt>
-      <trkpt lat="43.741735434" lon="-120.914205350">
-        <ele>1475.760000</ele>
-        <time>2015-09-06T18:47:25Z</time>
-      </trkpt>
-      <trkpt lat="43.742347732" lon="-120.914110215">
-        <ele>1475.760000</ele>
-        <time>2015-09-06T18:47:30Z</time>
-      </trkpt>
       <trkpt lat="43.743833341" lon="-120.914216079">
         <ele>1475.760000</ele>
         <time>2015-09-06T18:47:40Z</time>
-      </trkpt>
-      <trkpt lat="43.744692570" lon="-120.914430320">
-        <ele>1475.760000</ele>
-        <time>2015-09-06T18:47:46Z</time>
-      </trkpt>
-      <trkpt lat="43.745207889" lon="-120.914701978">
-        <ele>1476.240000</ele>
-        <time>2015-09-06T18:47:50Z</time>
-      </trkpt>
-      <trkpt lat="43.745924458" lon="-120.915388707">
-        <ele>1479.610000</ele>
-        <time>2015-09-06T18:47:56Z</time>
-      </trkpt>
-      <trkpt lat="43.746193517" lon="-120.915549053">
-        <ele>1481.050000</ele>
-        <time>2015-09-06T18:47:58Z</time>
       </trkpt>
       <trkpt lat="43.748635584" lon="-120.916392524">
         <ele>1483.930000</ele>
@@ -1552,661 +380,149 @@
         <ele>1483.450000</ele>
         <time>2015-09-06T18:48:31Z</time>
       </trkpt>
-      <trkpt lat="43.751622811" lon="-120.915651815">
-        <ele>1483.930000</ele>
-        <time>2015-09-06T18:48:36Z</time>
-      </trkpt>
-      <trkpt lat="43.752199905" lon="-120.914886631">
-        <ele>1479.610000</ele>
-        <time>2015-09-06T18:48:42Z</time>
-      </trkpt>
       <trkpt lat="43.752379110" lon="-120.914746737">
         <ele>1477.680000</ele>
         <time>2015-09-06T18:48:44Z</time>
-      </trkpt>
-      <trkpt lat="43.752582371" lon="-120.914747240">
-        <ele>1477.200000</ele>
-        <time>2015-09-06T18:48:46Z</time>
-      </trkpt>
-      <trkpt lat="43.754006876" lon="-120.915535642">
-        <ele>1473.360000</ele>
-        <time>2015-09-06T18:48:58Z</time>
-      </trkpt>
-      <trkpt lat="43.754424043" lon="-120.915582580">
-        <ele>1471.440000</ele>
-        <time>2015-09-06T18:49:01Z</time>
       </trkpt>
       <trkpt lat="43.756049965" lon="-120.915296506">
         <ele>1470.950000</ele>
         <time>2015-09-06T18:49:13Z</time>
       </trkpt>
-      <trkpt lat="43.759163171" lon="-120.913403872">
-        <ele>1474.320000</ele>
-        <time>2015-09-06T19:54:04Z</time>
-      </trkpt>
       <trkpt lat="43.759460729" lon="-120.913121486">
         <ele>1476.240000</ele>
         <time>2015-09-06T19:54:07Z</time>
-      </trkpt>
-      <trkpt lat="43.759845793" lon="-120.912440289">
-        <ele>1480.090000</ele>
-        <time>2015-09-06T19:54:12Z</time>
-      </trkpt>
-      <trkpt lat="43.760451386" lon="-120.910462746">
-        <ele>1492.580000</ele>
-        <time>2015-09-06T19:54:22Z</time>
       </trkpt>
       <trkpt lat="43.760727989" lon="-120.910001574">
         <ele>1494.990000</ele>
         <time>2015-09-06T19:54:25Z</time>
       </trkpt>
-      <trkpt lat="43.761453023" lon="-120.909477118">
-        <ele>1501.240000</ele>
-        <time>2015-09-06T19:54:34Z</time>
-      </trkpt>
-      <trkpt lat="43.761682604" lon="-120.909214765">
-        <ele>1503.160000</ele>
-        <time>2015-09-06T19:54:38Z</time>
-      </trkpt>
-      <trkpt lat="43.763447916" lon="-120.906148413">
-        <ele>1524.790000</ele>
-        <time>2015-09-06T19:55:05Z</time>
-      </trkpt>
-      <trkpt lat="43.764670920" lon="-120.904534981">
-        <ele>1538.730000</ele>
-        <time>2015-09-06T19:55:20Z</time>
-      </trkpt>
       <trkpt lat="43.765333006" lon="-120.903945062">
         <ele>1544.500000</ele>
         <time>2015-09-06T19:55:28Z</time>
-      </trkpt>
-      <trkpt lat="43.765872046" lon="-120.903683966">
-        <ele>1549.780000</ele>
-        <time>2015-09-06T19:55:34Z</time>
-      </trkpt>
-      <trkpt lat="43.766674614" lon="-120.903502582">
-        <ele>1556.030000</ele>
-        <time>2015-09-06T19:55:42Z</time>
       </trkpt>
       <trkpt lat="43.767212145" lon="-120.903609619">
         <ele>1559.400000</ele>
         <time>2015-09-06T19:55:47Z</time>
       </trkpt>
-      <trkpt lat="43.767680693" lon="-120.903942967">
-        <ele>1564.200000</ele>
-        <time>2015-09-06T19:55:52Z</time>
-      </trkpt>
-      <trkpt lat="43.768111775" lon="-120.904503381">
-        <ele>1569.490000</ele>
-        <time>2015-09-06T19:55:57Z</time>
-      </trkpt>
-      <trkpt lat="43.768752655" lon="-120.905070500">
-        <ele>1574.780000</ele>
-        <time>2015-09-06T19:56:04Z</time>
-      </trkpt>
       <trkpt lat="43.769385405" lon="-120.905411979">
         <ele>1579.580000</ele>
         <time>2015-09-06T19:56:12Z</time>
-      </trkpt>
-      <trkpt lat="43.769935090" lon="-120.905201007">
-        <ele>1584.390000</ele>
-        <time>2015-09-06T19:56:18Z</time>
-      </trkpt>
-      <trkpt lat="43.770770766" lon="-120.905220788">
-        <ele>1591.600000</ele>
-        <time>2015-09-06T19:56:26Z</time>
-      </trkpt>
-      <trkpt lat="43.772727940" lon="-120.906090410">
-        <ele>1607.460000</ele>
-        <time>2015-09-06T19:56:45Z</time>
       </trkpt>
       <trkpt lat="43.773152903" lon="-120.906352093">
         <ele>1610.830000</ele>
         <time>2015-09-06T19:56:50Z</time>
       </trkpt>
-      <trkpt lat="43.773307549" lon="-120.906550074">
-        <ele>1612.270000</ele>
-        <time>2015-09-06T19:56:52Z</time>
-      </trkpt>
-      <trkpt lat="43.773763692" lon="-120.907702837">
-        <ele>1620.440000</ele>
-        <time>2015-09-06T19:57:01Z</time>
-      </trkpt>
-      <trkpt lat="43.775140001" lon="-120.910107270">
-        <ele>1637.260000</ele>
-        <time>2015-09-06T19:57:32Z</time>
-      </trkpt>
-      <trkpt lat="43.776448583" lon="-120.911671165">
-        <ele>1653.120000</ele>
-        <time>2015-09-06T19:57:53Z</time>
-      </trkpt>
-      <trkpt lat="43.776793331" lon="-120.912428889">
-        <ele>1657.450000</ele>
-        <time>2015-09-06T19:57:58Z</time>
-      </trkpt>
-      <trkpt lat="43.777450724" lon="-120.914849080">
-        <ele>1673.790000</ele>
-        <time>2015-09-06T19:58:14Z</time>
-      </trkpt>
-      <trkpt lat="43.777753310" lon="-120.915500689">
-        <ele>1677.160000</ele>
-        <time>2015-09-06T19:58:19Z</time>
-      </trkpt>
       <trkpt lat="43.778319173" lon="-120.916296216">
         <ele>1682.930000</ele>
         <time>2015-09-06T19:58:27Z</time>
-      </trkpt>
-      <trkpt lat="43.779590959" lon="-120.917305900">
-        <ele>1693.980000</ele>
-        <time>2015-09-06T19:58:45Z</time>
-      </trkpt>
-      <trkpt lat="43.780318005" lon="-120.918023223">
-        <ele>1700.710000</ele>
-        <time>2015-09-06T19:58:54Z</time>
-      </trkpt>
-      <trkpt lat="43.781712670" lon="-120.918949675">
-        <ele>1711.280000</ele>
-        <time>2015-09-06T19:59:08Z</time>
       </trkpt>
       <trkpt lat="43.782565864" lon="-120.919675045">
         <ele>1719.940000</ele>
         <time>2015-09-06T19:59:17Z</time>
       </trkpt>
-      <trkpt lat="43.784217769" lon="-120.920580542">
-        <ele>1732.430000</ele>
-        <time>2015-09-06T19:59:32Z</time>
-      </trkpt>
-      <trkpt lat="43.784760833" lon="-120.920758741">
-        <ele>1737.720000</ele>
-        <time>2015-09-06T19:59:38Z</time>
-      </trkpt>
-      <trkpt lat="43.789226292" lon="-120.923017496">
-        <ele>1774.250000</ele>
-        <time>2015-09-06T20:00:22Z</time>
-      </trkpt>
       <trkpt lat="43.789575817" lon="-120.923105087">
         <ele>1777.130000</ele>
         <time>2015-09-06T20:00:25Z</time>
-      </trkpt>
-      <trkpt lat="43.790295990" lon="-120.922932001">
-        <ele>1782.900000</ele>
-        <time>2015-09-06T20:00:31Z</time>
-      </trkpt>
-      <trkpt lat="43.791011469" lon="-120.922954464">
-        <ele>1788.190000</ele>
-        <time>2015-09-06T20:00:37Z</time>
       </trkpt>
       <trkpt lat="43.793039471" lon="-120.923335422">
         <ele>1807.420000</ele>
         <time>2015-09-06T20:00:56Z</time>
       </trkpt>
-      <trkpt lat="43.793016840" lon="-120.923506748">
-        <ele>1809.820000</ele>
-        <time>2015-09-06T20:00:59Z</time>
-      </trkpt>
-      <trkpt lat="43.792638145" lon="-120.923778322">
-        <ele>1812.700000</ele>
-        <time>2015-09-06T20:01:04Z</time>
-      </trkpt>
-      <trkpt lat="43.791291006" lon="-120.924318451">
-        <ele>1818.950000</ele>
-        <time>2015-09-06T20:01:17Z</time>
-      </trkpt>
       <trkpt lat="43.790802341" lon="-120.924394475">
         <ele>1821.840000</ele>
         <time>2015-09-06T20:01:23Z</time>
-      </trkpt>
-      <trkpt lat="43.790871408" lon="-120.924617602">
-        <ele>1824.720000</ele>
-        <time>2015-09-06T20:01:29Z</time>
-      </trkpt>
-      <trkpt lat="43.791354373" lon="-120.924864281">
-        <ele>1830.010000</ele>
-        <time>2015-09-06T20:01:36Z</time>
-      </trkpt>
-      <trkpt lat="43.791796854" lon="-120.925263427">
-        <ele>1831.930000</ele>
-        <time>2015-09-06T20:01:41Z</time>
       </trkpt>
       <trkpt lat="43.791982764" lon="-120.925609432">
         <ele>1834.810000</ele>
         <time>2015-09-06T20:01:44Z</time>
       </trkpt>
-      <trkpt lat="43.791980669" lon="-120.925855692">
-        <ele>1835.770000</ele>
-        <time>2015-09-06T20:01:46Z</time>
-      </trkpt>
       <trkpt lat="43.790999735" lon="-120.929765096">
         <ele>1846.830000</ele>
         <time>2015-09-06T20:02:06Z</time>
-      </trkpt>
-      <trkpt lat="43.791064946" lon="-120.930603538">
-        <ele>1849.710000</ele>
-        <time>2015-09-06T20:02:10Z</time>
-      </trkpt>
-      <trkpt lat="43.791270051" lon="-120.931470562">
-        <ele>1853.080000</ele>
-        <time>2015-09-06T20:02:14Z</time>
       </trkpt>
       <trkpt lat="43.791846307" lon="-120.932990368">
         <ele>1856.920000</ele>
         <time>2015-09-06T20:02:23Z</time>
       </trkpt>
-      <trkpt lat="43.791638771" lon="-120.934297945">
-        <ele>1857.890000</ele>
-        <time>2015-09-06T20:03:12Z</time>
-      </trkpt>
-      <trkpt lat="43.791683028" lon="-120.934284702">
-        <ele>1858.370000</ele>
-        <time>2015-09-06T20:03:41Z</time>
-      </trkpt>
-      <trkpt lat="43.791714879" lon="-120.934768086">
-        <ele>1860.770000</ele>
-        <time>2015-09-06T20:04:15Z</time>
-      </trkpt>
-      <trkpt lat="43.791345572" lon="-120.936104413">
-        <ele>1865.580000</ele>
-        <time>2015-09-06T20:04:24Z</time>
-      </trkpt>
-      <trkpt lat="43.791156057" lon="-120.936515126">
-        <ele>1866.060000</ele>
-        <time>2015-09-06T20:04:27Z</time>
-      </trkpt>
-      <trkpt lat="43.790579299" lon="-120.937325489">
-        <ele>1867.020000</ele>
-        <time>2015-09-06T20:04:34Z</time>
-      </trkpt>
-      <trkpt lat="43.790441751" lon="-120.937781548">
-        <ele>1867.500000</ele>
-        <time>2015-09-06T20:04:37Z</time>
-      </trkpt>
       <trkpt lat="43.790362794" lon="-120.939158611">
         <ele>1870.380000</ele>
         <time>2015-09-06T20:04:45Z</time>
-      </trkpt>
-      <trkpt lat="43.790452816" lon="-120.939910216">
-        <ele>1873.750000</ele>
-        <time>2015-09-06T20:04:49Z</time>
-      </trkpt>
-      <trkpt lat="43.790856907" lon="-120.941781560">
-        <ele>1879.510000</ele>
-        <time>2015-09-06T20:05:01Z</time>
-      </trkpt>
-      <trkpt lat="43.791238284" lon="-120.942627881">
-        <ele>1885.760000</ele>
-        <time>2015-09-06T20:07:37Z</time>
-      </trkpt>
-      <trkpt lat="43.790992778" lon="-120.942771630">
-        <ele>1885.280000</ele>
-        <time>2015-09-06T20:07:48Z</time>
-      </trkpt>
-      <trkpt lat="43.790961513" lon="-120.942937257">
-        <ele>1885.760000</ele>
-        <time>2015-09-06T20:07:53Z</time>
-      </trkpt>
-      <trkpt lat="43.791082297" lon="-120.943063572">
-        <ele>1886.240000</ele>
-        <time>2015-09-06T20:08:00Z</time>
-      </trkpt>
-      <trkpt lat="43.791087409" lon="-120.942996433">
-        <ele>1887.210000</ele>
-        <time>2015-09-06T20:09:08Z</time>
-      </trkpt>
-      <trkpt lat="43.790904349" lon="-120.943079498">
-        <ele>1888.170000</ele>
-        <time>2015-09-06T21:12:48Z</time>
-      </trkpt>
-      <trkpt lat="43.790957658" lon="-120.942936251">
-        <ele>1894.420000</ele>
-        <time>2015-09-06T21:13:19Z</time>
-      </trkpt>
-      <trkpt lat="43.790943073" lon="-120.943012023">
-        <ele>1901.140000</ele>
-        <time>2015-09-06T21:13:36Z</time>
-      </trkpt>
-      <trkpt lat="43.790908959" lon="-120.942795603">
-        <ele>1902.110000</ele>
-        <time>2015-09-06T21:13:43Z</time>
-      </trkpt>
-      <trkpt lat="43.791153962" lon="-120.942580020">
-        <ele>1903.550000</ele>
-        <time>2015-09-06T21:13:50Z</time>
-      </trkpt>
-      <trkpt lat="43.791627875" lon="-120.943291225">
-        <ele>1901.630000</ele>
-        <time>2015-09-06T21:14:04Z</time>
-      </trkpt>
-      <trkpt lat="43.792583076" lon="-120.945532210">
-        <ele>1888.170000</ele>
-        <time>2015-09-06T21:14:31Z</time>
       </trkpt>
       <trkpt lat="43.792807963" lon="-120.945852902">
         <ele>1886.240000</ele>
         <time>2015-09-06T21:14:34Z</time>
       </trkpt>
-      <trkpt lat="43.793352870" lon="-120.946305944">
-        <ele>1882.880000</ele>
-        <time>2015-09-06T21:14:39Z</time>
-      </trkpt>
-      <trkpt lat="43.793601729" lon="-120.946391439">
-        <ele>1880.960000</ele>
-        <time>2015-09-06T21:14:41Z</time>
-      </trkpt>
-      <trkpt lat="43.794565899" lon="-120.946142161">
-        <ele>1873.270000</ele>
-        <time>2015-09-06T21:14:48Z</time>
-      </trkpt>
-      <trkpt lat="43.794835880" lon="-120.946190525">
-        <ele>1872.300000</ele>
-        <time>2015-09-06T21:14:50Z</time>
-      </trkpt>
-      <trkpt lat="43.795559322" lon="-120.946829729">
-        <ele>1869.420000</ele>
-        <time>2015-09-06T21:14:56Z</time>
-      </trkpt>
-      <trkpt lat="43.796165418" lon="-120.947558200">
-        <ele>1865.580000</ele>
-        <time>2015-09-06T21:15:02Z</time>
-      </trkpt>
-      <trkpt lat="43.796407990" lon="-120.947659872">
-        <ele>1865.580000</ele>
-        <time>2015-09-06T21:15:04Z</time>
-      </trkpt>
       <trkpt lat="43.796664476" lon="-120.947638582">
         <ele>1863.650000</ele>
         <time>2015-09-06T21:15:06Z</time>
-      </trkpt>
-      <trkpt lat="43.797569135" lon="-120.946802655">
-        <ele>1857.400000</ele>
-        <time>2015-09-06T21:15:13Z</time>
-      </trkpt>
-      <trkpt lat="43.799168486" lon="-120.945548723">
-        <ele>1844.910000</ele>
-        <time>2015-09-06T21:15:24Z</time>
-      </trkpt>
-      <trkpt lat="43.799446011" lon="-120.945433974">
-        <ele>1843.470000</ele>
-        <time>2015-09-06T21:15:26Z</time>
-      </trkpt>
-      <trkpt lat="43.800266013" lon="-120.945485188">
-        <ele>1839.140000</ele>
-        <time>2015-09-06T21:15:31Z</time>
       </trkpt>
       <trkpt lat="43.800604390" lon="-120.945402794">
         <ele>1837.220000</ele>
         <time>2015-09-06T21:15:33Z</time>
       </trkpt>
-      <trkpt lat="43.801037399" lon="-120.945118815">
-        <ele>1835.770000</ele>
-        <time>2015-09-06T21:15:36Z</time>
-      </trkpt>
-      <trkpt lat="43.801622456" lon="-120.944287749">
-        <ele>1835.770000</ele>
-        <time>2015-09-06T21:15:41Z</time>
-      </trkpt>
-      <trkpt lat="43.803110328" lon="-120.942906411">
-        <ele>1824.720000</ele>
-        <time>2015-09-06T21:15:51Z</time>
-      </trkpt>
-      <trkpt lat="43.804081120" lon="-120.941599002">
-        <ele>1817.030000</ele>
-        <time>2015-09-06T21:15:59Z</time>
-      </trkpt>
-      <trkpt lat="43.804360656" lon="-120.941406889">
-        <ele>1816.550000</ele>
-        <time>2015-09-06T21:16:01Z</time>
-      </trkpt>
       <trkpt lat="43.804659639" lon="-120.941344528">
         <ele>1812.700000</ele>
         <time>2015-09-06T21:16:03Z</time>
-      </trkpt>
-      <trkpt lat="43.806123957" lon="-120.941912569">
-        <ele>1800.690000</ele>
-        <time>2015-09-06T21:16:14Z</time>
-      </trkpt>
-      <trkpt lat="43.806344569" lon="-120.941818189">
-        <ele>1799.240000</ele>
-        <time>2015-09-06T21:16:16Z</time>
-      </trkpt>
-      <trkpt lat="43.806457976" lon="-120.941600930">
-        <ele>1797.800000</ele>
-        <time>2015-09-06T21:16:18Z</time>
       </trkpt>
       <trkpt lat="43.806460658" lon="-120.941406302">
         <ele>1796.840000</ele>
         <time>2015-09-06T21:16:20Z</time>
       </trkpt>
-      <trkpt lat="43.806208614" lon="-120.941027943">
-        <ele>1796.840000</ele>
-        <time>2015-09-06T21:16:24Z</time>
-      </trkpt>
-      <trkpt lat="43.803146956" lon="-120.939251734">
-        <ele>1771.850000</ele>
-        <time>2015-09-06T21:16:43Z</time>
-      </trkpt>
-      <trkpt lat="43.802605150" lon="-120.939159617">
-        <ele>1766.080000</ele>
-        <time>2015-09-06T21:16:46Z</time>
-      </trkpt>
       <trkpt lat="43.802368613" lon="-120.939206388">
         <ele>1763.200000</ele>
         <time>2015-09-06T21:16:48Z</time>
-      </trkpt>
-      <trkpt lat="43.801029352" lon="-120.940165529">
-        <ele>1750.220000</ele>
-        <time>2015-09-06T21:16:58Z</time>
-      </trkpt>
-      <trkpt lat="43.800714109" lon="-120.940232333">
-        <ele>1748.780000</ele>
-        <time>2015-09-06T21:17:00Z</time>
-      </trkpt>
-      <trkpt lat="43.800126119" lon="-120.940103251">
-        <ele>1744.450000</ele>
-        <time>2015-09-06T21:17:04Z</time>
       </trkpt>
       <trkpt lat="43.799901903" lon="-120.939926561">
         <ele>1742.050000</ele>
         <time>2015-09-06T21:17:06Z</time>
       </trkpt>
-      <trkpt lat="43.799774414" lon="-120.939628165">
-        <ele>1740.120000</ele>
-        <time>2015-09-06T21:17:08Z</time>
-      </trkpt>
-      <trkpt lat="43.799756393" lon="-120.939253410">
-        <ele>1739.160000</ele>
-        <time>2015-09-06T21:17:10Z</time>
-      </trkpt>
-      <trkpt lat="43.800063422" lon="-120.937827229">
-        <ele>1733.390000</ele>
-        <time>2015-09-06T21:17:17Z</time>
-      </trkpt>
       <trkpt lat="43.800358549" lon="-120.937382737">
         <ele>1729.070000</ele>
         <time>2015-09-06T21:17:20Z</time>
-      </trkpt>
-      <trkpt lat="43.801791519" lon="-120.936926259">
-        <ele>1720.420000</ele>
-        <time>2015-09-06T21:17:29Z</time>
-      </trkpt>
-      <trkpt lat="43.802708751" lon="-120.936323935">
-        <ele>1716.570000</ele>
-        <time>2015-09-06T21:17:34Z</time>
-      </trkpt>
-      <trkpt lat="43.803316522" lon="-120.935664028">
-        <ele>1714.170000</ele>
-        <time>2015-09-06T21:17:38Z</time>
       </trkpt>
       <trkpt lat="43.803710304" lon="-120.935074110">
         <ele>1710.800000</ele>
         <time>2015-09-06T21:17:41Z</time>
       </trkpt>
-      <trkpt lat="43.804023452" lon="-120.934408838">
-        <ele>1707.440000</ele>
-        <time>2015-09-06T21:17:44Z</time>
-      </trkpt>
-      <trkpt lat="43.804173321" lon="-120.933918916">
-        <ele>1705.040000</ele>
-        <time>2015-09-06T21:17:46Z</time>
-      </trkpt>
-      <trkpt lat="43.804437267" lon="-120.931818830">
-        <ele>1697.830000</ele>
-        <time>2015-09-06T21:17:54Z</time>
-      </trkpt>
-      <trkpt lat="43.804649245" lon="-120.931124473">
-        <ele>1696.860000</ele>
-        <time>2015-09-06T21:17:57Z</time>
-      </trkpt>
       <trkpt lat="43.805903932" lon="-120.928778462">
         <ele>1682.930000</ele>
         <time>2015-09-06T21:18:08Z</time>
-      </trkpt>
-      <trkpt lat="43.806338953" lon="-120.928248223">
-        <ele>1680.520000</ele>
-        <time>2015-09-06T21:18:11Z</time>
-      </trkpt>
-      <trkpt lat="43.807795225" lon="-120.926825060">
-        <ele>1671.390000</ele>
-        <time>2015-09-06T21:18:20Z</time>
-      </trkpt>
-      <trkpt lat="43.811033154" lon="-120.924676526">
-        <ele>1654.570000</ele>
-        <time>2015-09-06T21:18:38Z</time>
-      </trkpt>
-      <trkpt lat="43.814116772" lon="-120.921962885">
-        <ele>1639.670000</ele>
-        <time>2015-09-06T21:18:56Z</time>
       </trkpt>
       <trkpt lat="43.815542199" lon="-120.920053571">
         <ele>1628.130000</ele>
         <time>2015-09-06T21:19:06Z</time>
       </trkpt>
-      <trkpt lat="43.816281063" lon="-120.919520818">
-        <ele>1624.280000</ele>
-        <time>2015-09-06T21:19:10Z</time>
-      </trkpt>
-      <trkpt lat="43.818481732" lon="-120.918792179">
-        <ele>1610.350000</ele>
-        <time>2015-09-06T21:19:21Z</time>
-      </trkpt>
-      <trkpt lat="43.820460197" lon="-120.917820130">
-        <ele>1596.410000</ele>
-        <time>2015-09-06T21:19:31Z</time>
-      </trkpt>
       <trkpt lat="43.821602315" lon="-120.917024938">
         <ele>1585.350000</ele>
         <time>2015-09-06T21:19:37Z</time>
-      </trkpt>
-      <trkpt lat="43.822344365" lon="-120.916211894">
-        <ele>1578.140000</ele>
-        <time>2015-09-06T21:19:42Z</time>
-      </trkpt>
-      <trkpt lat="43.824001718" lon="-120.913986331">
-        <ele>1562.760000</ele>
-        <time>2015-09-06T21:19:53Z</time>
-      </trkpt>
-      <trkpt lat="43.825443489" lon="-120.912614632">
-        <ele>1553.630000</ele>
-        <time>2015-09-06T21:20:01Z</time>
-      </trkpt>
-      <trkpt lat="43.827994270" lon="-120.909955474">
-        <ele>1532.960000</ele>
-        <time>2015-09-06T21:20:14Z</time>
       </trkpt>
       <trkpt lat="43.829138149" lon="-120.908939838">
         <ele>1525.750000</ele>
         <time>2015-09-06T21:20:20Z</time>
       </trkpt>
-      <trkpt lat="43.830835735" lon="-120.907766791">
-        <ele>1514.210000</ele>
-        <time>2015-09-06T21:20:29Z</time>
-      </trkpt>
-      <trkpt lat="43.831297662" lon="-120.907560345">
-        <ele>1511.330000</ele>
-        <time>2015-09-06T21:20:31Z</time>
-      </trkpt>
-      <trkpt lat="43.832431147" lon="-120.907282652">
-        <ele>1504.120000</ele>
-        <time>2015-09-06T21:20:37Z</time>
-      </trkpt>
-      <trkpt lat="43.833209490" lon="-120.907199085">
-        <ele>1499.790000</ele>
-        <time>2015-09-06T21:20:42Z</time>
-      </trkpt>
       <trkpt lat="43.835454499" lon="-120.905653713">
         <ele>1489.700000</ele>
         <time>2015-09-06T21:20:56Z</time>
-      </trkpt>
-      <trkpt lat="43.837751895" lon="-120.905106626">
-        <ele>1480.570000</ele>
-        <time>2015-09-06T21:21:07Z</time>
-      </trkpt>
-      <trkpt lat="43.838634593" lon="-120.905174771">
-        <ele>1476.720000</ele>
-        <time>2015-09-06T21:21:11Z</time>
       </trkpt>
       <trkpt lat="43.839455014" lon="-120.905475933">
         <ele>1475.280000</ele>
         <time>2015-09-06T21:21:15Z</time>
       </trkpt>
-      <trkpt lat="43.839838486" lon="-120.905759158">
-        <ele>1473.840000</ele>
-        <time>2015-09-06T21:21:17Z</time>
-      </trkpt>
-      <trkpt lat="43.843063256" lon="-120.909031704">
-        <ele>1457.020000</ele>
-        <time>2015-09-06T21:21:34Z</time>
-      </trkpt>
-      <trkpt lat="43.849053634" lon="-120.914887553">
-        <ele>1416.640000</ele>
-        <time>2015-09-06T21:22:05Z</time>
-      </trkpt>
-      <trkpt lat="43.850192651" lon="-120.915753068">
-        <ele>1417.120000</ele>
-        <time>2015-09-06T21:22:12Z</time>
-      </trkpt>
       <trkpt lat="43.850554246" lon="-120.915876366">
         <ele>1417.600000</ele>
         <time>2015-09-06T21:22:14Z</time>
-      </trkpt>
-      <trkpt lat="43.877719911" lon="-120.916146012">
-        <ele>1341.180000</ele>
-        <time>2015-09-06T21:24:15Z</time>
       </trkpt>
       <trkpt lat="43.878091732" lon="-120.915984409">
         <ele>1337.330000</ele>
         <time>2015-09-06T21:27:56Z</time>
       </trkpt>
-      <trkpt lat="43.878230704" lon="-120.915797157">
-        <ele>1337.330000</ele>
-        <time>2015-09-06T21:27:59Z</time>
-      </trkpt>
-      <trkpt lat="43.878282756" lon="-120.915539330">
-        <ele>1338.770000</ele>
-        <time>2015-09-06T21:28:02Z</time>
-      </trkpt>
-      <trkpt lat="43.871721905" lon="-120.874646120">
-        <ele>1339.730000</ele>
-        <time>2015-09-06T21:30:01Z</time>
-      </trkpt>
       <trkpt lat="43.871549824" lon="-120.872718031">
         <ele>1343.100000</ele>
         <time>2015-09-06T21:30:06Z</time>
       </trkpt>
-      <trkpt lat="43.871367518" lon="-120.856843879">
-        <ele>1358.960000</ele>
-        <time>2015-09-06T21:30:51Z</time>
-      </trkpt>
-      <trkpt lat="43.871346060" lon="-120.807711259">
-        <ele>1340.700000</ele>
-        <time>2015-09-06T21:33:13Z</time>
-      </trkpt>
       <trkpt lat="43.871230893" lon="-120.806328999">
         <ele>1339.250000</ele>
         <time>2015-09-06T21:33:17Z</time>
-      </trkpt>
-      <trkpt lat="43.865485433" lon="-120.786606716">
-        <ele>1351.750000</ele>
-        <time>2015-09-06T21:34:18Z</time>
       </trkpt>
       <trkpt lat="43.854921302" lon="-120.753662065">
         <ele>1355.120000</ele>
@@ -2216,137 +532,41 @@
         <ele>1353.670000</ele>
         <time>2015-09-06T21:37:10Z</time>
       </trkpt>
-      <trkpt lat="43.849869110" lon="-120.733493697">
-        <ele>1352.230000</ele>
-        <time>2015-09-06T21:37:16Z</time>
-      </trkpt>
-      <trkpt lat="43.850264903" lon="-120.733038140">
-        <ele>1352.230000</ele>
-        <time>2015-09-06T21:37:20Z</time>
-      </trkpt>
       <trkpt lat="43.850543601" lon="-120.732927835">
         <ele>1352.230000</ele>
         <time>2015-09-06T21:37:22Z</time>
-      </trkpt>
-      <trkpt lat="43.879259331" lon="-120.732791210">
-        <ele>1372.900000</ele>
-        <time>2015-09-06T21:39:27Z</time>
       </trkpt>
       <trkpt lat="43.881448517" lon="-120.732866479">
         <ele>1381.070000</ele>
         <time>2015-09-06T21:39:36Z</time>
       </trkpt>
-      <trkpt lat="43.883935763" lon="-120.733447261">
-        <ele>1382.990000</ele>
-        <time>2015-09-06T21:39:46Z</time>
-      </trkpt>
-      <trkpt lat="43.916779160" lon="-120.744226975">
-        <ele>1368.090000</ele>
-        <time>2015-09-06T21:42:10Z</time>
-      </trkpt>
       <trkpt lat="43.918454787" lon="-120.744444150">
         <ele>1369.050000</ele>
         <time>2015-09-06T21:42:18Z</time>
-      </trkpt>
-      <trkpt lat="43.921087040" lon="-120.743769323">
-        <ele>1359.440000</ele>
-        <time>2015-09-06T21:42:31Z</time>
-      </trkpt>
-      <trkpt lat="43.921465147" lon="-120.743604703">
-        <ele>1360.400000</ele>
-        <time>2015-09-06T21:42:33Z</time>
       </trkpt>
       <trkpt lat="43.922063950" lon="-120.743021322">
         <ele>1357.040000</ele>
         <time>2015-09-06T21:42:37Z</time>
       </trkpt>
-      <trkpt lat="43.922328232" lon="-120.742410952">
-        <ele>1356.560000</ele>
-        <time>2015-09-06T21:42:40Z</time>
-      </trkpt>
-      <trkpt lat="43.922590418" lon="-120.741188787">
-        <ele>1351.750000</ele>
-        <time>2015-09-06T21:42:46Z</time>
-      </trkpt>
       <trkpt lat="43.922838857" lon="-120.740739014">
         <ele>1349.350000</ele>
         <time>2015-09-06T21:42:49Z</time>
-      </trkpt>
-      <trkpt lat="43.923108587" lon="-120.740631390">
-        <ele>1346.940000</ele>
-        <time>2015-09-06T21:42:51Z</time>
-      </trkpt>
-      <trkpt lat="43.923410419" lon="-120.740736667">
-        <ele>1345.980000</ele>
-        <time>2015-09-06T21:42:53Z</time>
-      </trkpt>
-      <trkpt lat="43.926028088" lon="-120.742521090">
-        <ele>1333.010000</ele>
-        <time>2015-09-06T21:43:08Z</time>
       </trkpt>
       <trkpt lat="43.926519603" lon="-120.743186530">
         <ele>1329.640000</ele>
         <time>2015-09-06T21:43:12Z</time>
       </trkpt>
-      <trkpt lat="43.926763767" lon="-120.744012063">
-        <ele>1325.800000</ele>
-        <time>2015-09-06T21:43:16Z</time>
-      </trkpt>
-      <trkpt lat="43.926859656" lon="-120.745113362">
-        <ele>1320.510000</ele>
-        <time>2015-09-06T21:43:21Z</time>
-      </trkpt>
-      <trkpt lat="43.927137433" lon="-120.746165961">
-        <ele>1317.140000</ele>
-        <time>2015-09-06T21:43:26Z</time>
-      </trkpt>
-      <trkpt lat="43.927301047" lon="-120.747995228">
-        <ele>1308.970000</ele>
-        <time>2015-09-06T21:43:34Z</time>
-      </trkpt>
-      <trkpt lat="43.927588630" lon="-120.749688540">
-        <ele>1302.240000</ele>
-        <time>2015-09-06T21:43:41Z</time>
-      </trkpt>
-      <trkpt lat="43.928384995" lon="-120.752535956">
-        <ele>1289.270000</ele>
-        <time>2015-09-06T21:43:55Z</time>
-      </trkpt>
       <trkpt lat="43.928688336" lon="-120.752977347">
         <ele>1288.300000</ele>
         <time>2015-09-06T21:43:58Z</time>
-      </trkpt>
-      <trkpt lat="43.928965190" lon="-120.753162336">
-        <ele>1287.340000</ele>
-        <time>2015-09-06T21:44:00Z</time>
       </trkpt>
       <trkpt lat="43.930608127" lon="-120.753660472">
         <ele>1277.730000</ele>
         <time>2015-09-06T21:44:10Z</time>
       </trkpt>
-      <trkpt lat="43.930950947" lon="-120.753623424">
-        <ele>1277.250000</ele>
-        <time>2015-09-06T21:44:12Z</time>
-      </trkpt>
-      <trkpt lat="43.932020981" lon="-120.753063010">
-        <ele>1271.000000</ele>
-        <time>2015-09-06T21:44:18Z</time>
-      </trkpt>
       <trkpt lat="43.934864039" lon="-120.752247619">
         <ele>1257.540000</ele>
         <time>2015-09-06T21:44:33Z</time>
-      </trkpt>
-      <trkpt lat="43.935318673" lon="-120.752380555">
-        <ele>1256.100000</ele>
-        <time>2015-09-06T21:44:36Z</time>
-      </trkpt>
-      <trkpt lat="43.936321819" lon="-120.753059322">
-        <ele>1250.810000</ele>
-        <time>2015-09-06T21:44:42Z</time>
-      </trkpt>
-      <trkpt lat="43.937644064" lon="-120.754476953">
-        <ele>1243.600000</ele>
-        <time>2015-09-06T21:44:51Z</time>
       </trkpt>
       <trkpt lat="43.938136417" lon="-120.754681388">
         <ele>1243.600000</ele>
@@ -2356,209 +576,49 @@
         <ele>1238.320000</ele>
         <time>2015-09-06T21:45:03Z</time>
       </trkpt>
-      <trkpt lat="43.940125862" lon="-120.754514420">
-        <ele>1236.390000</ele>
-        <time>2015-09-06T21:45:05Z</time>
-      </trkpt>
-      <trkpt lat="43.940428533" lon="-120.754698319">
-        <ele>1234.950000</ele>
-        <time>2015-09-06T21:45:07Z</time>
-      </trkpt>
-      <trkpt lat="43.941130433" lon="-120.755491499">
-        <ele>1233.510000</ele>
-        <time>2015-09-06T21:45:12Z</time>
-      </trkpt>
-      <trkpt lat="43.942834223" lon="-120.756666055">
-        <ele>1228.700000</ele>
-        <time>2015-09-06T21:45:22Z</time>
-      </trkpt>
-      <trkpt lat="43.943611896" lon="-120.757339289">
-        <ele>1224.860000</ele>
-        <time>2015-09-06T21:45:27Z</time>
-      </trkpt>
       <trkpt lat="43.945324235" lon="-120.758008417">
         <ele>1219.090000</ele>
         <time>2015-09-06T21:45:38Z</time>
-      </trkpt>
-      <trkpt lat="43.945603520" lon="-120.757893249">
-        <ele>1219.570000</ele>
-        <time>2015-09-06T21:45:40Z</time>
-      </trkpt>
-      <trkpt lat="43.947331617" lon="-120.756465057">
-        <ele>1212.840000</ele>
-        <time>2015-09-06T21:45:51Z</time>
-      </trkpt>
-      <trkpt lat="43.947679717" lon="-120.756323319">
-        <ele>1211.880000</ele>
-        <time>2015-09-06T21:45:53Z</time>
-      </trkpt>
-      <trkpt lat="43.948872546" lon="-120.756105809">
-        <ele>1205.150000</ele>
-        <time>2015-09-06T21:45:59Z</time>
-      </trkpt>
-      <trkpt lat="43.949261047" lon="-120.755948229">
-        <ele>1203.230000</ele>
-        <time>2015-09-06T21:46:01Z</time>
-      </trkpt>
-      <trkpt lat="43.954135627" lon="-120.752683310">
-        <ele>1187.370000</ele>
-        <time>2015-09-06T21:46:26Z</time>
       </trkpt>
       <trkpt lat="43.955243547" lon="-120.751703549">
         <ele>1184.000000</ele>
         <time>2015-09-06T21:46:32Z</time>
       </trkpt>
-      <trkpt lat="43.956270413" lon="-120.750095900">
-        <ele>1179.190000</ele>
-        <time>2015-09-06T21:46:39Z</time>
-      </trkpt>
-      <trkpt lat="43.957331143" lon="-120.748670306">
-        <ele>1177.270000</ele>
-        <time>2015-09-06T21:46:46Z</time>
-      </trkpt>
-      <trkpt lat="43.962932015" lon="-120.742858797">
-        <ele>1164.290000</ele>
-        <time>2015-09-06T21:47:17Z</time>
-      </trkpt>
-      <trkpt lat="43.968322836" lon="-120.735334195">
-        <ele>1152.760000</ele>
-        <time>2015-09-06T21:47:52Z</time>
-      </trkpt>
-      <trkpt lat="43.970114635" lon="-120.732947029">
-        <ele>1148.910000</ele>
-        <time>2015-09-06T21:48:03Z</time>
-      </trkpt>
-      <trkpt lat="43.972148756" lon="-120.730592804">
-        <ele>1145.070000</ele>
-        <time>2015-09-06T21:48:14Z</time>
-      </trkpt>
       <trkpt lat="43.973624809" lon="-120.728578130">
         <ele>1147.950000</ele>
         <time>2015-09-06T21:48:23Z</time>
-      </trkpt>
-      <trkpt lat="43.981943512" lon="-120.711350217">
-        <ele>1120.550000</ele>
-        <time>2015-09-06T21:49:25Z</time>
       </trkpt>
       <trkpt lat="43.982722778" lon="-120.709927557">
         <ele>1117.190000</ele>
         <time>2015-09-06T21:49:31Z</time>
       </trkpt>
-      <trkpt lat="43.983204905" lon="-120.709370496">
-        <ele>1114.310000</ele>
-        <time>2015-09-06T21:49:34Z</time>
-      </trkpt>
       <trkpt lat="43.984405864" lon="-120.708680749">
         <ele>1115.270000</ele>
         <time>2015-09-06T21:49:40Z</time>
-      </trkpt>
-      <trkpt lat="43.991275085" lon="-120.707705682">
-        <ele>1104.690000</ele>
-        <time>2015-09-06T21:50:09Z</time>
-      </trkpt>
-      <trkpt lat="43.991976231" lon="-120.707698977">
-        <ele>1103.250000</ele>
-        <time>2015-09-06T21:50:12Z</time>
       </trkpt>
       <trkpt lat="43.992678970" lon="-120.707805008">
         <ele>1101.810000</ele>
         <time>2015-09-06T21:50:15Z</time>
       </trkpt>
-      <trkpt lat="44.000772368" lon="-120.710170297">
-        <ele>1096.040000</ele>
-        <time>2015-09-06T21:50:49Z</time>
-      </trkpt>
-      <trkpt lat="44.001388773" lon="-120.710264007">
-        <ele>1094.600000</ele>
-        <time>2015-09-06T21:50:52Z</time>
-      </trkpt>
       <trkpt lat="44.002160663" lon="-120.710061751">
         <ele>1097.000000</ele>
         <time>2015-09-06T21:50:56Z</time>
-      </trkpt>
-      <trkpt lat="44.002494933" lon="-120.709820017">
-        <ele>1095.560000</ele>
-        <time>2015-09-06T21:50:58Z</time>
-      </trkpt>
-      <trkpt lat="44.004980754" lon="-120.706970925">
-        <ele>1093.640000</ele>
-        <time>2015-09-06T21:51:14Z</time>
-      </trkpt>
-      <trkpt lat="44.005412841" lon="-120.706159137">
-        <ele>1093.640000</ele>
-        <time>2015-09-06T21:51:18Z</time>
-      </trkpt>
-      <trkpt lat="44.005683241" lon="-120.705856718">
-        <ele>1094.120000</ele>
-        <time>2015-09-06T21:51:20Z</time>
       </trkpt>
       <trkpt lat="44.006303335" lon="-120.705433516">
         <ele>1092.200000</ele>
         <time>2015-09-06T21:51:24Z</time>
       </trkpt>
-      <trkpt lat="44.007998994" lon="-120.704933619">
-        <ele>1091.710000</ele>
-        <time>2015-09-06T21:51:33Z</time>
-      </trkpt>
-      <trkpt lat="44.008953609" lon="-120.704159131">
-        <ele>1089.310000</ele>
-        <time>2015-09-06T21:51:39Z</time>
-      </trkpt>
-      <trkpt lat="44.009831194" lon="-120.703865848">
-        <ele>1087.390000</ele>
-        <time>2015-09-06T21:51:44Z</time>
-      </trkpt>
       <trkpt lat="44.010794358" lon="-120.703982608">
         <ele>1086.910000</ele>
         <time>2015-09-06T21:51:50Z</time>
-      </trkpt>
-      <trkpt lat="44.011191325" lon="-120.703793932">
-        <ele>1086.910000</ele>
-        <time>2015-09-06T21:51:53Z</time>
-      </trkpt>
-      <trkpt lat="44.013122600" lon="-120.701864250">
-        <ele>1083.540000</ele>
-        <time>2015-09-06T21:52:06Z</time>
       </trkpt>
       <trkpt lat="44.013399621" lon="-120.701666605">
         <ele>1083.540000</ele>
         <time>2015-09-06T21:52:08Z</time>
       </trkpt>
-      <trkpt lat="44.013685277" lon="-120.701608602">
-        <ele>1084.020000</ele>
-        <time>2015-09-06T21:52:10Z</time>
-      </trkpt>
-      <trkpt lat="44.013972525" lon="-120.701699378">
-        <ele>1084.990000</ele>
-        <time>2015-09-06T21:52:12Z</time>
-      </trkpt>
-      <trkpt lat="44.014929067" lon="-120.702357525">
-        <ele>1082.580000</ele>
-        <time>2015-09-06T21:52:18Z</time>
-      </trkpt>
       <trkpt lat="44.015581682" lon="-120.702632284">
         <ele>1079.700000</ele>
         <time>2015-09-06T21:52:22Z</time>
-      </trkpt>
-      <trkpt lat="44.015925676" lon="-120.702633457">
-        <ele>1079.700000</ele>
-        <time>2015-09-06T21:52:24Z</time>
-      </trkpt>
-      <trkpt lat="44.016822875" lon="-120.702368841">
-        <ele>1079.220000</ele>
-        <time>2015-09-06T21:52:29Z</time>
-      </trkpt>
-      <trkpt lat="44.017138872" lon="-120.702140266">
-        <ele>1080.660000</ele>
-        <time>2015-09-06T21:52:31Z</time>
-      </trkpt>
-      <trkpt lat="44.018795304" lon="-120.699743209">
-        <ele>1079.700000</ele>
-        <time>2015-09-06T21:52:45Z</time>
-      </trkpt>
-      <trkpt lat="44.019122701" lon="-120.699590826">
-        <ele>1079.700000</ele>
-        <time>2015-09-06T21:52:48Z</time>
       </trkpt>
       <trkpt lat="44.019350186" lon="-120.699687051">
         <ele>1079.700000</ele>
@@ -2568,1049 +628,273 @@
         <ele>1073.450000</ele>
         <time>2015-09-06T21:52:58Z</time>
       </trkpt>
-      <trkpt lat="44.020409826" lon="-120.701110801">
-        <ele>1073.450000</ele>
-        <time>2015-09-06T21:53:00Z</time>
-      </trkpt>
-      <trkpt lat="44.022921044" lon="-120.701397797">
-        <ele>1074.890000</ele>
-        <time>2015-09-06T21:53:13Z</time>
-      </trkpt>
       <trkpt lat="44.025614401" lon="-120.702091651">
         <ele>1077.780000</ele>
         <time>2015-09-06T21:53:26Z</time>
-      </trkpt>
-      <trkpt lat="44.026916362" lon="-120.701784370">
-        <ele>1078.740000</ele>
-        <time>2015-09-06T21:53:34Z</time>
-      </trkpt>
-      <trkpt lat="44.028038867" lon="-120.701082135">
-        <ele>1072.490000</ele>
-        <time>2015-09-06T21:53:41Z</time>
-      </trkpt>
-      <trkpt lat="44.028388141" lon="-120.701017426">
-        <ele>1070.570000</ele>
-        <time>2015-09-06T21:53:43Z</time>
       </trkpt>
       <trkpt lat="44.028902035" lon="-120.701154051">
         <ele>1069.120000</ele>
         <time>2015-09-06T21:53:46Z</time>
       </trkpt>
-      <trkpt lat="44.029214680" lon="-120.701398635">
-        <ele>1068.640000</ele>
-        <time>2015-09-06T21:53:48Z</time>
-      </trkpt>
-      <trkpt lat="44.030615799" lon="-120.703178532">
-        <ele>1061.910000</ele>
-        <time>2015-09-06T21:53:58Z</time>
-      </trkpt>
-      <trkpt lat="44.030872704" lon="-120.703399731">
-        <ele>1061.910000</ele>
-        <time>2015-09-06T21:54:00Z</time>
-      </trkpt>
       <trkpt lat="44.031184176" lon="-120.703512216">
         <ele>1060.950000</ele>
         <time>2015-09-06T21:54:02Z</time>
-      </trkpt>
-      <trkpt lat="44.035708308" lon="-120.704020830">
-        <ele>1057.110000</ele>
-        <time>2015-09-06T21:54:24Z</time>
-      </trkpt>
-      <trkpt lat="44.036577344" lon="-120.703941369">
-        <ele>1055.670000</ele>
-        <time>2015-09-06T21:54:29Z</time>
-      </trkpt>
-      <trkpt lat="44.037568336" lon="-120.704158461">
-        <ele>1056.630000</ele>
-        <time>2015-09-06T21:54:35Z</time>
       </trkpt>
       <trkpt lat="44.039053693" lon="-120.703649847">
         <ele>1055.670000</ele>
         <time>2015-09-06T21:54:43Z</time>
       </trkpt>
-      <trkpt lat="44.041391825" lon="-120.703868531">
-        <ele>1049.900000</ele>
-        <time>2015-09-06T21:54:54Z</time>
-      </trkpt>
-      <trkpt lat="44.043385377" lon="-120.704271449">
-        <ele>1048.940000</ele>
-        <time>2015-09-06T21:55:03Z</time>
-      </trkpt>
       <trkpt lat="44.046227848" lon="-120.705258083">
         <ele>1047.010000</ele>
         <time>2015-09-06T21:55:16Z</time>
-      </trkpt>
-      <trkpt lat="44.050110094" lon="-120.707806684">
-        <ele>1045.570000</ele>
-        <time>2015-09-06T21:55:36Z</time>
       </trkpt>
       <trkpt lat="44.050926827" lon="-120.708617885">
         <ele>1043.650000</ele>
         <time>2015-09-06T21:55:42Z</time>
       </trkpt>
-      <trkpt lat="44.051221954" lon="-120.708711930">
-        <ele>1044.610000</ele>
-        <time>2015-09-06T21:55:44Z</time>
-      </trkpt>
-      <trkpt lat="44.052279498" lon="-120.708611850">
-        <ele>1043.170000</ele>
-        <time>2015-09-06T21:55:50Z</time>
-      </trkpt>
       <trkpt lat="44.052750729" lon="-120.708806142">
         <ele>1042.210000</ele>
         <time>2015-09-06T21:55:53Z</time>
-      </trkpt>
-      <trkpt lat="44.053008473" lon="-120.709117446">
-        <ele>1042.690000</ele>
-        <time>2015-09-06T21:55:55Z</time>
-      </trkpt>
-      <trkpt lat="44.055565875" lon="-120.713550383">
-        <ele>1039.320000</ele>
-        <time>2015-09-06T21:56:15Z</time>
       </trkpt>
       <trkpt lat="44.056405406" lon="-120.714351190">
         <ele>1040.280000</ele>
         <time>2015-09-06T21:56:20Z</time>
       </trkpt>
-      <trkpt lat="44.057046706" lon="-120.715555586">
-        <ele>1037.880000</ele>
-        <time>2015-09-06T21:56:25Z</time>
-      </trkpt>
-      <trkpt lat="44.058023533" lon="-120.718428232">
-        <ele>1037.400000</ele>
-        <time>2015-09-06T21:56:35Z</time>
-      </trkpt>
       <trkpt lat="44.059504699" lon="-120.725101149">
         <ele>1036.440000</ele>
         <time>2015-09-06T21:56:58Z</time>
-      </trkpt>
-      <trkpt lat="44.059510566" lon="-120.725676231">
-        <ele>1036.920000</ele>
-        <time>2015-09-06T21:57:00Z</time>
-      </trkpt>
-      <trkpt lat="44.059205130" lon="-120.729136867">
-        <ele>1035.480000</ele>
-        <time>2015-09-06T21:57:12Z</time>
       </trkpt>
       <trkpt lat="44.059157353" lon="-120.731283389">
         <ele>1027.310000</ele>
         <time>2015-09-06T21:57:20Z</time>
       </trkpt>
-      <trkpt lat="44.059321973" lon="-120.731700808">
-        <ele>1028.750000</ele>
-        <time>2015-09-06T21:57:22Z</time>
-      </trkpt>
-      <trkpt lat="44.060620498" lon="-120.733655216">
-        <ele>1027.790000</ele>
-        <time>2015-09-06T21:57:32Z</time>
-      </trkpt>
-      <trkpt lat="44.060791153" lon="-120.734199034">
-        <ele>1024.900000</ele>
-        <time>2015-09-06T21:57:35Z</time>
-      </trkpt>
       <trkpt lat="44.060809929" lon="-120.734866150">
         <ele>1021.060000</ele>
         <time>2015-09-06T21:58:20Z</time>
-      </trkpt>
-      <trkpt lat="44.059761018" lon="-120.736799352">
-        <ele>1026.340000</ele>
-        <time>2015-09-06T22:10:09Z</time>
-      </trkpt>
-      <trkpt lat="44.059136063" lon="-120.737585239">
-        <ele>1031.630000</ele>
-        <time>2015-09-06T22:10:14Z</time>
       </trkpt>
       <trkpt lat="44.058966162" lon="-120.738004837">
         <ele>1031.630000</ele>
         <time>2015-09-06T22:10:16Z</time>
       </trkpt>
-      <trkpt lat="44.058867926" lon="-120.738503058">
-        <ele>1033.070000</ele>
-        <time>2015-09-06T22:10:18Z</time>
-      </trkpt>
-      <trkpt lat="44.058849318" lon="-120.739057772">
-        <ele>1034.040000</ele>
-        <time>2015-09-06T22:10:20Z</time>
-      </trkpt>
-      <trkpt lat="44.059047382" lon="-120.741983727">
-        <ele>1037.400000</ele>
-        <time>2015-09-06T22:10:30Z</time>
-      </trkpt>
       <trkpt lat="44.058865663" lon="-120.742809512">
         <ele>1040.760000</ele>
         <time>2015-09-06T22:10:33Z</time>
-      </trkpt>
-      <trkpt lat="44.057490276" lon="-120.745576210">
-        <ele>1057.590000</ele>
-        <time>2015-09-06T22:10:44Z</time>
-      </trkpt>
-      <trkpt lat="44.056884516" lon="-120.746331671">
-        <ele>1063.360000</ele>
-        <time>2015-09-06T22:10:48Z</time>
-      </trkpt>
-      <trkpt lat="44.056181526" lon="-120.747596417">
-        <ele>1071.050000</ele>
-        <time>2015-09-06T22:10:54Z</time>
-      </trkpt>
-      <trkpt lat="44.055833258" lon="-120.748023558">
-        <ele>1072.970000</ele>
-        <time>2015-09-06T22:10:57Z</time>
       </trkpt>
       <trkpt lat="44.055643827" lon="-120.748540135">
         <ele>1074.890000</ele>
         <time>2015-09-06T22:11:00Z</time>
       </trkpt>
-      <trkpt lat="44.055681042" lon="-120.748927463">
-        <ele>1076.330000</ele>
-        <time>2015-09-06T22:11:02Z</time>
-      </trkpt>
-      <trkpt lat="44.055987736" lon="-120.749919545">
-        <ele>1081.620000</ele>
-        <time>2015-09-06T22:11:07Z</time>
-      </trkpt>
       <trkpt lat="44.056030149" lon="-120.750766369">
         <ele>1084.990000</ele>
         <time>2015-09-06T22:11:11Z</time>
-      </trkpt>
-      <trkpt lat="44.055592613" lon="-120.752459429">
-        <ele>1096.520000</ele>
-        <time>2015-09-06T22:11:19Z</time>
-      </trkpt>
-      <trkpt lat="44.055540059" lon="-120.753175663">
-        <ele>1101.330000</ele>
-        <time>2015-09-06T22:11:22Z</time>
-      </trkpt>
-      <trkpt lat="44.055351634" lon="-120.754130613">
-        <ele>1104.690000</ele>
-        <time>2015-09-06T22:11:26Z</time>
-      </trkpt>
-      <trkpt lat="44.054985931" lon="-120.755320424">
-        <ele>1111.420000</ele>
-        <time>2015-09-06T22:11:31Z</time>
-      </trkpt>
-      <trkpt lat="44.054576978" lon="-120.757253459">
-        <ele>1120.070000</ele>
-        <time>2015-09-06T22:11:39Z</time>
       </trkpt>
       <trkpt lat="44.054556945" lon="-120.757737933">
         <ele>1122.480000</ele>
         <time>2015-09-06T22:11:41Z</time>
       </trkpt>
-      <trkpt lat="44.054828100" lon="-120.759222787">
-        <ele>1131.610000</ele>
-        <time>2015-09-06T22:11:47Z</time>
-      </trkpt>
-      <trkpt lat="44.054843858" lon="-120.759714972">
-        <ele>1134.490000</ele>
-        <time>2015-09-06T22:11:49Z</time>
-      </trkpt>
-      <trkpt lat="44.054555437" lon="-120.761700729">
-        <ele>1143.630000</ele>
-        <time>2015-09-06T22:11:57Z</time>
-      </trkpt>
-      <trkpt lat="44.054543534" lon="-120.762180006">
-        <ele>1147.470000</ele>
-        <time>2015-09-06T22:11:59Z</time>
-      </trkpt>
-      <trkpt lat="44.054688457" lon="-120.763903242">
-        <ele>1155.160000</ele>
-        <time>2015-09-06T22:12:06Z</time>
-      </trkpt>
       <trkpt lat="44.054535739" lon="-120.765746590">
         <ele>1159.490000</ele>
         <time>2015-09-06T22:12:14Z</time>
-      </trkpt>
-      <trkpt lat="44.054427613" lon="-120.766082620">
-        <ele>1159.970000</ele>
-        <time>2015-09-06T22:12:16Z</time>
-      </trkpt>
-      <trkpt lat="44.054221837" lon="-120.766324606">
-        <ele>1160.930000</ele>
-        <time>2015-09-06T22:12:18Z</time>
       </trkpt>
       <trkpt lat="44.053955125" lon="-120.766401719">
         <ele>1162.370000</ele>
         <time>2015-09-06T22:12:20Z</time>
       </trkpt>
-      <trkpt lat="44.053565701" lon="-120.766155543">
-        <ele>1163.330000</ele>
-        <time>2015-09-06T22:12:23Z</time>
-      </trkpt>
-      <trkpt lat="44.053135207" lon="-120.765554728">
-        <ele>1166.220000</ele>
-        <time>2015-09-06T22:12:27Z</time>
-      </trkpt>
-      <trkpt lat="44.052695911" lon="-120.765271168">
-        <ele>1170.060000</ele>
-        <time>2015-09-06T22:12:30Z</time>
-      </trkpt>
-      <trkpt lat="44.051892757" lon="-120.764995320">
-        <ele>1173.430000</ele>
-        <time>2015-09-06T22:12:35Z</time>
-      </trkpt>
-      <trkpt lat="44.051646665" lon="-120.764704887">
-        <ele>1176.310000</ele>
-        <time>2015-09-06T22:12:37Z</time>
-      </trkpt>
-      <trkpt lat="44.051297642" lon="-120.763943978">
-        <ele>1181.600000</ele>
-        <time>2015-09-06T22:12:41Z</time>
-      </trkpt>
-      <trkpt lat="44.051058507" lon="-120.763654886">
-        <ele>1184.000000</ele>
-        <time>2015-09-06T22:12:43Z</time>
-      </trkpt>
       <trkpt lat="44.050766146" lon="-120.763473669">
         <ele>1187.370000</ele>
         <time>2015-09-06T22:12:45Z</time>
-      </trkpt>
-      <trkpt lat="44.050268512" lon="-120.763419522">
-        <ele>1191.690000</ele>
-        <time>2015-09-06T22:12:48Z</time>
-      </trkpt>
-      <trkpt lat="44.049956119" lon="-120.763556985">
-        <ele>1192.170000</ele>
-        <time>2015-09-06T22:12:50Z</time>
-      </trkpt>
-      <trkpt lat="44.048709981" lon="-120.764871268">
-        <ele>1196.980000</ele>
-        <time>2015-09-06T22:12:59Z</time>
       </trkpt>
       <trkpt lat="44.048212348" lon="-120.765545340">
         <ele>1197.940000</ele>
         <time>2015-09-06T22:13:03Z</time>
       </trkpt>
-      <trkpt lat="44.047473902" lon="-120.767911300">
-        <ele>1208.510000</ele>
-        <time>2015-09-06T22:13:14Z</time>
-      </trkpt>
-      <trkpt lat="44.047464347" lon="-120.768535668">
-        <ele>1211.400000</ele>
-        <time>2015-09-06T22:13:17Z</time>
-      </trkpt>
       <trkpt lat="44.047607593" lon="-120.768897347">
         <ele>1213.320000</ele>
         <time>2015-09-06T22:13:19Z</time>
-      </trkpt>
-      <trkpt lat="44.048425080" lon="-120.769698573">
-        <ele>1219.570000</ele>
-        <time>2015-09-06T22:13:25Z</time>
-      </trkpt>
-      <trkpt lat="44.048752394" lon="-120.770262592">
-        <ele>1221.490000</ele>
-        <time>2015-09-06T22:13:28Z</time>
-      </trkpt>
-      <trkpt lat="44.049097477" lon="-120.771518620">
-        <ele>1227.260000</ele>
-        <time>2015-09-06T22:13:34Z</time>
-      </trkpt>
-      <trkpt lat="44.049916053" lon="-120.773005821">
-        <ele>1235.430000</ele>
-        <time>2015-09-06T22:13:42Z</time>
-      </trkpt>
-      <trkpt lat="44.050219897" lon="-120.774147771">
-        <ele>1242.160000</ele>
-        <time>2015-09-06T22:13:47Z</time>
       </trkpt>
       <trkpt lat="44.050485520" lon="-120.774697289">
         <ele>1244.560000</ele>
         <time>2015-09-06T22:13:50Z</time>
       </trkpt>
-      <trkpt lat="44.051020956" lon="-120.775208836">
-        <ele>1250.330000</ele>
-        <time>2015-09-06T22:13:54Z</time>
-      </trkpt>
-      <trkpt lat="44.052482676" lon="-120.776048955">
-        <ele>1256.580000</ele>
-        <time>2015-09-06T22:14:03Z</time>
-      </trkpt>
-      <trkpt lat="44.052749388" lon="-120.776348189">
-        <ele>1257.540000</ele>
-        <time>2015-09-06T22:14:05Z</time>
-      </trkpt>
       <trkpt lat="44.053730741" lon="-120.777853159">
         <ele>1253.700000</ele>
         <time>2015-09-06T22:14:13Z</time>
-      </trkpt>
-      <trkpt lat="44.054213539" lon="-120.778206373">
-        <ele>1252.250000</ele>
-        <time>2015-09-06T22:14:16Z</time>
-      </trkpt>
-      <trkpt lat="44.057412157" lon="-120.779135171">
-        <ele>1247.930000</ele>
-        <time>2015-09-06T22:14:32Z</time>
-      </trkpt>
-      <trkpt lat="44.068960492" lon="-120.783258397">
-        <ele>1222.930000</ele>
-        <time>2015-09-06T22:15:20Z</time>
-      </trkpt>
-      <trkpt lat="44.069658285" lon="-120.783416145">
-        <ele>1220.050000</ele>
-        <time>2015-09-06T22:15:23Z</time>
       </trkpt>
       <trkpt lat="44.070124989" lon="-120.783397537">
         <ele>1218.610000</ele>
         <time>2015-09-06T22:15:25Z</time>
       </trkpt>
-      <trkpt lat="44.071742361" lon="-120.782876769">
-        <ele>1213.800000</ele>
-        <time>2015-09-06T22:15:32Z</time>
-      </trkpt>
-      <trkpt lat="44.072148968" lon="-120.782671245">
-        <ele>1211.880000</ele>
-        <time>2015-09-06T22:15:34Z</time>
-      </trkpt>
-      <trkpt lat="44.072786411" lon="-120.781996250">
-        <ele>1209.000000</ele>
-        <time>2015-09-06T22:15:38Z</time>
-      </trkpt>
-      <trkpt lat="44.073330900" lon="-120.781732723">
-        <ele>1207.550000</ele>
-        <time>2015-09-06T22:15:41Z</time>
-      </trkpt>
-      <trkpt lat="44.074126594" lon="-120.781927938">
-        <ele>1205.630000</ele>
-        <time>2015-09-06T22:15:45Z</time>
-      </trkpt>
-      <trkpt lat="44.074749369" lon="-120.781800449">
-        <ele>1203.230000</ele>
-        <time>2015-09-06T22:15:48Z</time>
-      </trkpt>
-      <trkpt lat="44.075126387" lon="-120.781531306">
-        <ele>1200.340000</ele>
-        <time>2015-09-06T22:15:50Z</time>
-      </trkpt>
-      <trkpt lat="44.075742038" lon="-120.780720692">
-        <ele>1196.500000</ele>
-        <time>2015-09-06T22:15:54Z</time>
-      </trkpt>
       <trkpt lat="44.076120397" lon="-120.780413747">
         <ele>1196.020000</ele>
         <time>2015-09-06T22:15:56Z</time>
-      </trkpt>
-      <trkpt lat="44.076774521" lon="-120.780214341">
-        <ele>1192.650000</ele>
-        <time>2015-09-06T22:15:59Z</time>
-      </trkpt>
-      <trkpt lat="44.077231335" lon="-120.780256586">
-        <ele>1189.770000</ele>
-        <time>2015-09-06T22:16:01Z</time>
-      </trkpt>
-      <trkpt lat="44.078388959" lon="-120.780579457">
-        <ele>1185.440000</ele>
-        <time>2015-09-06T22:16:06Z</time>
-      </trkpt>
-      <trkpt lat="44.079374922" lon="-120.780556072">
-        <ele>1181.120000</ele>
-        <time>2015-09-06T22:16:10Z</time>
-      </trkpt>
-      <trkpt lat="44.082819717" lon="-120.779389562">
-        <ele>1168.140000</ele>
-        <time>2015-09-06T22:16:24Z</time>
-      </trkpt>
-      <trkpt lat="44.085292630" lon="-120.779183870">
-        <ele>1159.490000</ele>
-        <time>2015-09-06T22:16:34Z</time>
       </trkpt>
       <trkpt lat="44.086671537" lon="-120.778862759">
         <ele>1152.280000</ele>
         <time>2015-09-06T22:16:40Z</time>
       </trkpt>
-      <trkpt lat="44.087382071" lon="-120.778901987">
-        <ele>1150.840000</ele>
-        <time>2015-09-06T22:16:43Z</time>
-      </trkpt>
       <trkpt lat="44.090919485" lon="-120.779857608">
         <ele>1130.170000</ele>
         <time>2015-09-06T22:16:58Z</time>
-      </trkpt>
-      <trkpt lat="44.091281751" lon="-120.780115603">
-        <ele>1127.280000</ele>
-        <time>2015-09-06T22:17:00Z</time>
-      </trkpt>
-      <trkpt lat="44.091588110" lon="-120.780489016">
-        <ele>1124.400000</ele>
-        <time>2015-09-06T22:17:02Z</time>
-      </trkpt>
-      <trkpt lat="44.091996811" lon="-120.781371128">
-        <ele>1117.190000</ele>
-        <time>2015-09-06T22:17:06Z</time>
-      </trkpt>
-      <trkpt lat="44.092276013" lon="-120.781711852">
-        <ele>1112.380000</ele>
-        <time>2015-09-06T22:17:08Z</time>
-      </trkpt>
-      <trkpt lat="44.093183437" lon="-120.782360192">
-        <ele>1108.540000</ele>
-        <time>2015-09-06T22:17:13Z</time>
-      </trkpt>
-      <trkpt lat="44.093823228" lon="-120.783111295">
-        <ele>1100.850000</ele>
-        <time>2015-09-06T22:17:17Z</time>
-      </trkpt>
-      <trkpt lat="44.094068315" lon="-120.783532737">
-        <ele>1098.440000</ele>
-        <time>2015-09-06T22:17:19Z</time>
       </trkpt>
       <trkpt lat="44.094215250" lon="-120.784002291">
         <ele>1093.160000</ele>
         <time>2015-09-06T22:17:21Z</time>
       </trkpt>
-      <trkpt lat="44.094245089" lon="-120.784489783">
-        <ele>1090.270000</ele>
-        <time>2015-09-06T22:17:23Z</time>
-      </trkpt>
-      <trkpt lat="44.094155570" lon="-120.785324117">
-        <ele>1084.020000</ele>
-        <time>2015-09-06T22:17:27Z</time>
-      </trkpt>
-      <trkpt lat="44.094203683" lon="-120.785645312">
-        <ele>1081.140000</ele>
-        <time>2015-09-06T22:17:29Z</time>
-      </trkpt>
-      <trkpt lat="44.094388420" lon="-120.785833737">
-        <ele>1079.700000</ele>
-        <time>2015-09-06T22:17:31Z</time>
-      </trkpt>
       <trkpt lat="44.094621940" lon="-120.785769699">
         <ele>1080.180000</ele>
         <time>2015-09-06T22:17:33Z</time>
-      </trkpt>
-      <trkpt lat="44.094779100" lon="-120.785472477">
-        <ele>1078.740000</ele>
-        <time>2015-09-06T22:17:35Z</time>
-      </trkpt>
-      <trkpt lat="44.094953109" lon="-120.784585839">
-        <ele>1079.700000</ele>
-        <time>2015-09-06T22:17:39Z</time>
-      </trkpt>
-      <trkpt lat="44.095123345" lon="-120.784119135">
-        <ele>1078.740000</ele>
-        <time>2015-09-06T22:17:41Z</time>
       </trkpt>
       <trkpt lat="44.095367929" lon="-120.783698866">
         <ele>1075.850000</ele>
         <time>2015-09-06T22:17:43Z</time>
       </trkpt>
-      <trkpt lat="44.095688285" lon="-120.783347078">
-        <ele>1072.970000</ele>
-        <time>2015-09-06T22:17:45Z</time>
-      </trkpt>
       <trkpt lat="44.096677350" lon="-120.782783478">
         <ele>1067.680000</ele>
         <time>2015-09-06T22:17:50Z</time>
-      </trkpt>
-      <trkpt lat="44.097118238" lon="-120.782690942">
-        <ele>1062.870000</ele>
-        <time>2015-09-06T22:17:52Z</time>
-      </trkpt>
-      <trkpt lat="44.098747261" lon="-120.782749029">
-        <ele>1049.900000</ele>
-        <time>2015-09-06T22:17:59Z</time>
-      </trkpt>
-      <trkpt lat="44.102967549" lon="-120.782209486">
-        <ele>1019.620000</ele>
-        <time>2015-09-06T22:18:16Z</time>
-      </trkpt>
-      <trkpt lat="44.104614258" lon="-120.781876640">
-        <ele>1010.000000</ele>
-        <time>2015-09-06T22:18:23Z</time>
       </trkpt>
       <trkpt lat="44.106016634" lon="-120.781972697">
         <ele>1010.960000</ele>
         <time>2015-09-06T22:18:29Z</time>
       </trkpt>
-      <trkpt lat="44.108003564" lon="-120.783301396">
-        <ele>1010.480000</ele>
-        <time>2015-09-06T22:18:38Z</time>
-      </trkpt>
       <trkpt lat="44.110075235" lon="-120.784473605">
         <ele>1005.200000</ele>
         <time>2015-09-06T22:18:50Z</time>
-      </trkpt>
-      <trkpt lat="44.110286711" lon="-120.784943327">
-        <ele>1003.750000</ele>
-        <time>2015-09-06T22:18:53Z</time>
-      </trkpt>
-      <trkpt lat="44.110222338" lon="-120.785847567">
-        <ele>1003.750000</ele>
-        <time>2015-09-06T22:18:58Z</time>
       </trkpt>
       <trkpt lat="44.110322502" lon="-120.786122326">
         <ele>1007.600000</ele>
         <time>2015-09-06T22:19:00Z</time>
       </trkpt>
-      <trkpt lat="44.111895952" lon="-120.787028745">
-        <ele>1004.720000</ele>
-        <time>2015-09-06T22:19:11Z</time>
-      </trkpt>
-      <trkpt lat="44.112111870" lon="-120.787302246">
-        <ele>1004.230000</ele>
-        <time>2015-09-06T22:19:13Z</time>
-      </trkpt>
       <trkpt lat="44.112217063" lon="-120.787610868">
         <ele>1003.750000</ele>
         <time>2015-09-06T22:19:15Z</time>
-      </trkpt>
-      <trkpt lat="44.112112122" lon="-120.788101209">
-        <ele>1004.230000</ele>
-        <time>2015-09-06T22:19:18Z</time>
-      </trkpt>
-      <trkpt lat="44.111504937" lon="-120.789600145">
-        <ele>1002.790000</ele>
-        <time>2015-09-06T22:19:25Z</time>
       </trkpt>
       <trkpt lat="44.110792391" lon="-120.790983662">
         <ele>990.780000</ele>
         <time>2015-09-06T22:19:32Z</time>
       </trkpt>
-      <trkpt lat="44.110724833" lon="-120.791709702">
-        <ele>987.410000</ele>
-        <time>2015-09-06T22:19:35Z</time>
-      </trkpt>
       <trkpt lat="44.110943349" lon="-120.792704718">
         <ele>982.600000</ele>
         <time>2015-09-06T22:19:39Z</time>
-      </trkpt>
-      <trkpt lat="44.111178378" lon="-120.793114426">
-        <ele>978.760000</ele>
-        <time>2015-09-06T22:19:41Z</time>
-      </trkpt>
-      <trkpt lat="44.111500243" lon="-120.793407038">
-        <ele>976.360000</ele>
-        <time>2015-09-06T22:19:43Z</time>
-      </trkpt>
-      <trkpt lat="44.111874579" lon="-120.793535616">
-        <ele>973.950000</ele>
-        <time>2015-09-06T22:19:45Z</time>
       </trkpt>
       <trkpt lat="44.112453768" lon="-120.793445008">
         <ele>970.110000</ele>
         <time>2015-09-06T22:19:48Z</time>
       </trkpt>
-      <trkpt lat="44.113153322" lon="-120.792963468">
-        <ele>964.340000</ele>
-        <time>2015-09-06T22:19:52Z</time>
-      </trkpt>
-      <trkpt lat="44.114099639" lon="-120.791831240">
-        <ele>957.610000</ele>
-        <time>2015-09-06T22:19:58Z</time>
-      </trkpt>
-      <trkpt lat="44.115012595" lon="-120.790472869">
-        <ele>954.730000</ele>
-        <time>2015-09-06T22:20:04Z</time>
-      </trkpt>
       <trkpt lat="44.115671413" lon="-120.789655717">
         <ele>955.690000</ele>
         <time>2015-09-06T22:20:08Z</time>
-      </trkpt>
-      <trkpt lat="44.116063099" lon="-120.789411468">
-        <ele>955.210000</ele>
-        <time>2015-09-06T22:20:10Z</time>
-      </trkpt>
-      <trkpt lat="44.116495522" lon="-120.789312059">
-        <ele>956.650000</ele>
-        <time>2015-09-06T22:20:12Z</time>
       </trkpt>
       <trkpt lat="44.117365228" lon="-120.789391436">
         <ele>953.770000</ele>
         <time>2015-09-06T22:20:16Z</time>
       </trkpt>
-      <trkpt lat="44.117920864" lon="-120.789746325">
-        <ele>955.690000</ele>
-        <time>2015-09-06T22:20:19Z</time>
-      </trkpt>
       <trkpt lat="44.118592925" lon="-120.790580492">
         <ele>953.280000</ele>
         <time>2015-09-06T22:20:23Z</time>
-      </trkpt>
-      <trkpt lat="44.118822757" lon="-120.791068655">
-        <ele>952.800000</ele>
-        <time>2015-09-06T22:20:25Z</time>
-      </trkpt>
-      <trkpt lat="44.119076226" lon="-120.791929727">
-        <ele>955.210000</ele>
-        <time>2015-09-06T22:20:28Z</time>
-      </trkpt>
-      <trkpt lat="44.119461877" lon="-120.794374561">
-        <ele>954.250000</ele>
-        <time>2015-09-06T22:20:36Z</time>
-      </trkpt>
-      <trkpt lat="44.119537398" lon="-120.795318866">
-        <ele>952.800000</ele>
-        <time>2015-09-06T22:20:39Z</time>
-      </trkpt>
-      <trkpt lat="44.119796734" lon="-120.796846468">
-        <ele>956.650000</ele>
-        <time>2015-09-06T22:20:44Z</time>
-      </trkpt>
-      <trkpt lat="44.120074846" lon="-120.797642665">
-        <ele>958.570000</ele>
-        <time>2015-09-06T22:20:47Z</time>
       </trkpt>
       <trkpt lat="44.120518416" lon="-120.798221771">
         <ele>959.530000</ele>
         <time>2015-09-06T22:20:50Z</time>
       </trkpt>
-      <trkpt lat="44.121317631" lon="-120.798713537">
-        <ele>959.050000</ele>
-        <time>2015-09-06T22:20:54Z</time>
-      </trkpt>
       <trkpt lat="44.122232180" lon="-120.798889641">
         <ele>958.570000</ele>
         <time>2015-09-06T22:20:58Z</time>
-      </trkpt>
-      <trkpt lat="44.123804122" lon="-120.798648577">
-        <ele>956.650000</ele>
-        <time>2015-09-06T22:21:05Z</time>
-      </trkpt>
-      <trkpt lat="44.125811253" lon="-120.798064610">
-        <ele>950.880000</ele>
-        <time>2015-09-06T22:21:14Z</time>
       </trkpt>
       <trkpt lat="44.127175827" lon="-120.797858331">
         <ele>947.520000</ele>
         <time>2015-09-06T22:21:20Z</time>
       </trkpt>
-      <trkpt lat="44.127776306" lon="-120.798028400">
-        <ele>945.590000</ele>
-        <time>2015-09-06T22:21:23Z</time>
-      </trkpt>
-      <trkpt lat="44.128127927" lon="-120.798314642">
-        <ele>945.590000</ele>
-        <time>2015-09-06T22:21:25Z</time>
-      </trkpt>
-      <trkpt lat="44.128411990" lon="-120.798728457">
-        <ele>948.000000</ele>
-        <time>2015-09-06T22:21:27Z</time>
-      </trkpt>
       <trkpt lat="44.128928315" lon="-120.800053887">
         <ele>948.480000</ele>
         <time>2015-09-06T22:21:32Z</time>
-      </trkpt>
-      <trkpt lat="44.129023449" lon="-120.800669286">
-        <ele>948.000000</ele>
-        <time>2015-09-06T22:21:34Z</time>
-      </trkpt>
-      <trkpt lat="44.128992185" lon="-120.803279746">
-        <ele>947.520000</ele>
-        <time>2015-09-06T22:21:42Z</time>
-      </trkpt>
-      <trkpt lat="44.128685324" lon="-120.805486115">
-        <ele>947.040000</ele>
-        <time>2015-09-06T22:21:49Z</time>
-      </trkpt>
-      <trkpt lat="44.128479380" lon="-120.806331681">
-        <ele>945.590000</ele>
-        <time>2015-09-06T22:21:52Z</time>
-      </trkpt>
-      <trkpt lat="44.127587127" lon="-120.808232529">
-        <ele>946.070000</ele>
-        <time>2015-09-06T22:22:01Z</time>
-      </trkpt>
-      <trkpt lat="44.127580086" lon="-120.808602339">
-        <ele>946.560000</ele>
-        <time>2015-09-06T22:22:03Z</time>
       </trkpt>
       <trkpt lat="44.127724171" lon="-120.808930909">
         <ele>947.520000</ele>
         <time>2015-09-06T22:22:05Z</time>
       </trkpt>
-      <trkpt lat="44.127994822" lon="-120.809166105">
-        <ele>949.440000</ele>
-        <time>2015-09-06T22:22:07Z</time>
-      </trkpt>
-      <trkpt lat="44.129632479" lon="-120.809970852">
-        <ele>948.000000</ele>
-        <time>2015-09-06T22:22:16Z</time>
-      </trkpt>
-      <trkpt lat="44.130028775" lon="-120.809959453">
-        <ele>947.520000</ele>
-        <time>2015-09-06T22:22:18Z</time>
-      </trkpt>
-      <trkpt lat="44.131447747" lon="-120.809622249">
-        <ele>942.710000</ele>
-        <time>2015-09-06T22:22:25Z</time>
-      </trkpt>
       <trkpt lat="44.131999444" lon="-120.809824420">
         <ele>944.630000</ele>
         <time>2015-09-06T22:22:28Z</time>
-      </trkpt>
-      <trkpt lat="44.132297756" lon="-120.810106052">
-        <ele>943.670000</ele>
-        <time>2015-09-06T22:22:30Z</time>
-      </trkpt>
-      <trkpt lat="44.132793127" lon="-120.810931083">
-        <ele>943.670000</ele>
-        <time>2015-09-06T22:22:34Z</time>
-      </trkpt>
-      <trkpt lat="44.133104179" lon="-120.811289325">
-        <ele>942.230000</ele>
-        <time>2015-09-06T22:22:36Z</time>
-      </trkpt>
-      <trkpt lat="44.133640705" lon="-120.811702805">
-        <ele>940.310000</ele>
-        <time>2015-09-06T22:22:39Z</time>
-      </trkpt>
-      <trkpt lat="44.135843301" lon="-120.814168425">
-        <ele>940.790000</ele>
-        <time>2015-09-06T22:22:52Z</time>
       </trkpt>
       <trkpt lat="44.137296220" lon="-120.815158328">
         <ele>946.070000</ele>
         <time>2015-09-06T22:23:00Z</time>
       </trkpt>
-      <trkpt lat="44.138180595" lon="-120.816435982">
-        <ele>951.360000</ele>
-        <time>2015-09-06T22:23:07Z</time>
-      </trkpt>
-      <trkpt lat="44.138742853" lon="-120.817764010">
-        <ele>955.210000</ele>
-        <time>2015-09-06T22:23:14Z</time>
-      </trkpt>
       <trkpt lat="44.138782751" lon="-120.818121331">
         <ele>958.090000</ele>
         <time>2015-09-06T22:23:16Z</time>
-      </trkpt>
-      <trkpt lat="44.138631457" lon="-120.818927754">
-        <ele>963.380000</ele>
-        <time>2015-09-06T22:23:20Z</time>
-      </trkpt>
-      <trkpt lat="44.138595164" lon="-120.819496382">
-        <ele>963.860000</ele>
-        <time>2015-09-06T22:23:23Z</time>
       </trkpt>
       <trkpt lat="44.138469351" lon="-120.819821432">
         <ele>965.300000</ele>
         <time>2015-09-06T22:23:25Z</time>
       </trkpt>
-      <trkpt lat="44.138021003" lon="-120.820346223">
-        <ele>967.220000</ele>
-        <time>2015-09-06T22:23:29Z</time>
-      </trkpt>
-      <trkpt lat="44.137812546" lon="-120.820875289">
-        <ele>967.700000</ele>
-        <time>2015-09-06T22:23:32Z</time>
-      </trkpt>
-      <trkpt lat="44.137614900" lon="-120.821120963">
-        <ele>967.220000</ele>
-        <time>2015-09-06T22:23:34Z</time>
-      </trkpt>
-      <trkpt lat="44.137219358" lon="-120.821344927">
-        <ele>968.180000</ele>
-        <time>2015-09-06T22:23:37Z</time>
-      </trkpt>
-      <trkpt lat="44.136898164" lon="-120.821698559">
-        <ele>965.780000</ele>
-        <time>2015-09-06T22:23:40Z</time>
-      </trkpt>
       <trkpt lat="44.136670176" lon="-120.821758909">
         <ele>964.340000</ele>
         <time>2015-09-06T22:23:42Z</time>
-      </trkpt>
-      <trkpt lat="44.136275053" lon="-120.821613315">
-        <ele>964.340000</ele>
-        <time>2015-09-06T22:23:45Z</time>
-      </trkpt>
-      <trkpt lat="44.135727799" lon="-120.821623290">
-        <ele>961.940000</ele>
-        <time>2015-09-06T22:23:49Z</time>
-      </trkpt>
-      <trkpt lat="44.134684587" lon="-120.821043178">
-        <ele>958.090000</ele>
-        <time>2015-09-06T22:23:56Z</time>
-      </trkpt>
-      <trkpt lat="44.133856874" lon="-120.820126366">
-        <ele>953.770000</ele>
-        <time>2015-09-06T22:24:03Z</time>
       </trkpt>
       <trkpt lat="44.133594688" lon="-120.820017988">
         <ele>952.800000</ele>
         <time>2015-09-06T22:24:05Z</time>
       </trkpt>
-      <trkpt lat="44.133309368" lon="-120.820071548">
-        <ele>953.280000</ele>
-        <time>2015-09-06T22:24:07Z</time>
-      </trkpt>
-      <trkpt lat="44.132725904" lon="-120.820396431">
-        <ele>951.840000</ele>
-        <time>2015-09-06T22:24:11Z</time>
-      </trkpt>
-      <trkpt lat="44.132472184" lon="-120.820672279">
-        <ele>950.400000</ele>
-        <time>2015-09-06T22:24:13Z</time>
-      </trkpt>
-      <trkpt lat="44.132268671" lon="-120.821044100">
-        <ele>950.880000</ele>
-        <time>2015-09-06T22:24:15Z</time>
-      </trkpt>
       <trkpt lat="44.131950242" lon="-120.821942557">
         <ele>948.480000</ele>
         <time>2015-09-06T22:24:19Z</time>
-      </trkpt>
-      <trkpt lat="44.131782604" lon="-120.823577195">
-        <ele>948.000000</ele>
-        <time>2015-09-06T22:24:25Z</time>
-      </trkpt>
-      <trkpt lat="44.131870195" lon="-120.826244066">
-        <ele>940.790000</ele>
-        <time>2015-09-06T22:24:34Z</time>
       </trkpt>
       <trkpt lat="44.131738683" lon="-120.829408653">
         <ele>934.540000</ele>
         <time>2015-09-06T22:24:44Z</time>
       </trkpt>
-      <trkpt lat="44.131653439" lon="-120.829975270">
-        <ele>935.020000</ele>
-        <time>2015-09-06T22:24:46Z</time>
-      </trkpt>
-      <trkpt lat="44.131472977" lon="-120.830509113">
-        <ele>933.580000</ele>
-        <time>2015-09-06T22:24:48Z</time>
-      </trkpt>
       <trkpt lat="44.131038291" lon="-120.831193076">
         <ele>934.060000</ele>
         <time>2015-09-06T22:24:51Z</time>
-      </trkpt>
-      <trkpt lat="44.130665213" lon="-120.831516283">
-        <ele>934.060000</ele>
-        <time>2015-09-06T22:24:53Z</time>
-      </trkpt>
-      <trkpt lat="44.129728787" lon="-120.832043169">
-        <ele>932.620000</ele>
-        <time>2015-09-06T22:24:58Z</time>
       </trkpt>
       <trkpt lat="44.129385212" lon="-120.832361765">
         <ele>933.100000</ele>
         <time>2015-09-06T22:25:00Z</time>
       </trkpt>
-      <trkpt lat="44.128939882" lon="-120.833003232">
-        <ele>933.100000</ele>
-        <time>2015-09-06T22:25:03Z</time>
-      </trkpt>
-      <trkpt lat="44.128460269" lon="-120.833914932">
-        <ele>930.210000</ele>
-        <time>2015-09-06T22:25:07Z</time>
-      </trkpt>
-      <trkpt lat="44.128354490" lon="-120.834422037">
-        <ele>930.690000</ele>
-        <time>2015-09-06T22:25:09Z</time>
-      </trkpt>
       <trkpt lat="44.128411738" lon="-120.834937859">
         <ele>929.250000</ele>
         <time>2015-09-06T22:25:11Z</time>
-      </trkpt>
-      <trkpt lat="44.128622040" lon="-120.835408755">
-        <ele>930.210000</ele>
-        <time>2015-09-06T22:25:13Z</time>
       </trkpt>
       <trkpt lat="44.130394980" lon="-120.837948890">
         <ele>928.770000</ele>
         <time>2015-09-06T22:25:25Z</time>
       </trkpt>
-      <trkpt lat="44.130977774" lon="-120.838333536">
-        <ele>930.690000</ele>
-        <time>2015-09-06T22:25:28Z</time>
-      </trkpt>
-      <trkpt lat="44.131411789" lon="-120.838435376">
-        <ele>932.140000</ele>
-        <time>2015-09-06T22:25:30Z</time>
-      </trkpt>
       <trkpt lat="44.131852007" lon="-120.838416433">
         <ele>932.620000</ele>
         <time>2015-09-06T22:25:32Z</time>
-      </trkpt>
-      <trkpt lat="44.132731268" lon="-120.838176291">
-        <ele>931.170000</ele>
-        <time>2015-09-06T22:25:36Z</time>
-      </trkpt>
-      <trkpt lat="44.137199745" lon="-120.836400166">
-        <ele>931.170000</ele>
-        <time>2015-09-06T22:25:55Z</time>
       </trkpt>
       <trkpt lat="44.139575092" lon="-120.835211445">
         <ele>929.730000</ele>
         <time>2015-09-06T22:26:05Z</time>
       </trkpt>
-      <trkpt lat="44.141527908" lon="-120.833771266">
-        <ele>932.140000</ele>
-        <time>2015-09-06T22:26:14Z</time>
-      </trkpt>
       <trkpt lat="44.143348290" lon="-120.832280209">
         <ele>930.210000</ele>
         <time>2015-09-06T22:26:23Z</time>
-      </trkpt>
-      <trkpt lat="44.143676441" lon="-120.831805626">
-        <ele>931.170000</ele>
-        <time>2015-09-06T22:26:25Z</time>
       </trkpt>
       <trkpt lat="44.145428343" lon="-120.827689609">
         <ele>927.810000</ele>
         <time>2015-09-06T22:26:39Z</time>
       </trkpt>
-      <trkpt lat="44.145965120" lon="-120.827028109">
-        <ele>929.250000</ele>
-        <time>2015-09-06T22:26:42Z</time>
-      </trkpt>
       <trkpt lat="44.147705622" lon="-120.825763699">
         <ele>931.170000</ele>
         <time>2015-09-06T22:26:50Z</time>
-      </trkpt>
-      <trkpt lat="44.148160005" lon="-120.825626319">
-        <ele>928.770000</ele>
-        <time>2015-09-06T22:26:52Z</time>
-      </trkpt>
-      <trkpt lat="44.148627464" lon="-120.825663116">
-        <ele>929.250000</ele>
-        <time>2015-09-06T22:26:54Z</time>
       </trkpt>
       <trkpt lat="44.150512051" lon="-120.826263176">
         <ele>929.250000</ele>
         <time>2015-09-06T22:27:02Z</time>
       </trkpt>
-      <trkpt lat="44.151280755" lon="-120.826946804">
-        <ele>929.730000</ele>
-        <time>2015-09-06T22:27:06Z</time>
-      </trkpt>
-      <trkpt lat="44.152660249" lon="-120.827618279">
-        <ele>927.330000</ele>
-        <time>2015-09-06T22:27:12Z</time>
-      </trkpt>
       <trkpt lat="44.154978180" lon="-120.828992240">
         <ele>926.370000</ele>
         <time>2015-09-06T22:27:22Z</time>
-      </trkpt>
-      <trkpt lat="44.155344553" lon="-120.829460621">
-        <ele>925.410000</ele>
-        <time>2015-09-06T22:27:24Z</time>
-      </trkpt>
-      <trkpt lat="44.155751746" lon="-120.830301242">
-        <ele>923.960000</ele>
-        <time>2015-09-06T22:27:27Z</time>
       </trkpt>
       <trkpt lat="44.156424562" lon="-120.833257455">
         <ele>923.480000</ele>
         <time>2015-09-06T22:27:37Z</time>
       </trkpt>
-      <trkpt lat="44.156637713" lon="-120.833733547">
-        <ele>921.560000</ele>
-        <time>2015-09-06T22:27:39Z</time>
-      </trkpt>
-      <trkpt lat="44.156943485" lon="-120.834050300">
-        <ele>919.640000</ele>
-        <time>2015-09-06T22:27:41Z</time>
-      </trkpt>
       <trkpt lat="44.157515885" lon="-120.834146859">
         <ele>920.600000</ele>
         <time>2015-09-06T22:27:44Z</time>
-      </trkpt>
-      <trkpt lat="44.157875469" lon="-120.833944017">
-        <ele>919.640000</ele>
-        <time>2015-09-06T22:27:46Z</time>
-      </trkpt>
-      <trkpt lat="44.160067756" lon="-120.831590127">
-        <ele>921.080000</ele>
-        <time>2015-09-06T22:27:58Z</time>
       </trkpt>
       <trkpt lat="44.161583120" lon="-120.830536606">
         <ele>921.560000</ele>
@@ -3620,233 +904,65 @@
         <ele>921.560000</ele>
         <time>2015-09-06T22:28:12Z</time>
       </trkpt>
-      <trkpt lat="44.163789991" lon="-120.830291854">
-        <ele>922.520000</ele>
-        <time>2015-09-06T22:28:14Z</time>
-      </trkpt>
-      <trkpt lat="44.165738281" lon="-120.831173128">
-        <ele>923.960000</ele>
-        <time>2015-09-06T22:28:22Z</time>
-      </trkpt>
       <trkpt lat="44.169000266" lon="-120.833430793">
         <ele>922.520000</ele>
         <time>2015-09-06T22:28:36Z</time>
-      </trkpt>
-      <trkpt lat="44.169823704" lon="-120.834827218">
-        <ele>922.520000</ele>
-        <time>2015-09-06T22:28:41Z</time>
       </trkpt>
       <trkpt lat="44.170715706" lon="-120.838430431">
         <ele>922.040000</ele>
         <time>2015-09-06T22:28:52Z</time>
       </trkpt>
-      <trkpt lat="44.170980658" lon="-120.838987157">
-        <ele>922.040000</ele>
-        <time>2015-09-06T22:28:54Z</time>
-      </trkpt>
-      <trkpt lat="44.174171397" lon="-120.843481617">
-        <ele>923.000000</ele>
-        <time>2015-09-06T22:29:12Z</time>
-      </trkpt>
       <trkpt lat="44.174708007" lon="-120.844044713">
         <ele>921.560000</ele>
         <time>2015-09-06T22:29:15Z</time>
-      </trkpt>
-      <trkpt lat="44.177039433" lon="-120.845237458">
-        <ele>921.080000</ele>
-        <time>2015-09-06T22:29:25Z</time>
-      </trkpt>
-      <trkpt lat="44.179123510" lon="-120.846989946">
-        <ele>917.240000</ele>
-        <time>2015-09-06T22:29:34Z</time>
       </trkpt>
       <trkpt lat="44.180530077" lon="-120.848694909">
         <ele>916.270000</ele>
         <time>2015-09-06T22:29:41Z</time>
       </trkpt>
-      <trkpt lat="44.180876501" lon="-120.849625049">
-        <ele>914.830000</ele>
-        <time>2015-09-06T22:29:44Z</time>
-      </trkpt>
-      <trkpt lat="44.181121672" lon="-120.850868169">
-        <ele>913.870000</ele>
-        <time>2015-09-06T22:29:48Z</time>
-      </trkpt>
-      <trkpt lat="44.181452170" lon="-120.851725219">
-        <ele>914.350000</ele>
-        <time>2015-09-06T22:29:51Z</time>
-      </trkpt>
-      <trkpt lat="44.184269411" lon="-120.857003806">
-        <ele>913.390000</ele>
-        <time>2015-09-06T22:30:09Z</time>
-      </trkpt>
       <trkpt lat="44.185179686" lon="-120.859239595">
         <ele>912.910000</ele>
         <time>2015-09-06T22:30:16Z</time>
-      </trkpt>
-      <trkpt lat="44.185420582" lon="-120.861757100">
-        <ele>913.870000</ele>
-        <time>2015-09-06T22:30:23Z</time>
-      </trkpt>
-      <trkpt lat="44.184971228" lon="-120.866125245">
-        <ele>914.350000</ele>
-        <time>2015-09-06T22:30:35Z</time>
       </trkpt>
       <trkpt lat="44.184893109" lon="-120.868446110">
         <ele>910.030000</ele>
         <time>2015-09-06T22:30:42Z</time>
       </trkpt>
-      <trkpt lat="44.185056137" lon="-120.869013648">
-        <ele>910.510000</ele>
-        <time>2015-09-06T22:30:44Z</time>
-      </trkpt>
-      <trkpt lat="44.185649492" lon="-120.870015202">
-        <ele>910.990000</ele>
-        <time>2015-09-06T22:30:48Z</time>
-      </trkpt>
       <trkpt lat="44.187627537" lon="-120.872228527">
         <ele>912.910000</ele>
         <time>2015-09-06T22:30:58Z</time>
-      </trkpt>
-      <trkpt lat="44.190844595" lon="-120.874570683">
-        <ele>913.870000</ele>
-        <time>2015-09-06T22:31:13Z</time>
-      </trkpt>
-      <trkpt lat="44.191426719" lon="-120.874739913">
-        <ele>914.830000</ele>
-        <time>2015-09-06T22:31:16Z</time>
-      </trkpt>
-      <trkpt lat="44.192959685" lon="-120.875649266">
-        <ele>910.510000</ele>
-        <time>2015-09-06T22:31:23Z</time>
-      </trkpt>
-      <trkpt lat="44.194982992" lon="-120.877248282">
-        <ele>907.620000</ele>
-        <time>2015-09-06T22:31:32Z</time>
       </trkpt>
       <trkpt lat="44.197077882" lon="-120.878531300">
         <ele>907.140000</ele>
         <time>2015-09-06T22:31:41Z</time>
       </trkpt>
-      <trkpt lat="44.197581969" lon="-120.878640348">
-        <ele>906.180000</ele>
-        <time>2015-09-06T22:31:43Z</time>
-      </trkpt>
       <trkpt lat="44.198847050" lon="-120.878527025">
         <ele>906.180000</ele>
         <time>2015-09-06T22:31:48Z</time>
-      </trkpt>
-      <trkpt lat="44.200167703" lon="-120.877696211">
-        <ele>906.660000</ele>
-        <time>2015-09-06T22:31:54Z</time>
-      </trkpt>
-      <trkpt lat="44.201835198" lon="-120.875774240">
-        <ele>904.260000</ele>
-        <time>2015-09-06T22:32:03Z</time>
-      </trkpt>
-      <trkpt lat="44.202615721" lon="-120.874730777">
-        <ele>901.370000</ele>
-        <time>2015-09-06T22:32:08Z</time>
-      </trkpt>
-      <trkpt lat="44.203193486" lon="-120.874359123">
-        <ele>903.300000</ele>
-        <time>2015-09-06T22:32:11Z</time>
       </trkpt>
       <trkpt lat="44.203797150" lon="-120.874229874">
         <ele>900.410000</ele>
         <time>2015-09-06T22:32:14Z</time>
       </trkpt>
-      <trkpt lat="44.204174923" lon="-120.874386951">
-        <ele>900.890000</ele>
-        <time>2015-09-06T22:32:16Z</time>
-      </trkpt>
-      <trkpt lat="44.205061141" lon="-120.875241486">
-        <ele>902.330000</ele>
-        <time>2015-09-06T22:32:21Z</time>
-      </trkpt>
-      <trkpt lat="44.206235530" lon="-120.877458416">
-        <ele>902.330000</ele>
-        <time>2015-09-06T22:32:30Z</time>
-      </trkpt>
       <trkpt lat="44.207009431" lon="-120.878487965">
         <ele>900.410000</ele>
         <time>2015-09-06T22:32:35Z</time>
-      </trkpt>
-      <trkpt lat="44.207383515" lon="-120.878774459">
-        <ele>900.890000</ele>
-        <time>2015-09-06T22:32:37Z</time>
-      </trkpt>
-      <trkpt lat="44.208002267" lon="-120.879082493">
-        <ele>901.850000</ele>
-        <time>2015-09-06T22:32:40Z</time>
       </trkpt>
       <trkpt lat="44.209308838" lon="-120.879527908">
         <ele>902.330000</ele>
         <time>2015-09-06T22:32:46Z</time>
       </trkpt>
-      <trkpt lat="44.210631754" lon="-120.879455237">
-        <ele>902.820000</ele>
-        <time>2015-09-06T22:32:52Z</time>
-      </trkpt>
-      <trkpt lat="44.213985521" lon="-120.878945952">
-        <ele>898.490000</ele>
-        <time>2015-09-06T22:33:07Z</time>
-      </trkpt>
-      <trkpt lat="44.214619612" lon="-120.878776051">
-        <ele>898.010000</ele>
-        <time>2015-09-06T22:33:10Z</time>
-      </trkpt>
-      <trkpt lat="44.215206765" lon="-120.878467094">
-        <ele>896.570000</ele>
-        <time>2015-09-06T22:33:13Z</time>
-      </trkpt>
       <trkpt lat="44.215547321" lon="-120.878182026">
         <ele>897.050000</ele>
         <time>2015-09-06T22:33:15Z</time>
-      </trkpt>
-      <trkpt lat="44.216312673" lon="-120.876326524">
-        <ele>904.260000</ele>
-        <time>2015-09-06T22:33:22Z</time>
       </trkpt>
       <trkpt lat="44.217311544" lon="-120.874769250">
         <ele>910.030000</ele>
         <time>2015-09-06T22:33:29Z</time>
       </trkpt>
-      <trkpt lat="44.218763877" lon="-120.873517497">
-        <ele>906.180000</ele>
-        <time>2015-09-06T22:33:37Z</time>
-      </trkpt>
-      <trkpt lat="44.219266456" lon="-120.872898158">
-        <ele>902.820000</ele>
-        <time>2015-09-06T22:33:40Z</time>
-      </trkpt>
-      <trkpt lat="44.220216880" lon="-120.871488657">
-        <ele>899.450000</ele>
-        <time>2015-09-06T22:33:46Z</time>
-      </trkpt>
-      <trkpt lat="44.221105613" lon="-120.870488612">
-        <ele>902.820000</ele>
-        <time>2015-09-06T22:33:51Z</time>
-      </trkpt>
       <trkpt lat="44.229561612" lon="-120.863192584">
         <ele>898.970000</ele>
         <time>2015-09-06T22:34:34Z</time>
-      </trkpt>
-      <trkpt lat="44.229997555" lon="-120.862977253">
-        <ele>898.970000</ele>
-        <time>2015-09-06T22:34:36Z</time>
-      </trkpt>
-      <trkpt lat="44.232100490" lon="-120.862545501">
-        <ele>898.010000</ele>
-        <time>2015-09-06T22:34:45Z</time>
-      </trkpt>
-      <trkpt lat="44.237552751" lon="-120.863038860">
-        <ele>897.530000</ele>
-        <time>2015-09-06T22:35:07Z</time>
-      </trkpt>
-      <trkpt lat="44.238746418" lon="-120.862818165">
-        <ele>895.120000</ele>
-        <time>2015-09-06T22:35:12Z</time>
       </trkpt>
       <trkpt lat="44.240763355" lon="-120.862254566">
         <ele>894.160000</ele>
@@ -3860,153 +976,37 @@
         <ele>889.360000</ele>
         <time>2015-09-06T22:36:43Z</time>
       </trkpt>
-      <trkpt lat="44.261921458" lon="-120.854295110">
-        <ele>889.360000</ele>
-        <time>2015-09-06T22:36:53Z</time>
-      </trkpt>
-      <trkpt lat="44.266510550" lon="-120.854267450">
-        <ele>892.240000</ele>
-        <time>2015-09-06T22:37:11Z</time>
-      </trkpt>
-      <trkpt lat="44.267406492" lon="-120.854178686">
-        <ele>895.610000</ele>
-        <time>2015-09-06T22:37:15Z</time>
-      </trkpt>
-      <trkpt lat="44.268013006" lon="-120.854002247">
-        <ele>897.050000</ele>
-        <time>2015-09-06T22:37:18Z</time>
-      </trkpt>
       <trkpt lat="44.268513573" lon="-120.853608800">
         <ele>895.120000</ele>
         <time>2015-09-06T22:37:21Z</time>
-      </trkpt>
-      <trkpt lat="44.268809119" lon="-120.852875384">
-        <ele>896.090000</ele>
-        <time>2015-09-06T22:37:24Z</time>
-      </trkpt>
-      <trkpt lat="44.269697852" lon="-120.851345267">
-        <ele>894.640000</ele>
-        <time>2015-09-06T22:37:30Z</time>
-      </trkpt>
-      <trkpt lat="44.275291599" lon="-120.844341600">
-        <ele>897.050000</ele>
-        <time>2015-09-06T22:38:00Z</time>
-      </trkpt>
-      <trkpt lat="44.277745318" lon="-120.841645477">
-        <ele>885.510000</ele>
-        <time>2015-09-06T22:38:13Z</time>
       </trkpt>
       <trkpt lat="44.278145554" lon="-120.841377759">
         <ele>885.510000</ele>
         <time>2015-09-06T22:38:15Z</time>
       </trkpt>
-      <trkpt lat="44.278587196" lon="-120.841244571">
-        <ele>884.550000</ele>
-        <time>2015-09-06T22:38:17Z</time>
-      </trkpt>
-      <trkpt lat="44.281047536" lon="-120.840959251">
-        <ele>883.590000</ele>
-        <time>2015-09-06T22:38:28Z</time>
-      </trkpt>
-      <trkpt lat="44.282312533" lon="-120.840370171">
-        <ele>884.550000</ele>
-        <time>2015-09-06T22:38:34Z</time>
-      </trkpt>
-      <trkpt lat="44.282772951" lon="-120.840324908">
-        <ele>884.070000</ele>
-        <time>2015-09-06T22:38:36Z</time>
-      </trkpt>
       <trkpt lat="44.283234291" lon="-120.840410823">
         <ele>885.030000</ele>
         <time>2015-09-06T22:38:38Z</time>
-      </trkpt>
-      <trkpt lat="44.283877686" lon="-120.840804437">
-        <ele>884.550000</ele>
-        <time>2015-09-06T22:38:41Z</time>
-      </trkpt>
-      <trkpt lat="44.285247792" lon="-120.842448883">
-        <ele>882.630000</ele>
-        <time>2015-09-06T22:38:49Z</time>
-      </trkpt>
-      <trkpt lat="44.285724638" lon="-120.842774687">
-        <ele>881.190000</ele>
-        <time>2015-09-06T22:38:52Z</time>
       </trkpt>
       <trkpt lat="44.286059579" lon="-120.842832355">
         <ele>880.710000</ele>
         <time>2015-09-06T22:38:54Z</time>
       </trkpt>
-      <trkpt lat="44.287839895" lon="-120.842353413">
-        <ele>878.780000</ele>
-        <time>2015-09-06T22:39:05Z</time>
-      </trkpt>
       <trkpt lat="44.288709350" lon="-120.842264816">
         <ele>879.260000</ele>
         <time>2015-09-06T22:39:10Z</time>
-      </trkpt>
-      <trkpt lat="44.289075974" lon="-120.842395909">
-        <ele>880.220000</ele>
-        <time>2015-09-06T22:39:12Z</time>
-      </trkpt>
-      <trkpt lat="44.293556521" lon="-120.846454175">
-        <ele>876.380000</ele>
-        <time>2015-09-06T22:39:43Z</time>
       </trkpt>
       <trkpt lat="44.294690927" lon="-120.846965890">
         <ele>875.900000</ele>
         <time>2015-09-06T22:39:52Z</time>
       </trkpt>
-      <trkpt lat="44.296050975" lon="-120.847064378">
-        <ele>874.460000</ele>
-        <time>2015-09-06T22:40:02Z</time>
-      </trkpt>
       <trkpt lat="44.302818105" lon="-120.847098324">
         <ele>873.500000</ele>
         <time>2015-09-06T22:42:12Z</time>
       </trkpt>
-      <trkpt lat="44.302892871" lon="-120.846993215">
-        <ele>873.500000</ele>
-        <time>2015-09-06T22:42:14Z</time>
-      </trkpt>
       <trkpt lat="44.302941067" lon="-120.830456475">
         <ele>880.220000</ele>
         <time>2015-09-06T22:44:01Z</time>
-      </trkpt>
-      <trkpt lat="44.303028071" lon="-120.830338625">
-        <ele>880.220000</ele>
-        <time>2015-09-06T22:44:03Z</time>
-      </trkpt>
-      <trkpt lat="44.303277852" lon="-120.830340050">
-        <ele>879.260000</ele>
-        <time>2015-09-06T22:44:07Z</time>
-      </trkpt>
-      <trkpt lat="44.303357648" lon="-120.830438286">
-        <ele>879.260000</ele>
-        <time>2015-09-06T22:44:09Z</time>
-      </trkpt>
-      <trkpt lat="44.303368377" lon="-120.830793176">
-        <ele>879.260000</ele>
-        <time>2015-09-06T22:44:15Z</time>
-      </trkpt>
-      <trkpt lat="44.303211048" lon="-120.830984367">
-        <ele>879.260000</ele>
-        <time>2015-09-06T22:44:22Z</time>
-      </trkpt>
-      <trkpt lat="44.303610446" lon="-120.831127949">
-        <ele>878.780000</ele>
-        <time>2015-09-06T22:44:35Z</time>
-      </trkpt>
-      <trkpt lat="44.303724105" lon="-120.831425171">
-        <ele>878.780000</ele>
-        <time>2015-09-06T22:44:45Z</time>
-      </trkpt>
-      <trkpt lat="44.303639699" lon="-120.831445875">
-        <ele>879.260000</ele>
-        <time>2015-09-06T22:44:50Z</time>
-      </trkpt>
-      <trkpt lat="44.303606171" lon="-120.831344370">
-        <ele>879.260000</ele>
-        <time>2015-09-06T22:44:53Z</time>
       </trkpt>
       <trkpt lat="44.303682949" lon="-120.831164578">
         <ele>878.780000</ele>
