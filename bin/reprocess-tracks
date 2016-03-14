@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for filename in gpx/*.gpx; do
+  echo "Processing $filename"
+  /Applications/GPSBabelFE.app/Contents/MacOS/gpsbabel -w -r -t -i gpx -f $filename -x simplify,count=250 -o gpx -F $filename
+done
