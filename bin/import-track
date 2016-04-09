@@ -31,3 +31,9 @@ echo "Appending new track $date to index."
 
 sed -i "" "s/.*ENTRIES.*/      $entry\\
 &/" tracks.html
+
+echo "Committing changes."
+
+git aa
+git c -m "Add track for $date"
+git date $date
