@@ -132,6 +132,10 @@ ul.navigation li.selected {
   margin: 128px auto 0 auto;
 }
 
+#loader {
+  background-color: rgba(250, 250, 250, 0.9);
+}
+
 .hide {
   display: none;
 }
